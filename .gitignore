@@ -1,0 +1,7 @@
+__pycache__/
+work/
+*.pyc
+.venv/
+showcase/
+installer/dist/
+installer/payload/

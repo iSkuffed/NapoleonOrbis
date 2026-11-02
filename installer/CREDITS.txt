@@ -1,0 +1,18 @@
+Napoleon: Orbis - credits and licences
+
+Map data
+- Natural Earth (naturalearthdata.com): land, coastlines, lakes, rivers, minor islands, admin-1 provinces,
+  populated places, glaciated areas, geography regions. Public domain.
+- NOAA ETOPO 2022 Global Relief Model, 60 arc-second surface (ncei.noaa.gov): terrain height. Public domain (US Government).
+- NASA Blue Marble Next Generation (July 2004 composite): ground colour.
+  "The Blue Marble Next Generation data is courtesy of Reto Stockli (NASA/GSFC) and NASA's Earth Observatory." visibleearth.nasa.gov
+- RESOLVE Ecoregions 2017 (ecoregions.appspot.com): ground and vegetation type. CC BY 4.0.
+  Dinerstein, E., et al. 2017. An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm. BioScience 67, 534-545.
+
+Flags of the new nations: drawn by the mod's own tools (no external artwork).
+
+Napoleon: Total War is (c) The Creative Assembly / SEGA. This mod ships edited game data inside a mod pack, as modding
+convention allows, and no Creative Assembly text: the installer merges the mod's names into your own localisation file.
+
+The installer and the mod's tools are free software under the GNU General Public License v3.0 (LICENSE,
+source at https://github.com/iSkuffed/NapoleonOrbis). That licence does not cover Napoleon: Total War or its game data.

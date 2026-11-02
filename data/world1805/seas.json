@@ -1,0 +1,1258 @@
+{
+ "_doc": [
+  "World sea zones for tools/regions_world.py (milestone M1 'world ocean').",
+  "Polygons are lon/lat rings with lon in [-169, 191] (the map seam is 169 W; 191 = 169 W seen from the east edge).",
+  "A sea piece outside vanilla Europe takes the FIRST zone in this list whose polygon holds it (so small seas come",
+  "before oceans); pieces in no polygon take the nearest zone. Water not connected to the ocean (lakes, Caspian) is",
+  "filler land, matching the pathfinding grid (world sea = the largest water body). A key starting with 'eur_' extends that",
+  "vanilla region. 'reuse' is the existing vanilla key used instead in the no-new-keys variant (regions_reuse.esf)."
+ ],
+ "zones": [
+  {
+   "key": "eur_gulf_of_bothnia",
+   "name": "Gulf of Bothnia",
+   "reuse": "eur_gulf_of_bothnia",
+   "polys": [
+    [
+     [
+      16,
+      62
+     ],
+     [
+      30,
+      62
+     ],
+     [
+      30,
+      67
+     ],
+     [
+      16,
+      67
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "eur_norwegian_sea",
+   "name": "Norwegian Sea",
+   "reuse": "eur_norwegian_sea",
+   "polys": [
+    [
+     [
+      -5,
+      62
+     ],
+     [
+      20,
+      62
+     ],
+     [
+      20,
+      72
+     ],
+     [
+      -5,
+      72
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_levantine_sea",
+   "name": "Levantine Sea",
+   "reuse": "eur_mediterranean_sea",
+   "polys": [
+    [
+     [
+      10,
+      29
+     ],
+     [
+      37,
+      29
+     ],
+     [
+      37,
+      37.5
+     ],
+     [
+      10,
+      37.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_red_sea",
+   "name": "Red Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      32,
+      12.5
+     ],
+     [
+      43.5,
+      12.5
+     ],
+     [
+      43.5,
+      30.5
+     ],
+     [
+      32,
+      30.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_persian_gulf",
+   "name": "Persian Gulf",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      47,
+      23
+     ],
+     [
+      57.5,
+      23
+     ],
+     [
+      57.5,
+      31
+     ],
+     [
+      47,
+      31
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_arabian_sea",
+   "name": "Arabian Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      42,
+      0
+     ],
+     [
+      77,
+      0
+     ],
+     [
+      77,
+      26
+     ],
+     [
+      42,
+      26
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_bay_of_bengal",
+   "name": "Bay of Bengal",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      77,
+      3
+     ],
+     [
+      99,
+      3
+     ],
+     [
+      99,
+      24
+     ],
+     [
+      77,
+      24
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_south_china_sea",
+   "name": "South China Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      99,
+      -3
+     ],
+     [
+      120,
+      -3
+     ],
+     [
+      121.5,
+      22.5
+     ],
+     [
+      120.5,
+      24.5
+     ],
+     [
+      99,
+      24.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_java_sea",
+   "name": "Java Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      104,
+      -2
+     ],
+     [
+      136,
+      -2
+     ],
+     [
+      136,
+      -9.5
+     ],
+     [
+      120,
+      -9.5
+     ],
+     [
+      115.5,
+      -7.6
+     ],
+     [
+      111,
+      -7.0
+     ],
+     [
+      106,
+      -6.5
+     ],
+     [
+      105.6,
+      -5.9
+     ],
+     [
+      104,
+      -4
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_celebes_sea",
+   "name": "Celebes Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      116,
+      -5
+     ],
+     [
+      129,
+      -5
+     ],
+     [
+      129,
+      12
+     ],
+     [
+      116,
+      12
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_arafura_sea",
+   "name": "Arafura Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      122,
+      -18
+     ],
+     [
+      142.3,
+      -18
+     ],
+     [
+      142.3,
+      -8
+     ],
+     [
+      122,
+      -8
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_coral_sea",
+   "name": "Coral Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      142.3,
+      -26
+     ],
+     [
+      165,
+      -26
+     ],
+     [
+      165,
+      -5
+     ],
+     [
+      142.3,
+      -5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_tasman_sea",
+   "name": "Tasman Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      147,
+      -26
+     ],
+     [
+      166,
+      -26
+     ],
+     [
+      173,
+      -34
+     ],
+     [
+      174.5,
+      -40.5
+     ],
+     [
+      172,
+      -44
+     ],
+     [
+      167,
+      -47.5
+     ],
+     [
+      147,
+      -47.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_sea_of_japan",
+   "name": "Sea of Japan",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      127,
+      34
+     ],
+     [
+      129.5,
+      33.3
+     ],
+     [
+      132,
+      33.9
+     ],
+     [
+      135,
+      35.4
+     ],
+     [
+      138,
+      37
+     ],
+     [
+      139.8,
+      38.5
+     ],
+     [
+      140.0,
+      40.5
+     ],
+     [
+      140.1,
+      41.6
+     ],
+     [
+      139.6,
+      42.5
+     ],
+     [
+      141.3,
+      45.4
+     ],
+     [
+      141.8,
+      46.5
+     ],
+     [
+      142.0,
+      52
+     ],
+     [
+      127,
+      52
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_east_china_sea",
+   "name": "East China Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      117,
+      23.5
+     ],
+     [
+      121.5,
+      25.0
+     ],
+     [
+      123.5,
+      24.0
+     ],
+     [
+      127.5,
+      26.0
+     ],
+     [
+      129.5,
+      28.5
+     ],
+     [
+      131.0,
+      31.0
+     ],
+     [
+      130.5,
+      33.5
+     ],
+     [
+      127,
+      34
+     ],
+     [
+      127,
+      41
+     ],
+     [
+      117,
+      41
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_sea_of_okhotsk",
+   "name": "Sea of Okhotsk",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      135,
+      43
+     ],
+     [
+      145.5,
+      43.3
+     ],
+     [
+      150,
+      45.5
+     ],
+     [
+      154,
+      48
+     ],
+     [
+      156.7,
+      51
+     ],
+     [
+      157.5,
+      55
+     ],
+     [
+      162,
+      59.5
+     ],
+     [
+      163.5,
+      61
+     ],
+     [
+      163.5,
+      62.5
+     ],
+     [
+      135,
+      62.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_bering_sea",
+   "name": "Bering Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      162,
+      55
+     ],
+     [
+      165,
+      54.5
+     ],
+     [
+      172,
+      52.5
+     ],
+     [
+      180,
+      51.5
+     ],
+     [
+      191,
+      52.5
+     ],
+     [
+      191,
+      66.5
+     ],
+     [
+      162,
+      66.5
+     ]
+    ],
+    [
+     [
+      -169,
+      52.5
+     ],
+     [
+      -164,
+      54
+     ],
+     [
+      -160,
+      55.5
+     ],
+     [
+      -157,
+      57
+     ],
+     [
+      -157,
+      66.5
+     ],
+     [
+      -169,
+      66.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_gulf_of_alaska",
+   "name": "Gulf of Alaska",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -160,
+      50
+     ],
+     [
+      -128,
+      50
+     ],
+     [
+      -128,
+      62
+     ],
+     [
+      -160,
+      62
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_hudson_bay",
+   "name": "Hudson Bay",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -96,
+      50
+     ],
+     [
+      -65,
+      50
+     ],
+     [
+      -65,
+      66
+     ],
+     [
+      -96,
+      66
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_baffin_bay",
+   "name": "Baffin Bay",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -125,
+      64
+     ],
+     [
+      -50,
+      64
+     ],
+     [
+      -50,
+      84
+     ],
+     [
+      -125,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_beaufort_sea",
+   "name": "Beaufort Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -169,
+      66.5
+     ],
+     [
+      -125,
+      66.5
+     ],
+     [
+      -125,
+      84
+     ],
+     [
+      -169,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_labrador_sea",
+   "name": "Labrador Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -66,
+      64
+     ],
+     [
+      -42,
+      64
+     ],
+     [
+      -42,
+      50
+     ],
+     [
+      -55.5,
+      51.5
+     ],
+     [
+      -57,
+      53
+     ],
+     [
+      -62,
+      57
+     ],
+     [
+      -64.5,
+      60.3
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_greenland_sea",
+   "name": "Greenland Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -50,
+      63.7
+     ],
+     [
+      16,
+      63.7
+     ],
+     [
+      16,
+      84
+     ],
+     [
+      -50,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_barents_sea",
+   "name": "Barents Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      16,
+      63.7
+     ],
+     [
+      60,
+      63.7
+     ],
+     [
+      60,
+      84
+     ],
+     [
+      16,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_kara_sea",
+   "name": "Kara Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      55,
+      66
+     ],
+     [
+      100,
+      66
+     ],
+     [
+      100,
+      84
+     ],
+     [
+      55,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_laptev_sea",
+   "name": "Laptev Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      100,
+      66
+     ],
+     [
+      140,
+      66
+     ],
+     [
+      140,
+      84
+     ],
+     [
+      100,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_east_siberian_sea",
+   "name": "East Siberian Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      140,
+      66.5
+     ],
+     [
+      191,
+      66.5
+     ],
+     [
+      191,
+      84
+     ],
+     [
+      140,
+      84
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_gulf_of_mexico",
+   "name": "Gulf of Mexico",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -99,
+      17
+     ],
+     [
+      -87,
+      17
+     ],
+     [
+      -86.5,
+      21.6
+     ],
+     [
+      -84.9,
+      21.9
+     ],
+     [
+      -81.5,
+      23.0
+     ],
+     [
+      -80.3,
+      25.3
+     ],
+     [
+      -80,
+      31
+     ],
+     [
+      -99,
+      31
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_caribbean_sea",
+   "name": "Caribbean Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -89,
+      7
+     ],
+     [
+      -60,
+      7
+     ],
+     [
+      -60.5,
+      12
+     ],
+     [
+      -61.3,
+      17
+     ],
+     [
+      -64.5,
+      18.6
+     ],
+     [
+      -72,
+      20.2
+     ],
+     [
+      -74.5,
+      20.2
+     ],
+     [
+      -84.9,
+      21.9
+     ],
+     [
+      -86.5,
+      21.6
+     ],
+     [
+      -89,
+      21.6
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_sargasso_sea",
+   "name": "Sargasso Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -82,
+      18
+     ],
+     [
+      -40,
+      18
+     ],
+     [
+      -40,
+      40
+     ],
+     [
+      -82,
+      40
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_north_atlantic",
+   "name": "North Atlantic Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -82,
+      34
+     ],
+     [
+      0,
+      34
+     ],
+     [
+      0,
+      64
+     ],
+     [
+      -82,
+      64
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_gulf_of_guinea",
+   "name": "Gulf of Guinea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -10,
+      -8
+     ],
+     [
+      15,
+      -8
+     ],
+     [
+      15,
+      7
+     ],
+     [
+      -10,
+      7
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_central_atlantic",
+   "name": "Central Atlantic Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -60,
+      5
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      34
+     ],
+     [
+      -60,
+      34
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_south_atlantic",
+   "name": "South Atlantic Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -70,
+      -45
+     ],
+     [
+      25,
+      -45
+     ],
+     [
+      25,
+      5
+     ],
+     [
+      -70,
+      5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_mozambique_channel",
+   "name": "Mozambique Channel",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      30,
+      -27
+     ],
+     [
+      50,
+      -27
+     ],
+     [
+      50,
+      -10
+     ],
+     [
+      30,
+      -10
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_indian_ocean",
+   "name": "Indian Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      20,
+      -45
+     ],
+     [
+      147,
+      -45
+     ],
+     [
+      147,
+      30
+     ],
+     [
+      20,
+      30
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_philippine_sea",
+   "name": "Philippine Sea",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      119,
+      5
+     ],
+     [
+      145,
+      5
+     ],
+     [
+      145,
+      35
+     ],
+     [
+      119,
+      35
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_north_pacific",
+   "name": "North Pacific Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      100,
+      0
+     ],
+     [
+      191,
+      0
+     ],
+     [
+      191,
+      66.5
+     ],
+     [
+      100,
+      66.5
+     ]
+    ],
+    [
+     [
+      -169,
+      0
+     ],
+     [
+      -77,
+      0
+     ],
+     [
+      -77,
+      66.5
+     ],
+     [
+      -169,
+      66.5
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_south_pacific",
+   "name": "South Pacific Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      120,
+      -45
+     ],
+     [
+      191,
+      -45
+     ],
+     [
+      191,
+      0
+     ],
+     [
+      120,
+      0
+     ]
+    ],
+    [
+     [
+      -169,
+      -45
+     ],
+     [
+      -66,
+      -45
+     ],
+     [
+      -66,
+      0
+     ],
+     [
+      -169,
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "key": "wld_southern_ocean",
+   "name": "Southern Ocean",
+   "reuse": "eur_atlantic_ocean_n",
+   "polys": [
+    [
+     [
+      -169,
+      -90
+     ],
+     [
+      191,
+      -90
+     ],
+     [
+      191,
+      -45
+     ],
+     [
+      -169,
+      -45
+     ]
+    ]
+   ]
+  }
+ ]
+}

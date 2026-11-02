@@ -1,0 +1,614 @@
+[
+ {
+  "key": "united_states",
+  "name": "United States",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "usa1795",
+  "note": "15 stars, 15 stripes (1795-1818); stars in 3 rows of 5"
+ },
+ {
+  "key": "haiti",
+  "name": "Empire of Haiti",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "hbands",
+  "note": "Dessalines 1804-06 black/red; orientation (horizontal) and the 'Liberte ou la Mort' motto not rendered"
+ },
+ {
+  "key": "native_plains",
+  "name": "Plains and Mountain Nations",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "native_pacific_nw",
+  "name": "Pacific Northwest Nations",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "mapuche",
+  "name": "Mapuche and Patagonian Peoples",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "amazonian_peoples",
+  "name": "Amazon and Orinoco Peoples",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "morocco",
+  "name": "Sultanate of Morocco",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "plain",
+  "note": "plain red Alaouite flag; star added only in 1915"
+ },
+ {
+  "key": "algiers",
+  "name": "Regency of Algiers",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "tunis",
+  "name": "Beylik of Tunis",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "crescent",
+  "note": "red field with crescent and star; Husainid flag in exactly 1805 uncertain"
+ },
+ {
+  "key": "tripolitania",
+  "name": "Karamanli Tripolitania",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:triangle",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "egypt",
+  "name": "Ottoman Egypt (Wali)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "crescent",
+  "note": "Ottoman-style red field, white crescent and star; eyalet flag assumed, not documented for Muhammad Ali 1805"
+ },
+ {
+  "key": "mamluks",
+  "name": "Mamluk Beys of Upper Egypt",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "saharan_confederations",
+  "name": "Saharan Confederations",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "futa_jallon",
+  "name": "Imamate of Futa Jallon",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "asante",
+  "name": "Asante Empire",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "oyo",
+  "name": "Oyo Empire and Dahomey",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "segu_bambara",
+  "name": "Segu Bambara and Mossi States",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "sokoto_caliphate",
+  "name": "Sokoto Caliphate",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "bornu",
+  "name": "Kanem-Bornu",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "west_central_african_peoples",
+  "name": "Lower Guinea Peoples",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:quarters",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "lunda_luba_kingdoms",
+  "name": "Lunda and Luba Kingdoms",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "sennar",
+  "name": "Funj Sultanate of Sennar",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "darfur",
+  "name": "Sultanate of Darfur",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "ethiopia",
+  "name": "Ethiopia (Zemene Mesafint)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "oman",
+  "name": "Sultanate of Muscat and Oman",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "plain",
+  "note": "plain red Omani/Muscat flag"
+ },
+ {
+  "key": "great_lakes_kingdoms",
+  "name": "Great Lakes Kingdoms",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "merina",
+  "name": "Kingdom of Imerina",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "south_african_chiefdoms",
+  "name": "Southern African Chiefdoms",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:quarters",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "guinea_coast_peoples",
+  "name": "Upper Guinea Coast Peoples",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "diriyah",
+  "name": "Emirate of Diriyah (First Saudi State)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:quarters",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "yemen",
+  "name": "Zaydi Imamate of Sana'a",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "persia",
+  "name": "Qajar Persia",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "east_india_company",
+  "name": "British East India Company",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "eic",
+  "note": "13 red/white stripes, 1801 Union canton (St Patrick saltire simplified: not counter-changed)"
+ },
+ {
+  "key": "maratha_peshwa",
+  "name": "Maratha Peshwa (and Gaekwad)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "hoist",
+  "note": "saffron Bhagwa Dhwaj field + red hoist band (band added to tell Maratha houses apart; real flag plain saffron swallowtail)"
+ },
+ {
+  "key": "maratha_scindia",
+  "name": "Scindia of Gwalior",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "hoist",
+  "note": "saffron Bhagwa Dhwaj field + green hoist band (band added to tell Maratha houses apart)"
+ },
+ {
+  "key": "maratha_holkar",
+  "name": "Holkar of Indore",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "hoist",
+  "note": "saffron Bhagwa Dhwaj field + blue hoist band (band added to tell Maratha houses apart)"
+ },
+ {
+  "key": "maratha_bhonsle",
+  "name": "Bhonsle of Nagpur",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "hoist",
+  "note": "saffron Bhagwa Dhwaj field + white hoist band (band added to tell Maratha houses apart)"
+ },
+ {
+  "key": "hyderabad",
+  "name": "Nizam of Hyderabad",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:triangle",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "mysore",
+  "name": "Kingdom of Mysore",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "awadh",
+  "name": "Nawabate of Awadh",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "rajput_states",
+  "name": "Rajput States",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:triangle",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "sikh_empire",
+  "name": "Sikh Empire",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "plain",
+  "note": "saffron Nishan Sahib field; khanda emblem omitted"
+ },
+ {
+  "key": "sindh_baluchistan",
+  "name": "Talpur Amirs of Sindh",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:triangle",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "kalat",
+  "name": "Khanate of Kalat",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "nepal",
+  "name": "Gorkha Nepal",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "border",
+  "note": "crimson with blue border (Gorkha banner); sun/moon charge omitted, 1805 form uncertain"
+ },
+ {
+  "key": "assam_hill_peoples",
+  "name": "Assam, Manipur and Eastern Himalaya",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "durrani_empire",
+  "name": "Durrani Afghanistan",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "bukhara",
+  "name": "Emirate of Bukhara",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "khiva",
+  "name": "Khanate of Khiva",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "kokand",
+  "name": "Khanate of Kokand",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "kazakh_hordes",
+  "name": "Kazakh Hordes",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "qing",
+  "name": "Qing Empire",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "border",
+  "note": "Bordered Yellow banner of the Eight Banners (yellow, red border); dragon flag is 1862, no 1805 national flag existed"
+ },
+ {
+  "key": "joseon",
+  "name": "Joseon Korea",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:disc",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "tokugawa_japan",
+  "name": "Tokugawa Shogunate",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "dai_viet",
+  "name": "Dai Viet (Nguyen)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "plain",
+  "note": "plain yellow Nguyen banner; exact Gia Long design uncertain"
+ },
+ {
+  "key": "siam",
+  "name": "Siam (Rattanakosin)",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "plain",
+  "note": "plain red Siamese flag (white elephant only from 1817)"
+ },
+ {
+  "key": "konbaung_burma",
+  "name": "Konbaung Burma",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "malay_sultanates",
+  "name": "Malay Sultanates",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:hband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "aceh",
+  "name": "Sultanate of Aceh and Sumatra",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "bornean_sultanates",
+  "name": "Bornean Sultanates",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "banjar",
+  "name": "Sultanate of Banjar",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:quarters",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "kingdom_of_hawaii",
+  "name": "Kingdom of Hawaii",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:vband",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "pomare_tahiti",
+  "name": "Pomare Tahiti",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:cross",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "maori_iwi",
+  "name": "Maori Iwi",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "aboriginal_nations",
+  "name": "Aboriginal Nations",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:diag",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "pacific_islanders",
+  "name": "Pacific Island Chiefdoms",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:triangle",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "papuan_peoples",
+  "name": "Papuan Peoples",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "pattern:saltire",
+  "note": "generated from colour_primary/colour_secondary (placeholder; no 1805 design chosen)"
+ },
+ {
+  "key": "russian_american_company",
+  "name": "Russian-American Company",
+  "source": "generated",
+  "license": "n/a (own drawing, no external asset)",
+  "url": null,
+  "design": "rac",
+  "note": "1806 RAC flag: white-blue-red tricolour, black double-headed eagle canton (silhouette; crown, regalia and motto ribbon omitted)"
+ }
+]

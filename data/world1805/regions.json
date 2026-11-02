@@ -1,0 +1,8987 @@
+[
+ {
+  "key": "ame_us_northeast",
+  "name": "US Mid-Atlantic",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Washington",
+   "lon": -77.04,
+   "lat": 38.9
+  },
+  "port": {
+   "name": "Philadelphia",
+   "lon": -75.14,
+   "lat": 39.95
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Maryland",
+     "Delaware",
+     "District of Columbia"
+    ]
+   },
+   {
+    "admin": "United States of America",
+    "names": [
+     "Pennsylvania"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       -77.6,
+       39.0,
+       -74.0,
+       42.5
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Chesapeake and Delaware Valley: Federal City (Washington) since 1800, Baltimore, Philadelphia",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.8,
+   "rel_nonconformist": 0.1,
+   "rel_catholic": 0.1
+  }
+ },
+ {
+  "key": "ame_us_new_york",
+  "name": "New York and New Jersey",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "New York",
+   "lon": -74.01,
+   "lat": 40.71
+  },
+  "port": {
+   "name": "New York",
+   "lon": -74.01,
+   "lat": 40.71
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "New York",
+     "New Jersey"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "New York City, the largest US port by 1800, with the Jersey shore; Albany state capital since 1797",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.85,
+   "rel_nonconformist": 0.1,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "ame_us_new_england",
+  "name": "New England",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Boston",
+   "lon": -71.06,
+   "lat": 42.36
+  },
+  "port": {
+   "name": "Boston",
+   "lon": -71.06,
+   "lat": 42.36
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Massachusetts",
+     "Rhode Island",
+     "Connecticut",
+     "New Hampshire",
+     "Vermont"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Boston, Providence, Hartford; Federalist shipping states",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.9,
+   "rel_nonconformist": 0.1
+  }
+ },
+ {
+  "key": "ame_us_maine",
+  "name": "District of Maine",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Portland",
+   "lon": -70.26,
+   "lat": 43.66
+  },
+  "port": {
+   "name": "Portland",
+   "lon": -70.26,
+   "lat": 43.66
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Maine"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "District of Maine, part of Massachusetts until 1820; Portland the shipping and lumber port",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.9,
+   "rel_nonconformist": 0.1
+  }
+ },
+ {
+  "key": "ame_us_pennsylvania",
+  "name": "Western Pennsylvania",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Pittsburgh",
+   "lon": -80.0,
+   "lat": 40.44
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Pennsylvania"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Pittsburgh at the Forks of the Ohio, gateway to the West; the clip east of 77.6 W stays with the Mid-Atlantic",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.85,
+   "rel_nonconformist": 0.15
+  }
+ },
+ {
+  "key": "ame_us_south_atlantic",
+  "name": "Virginia and North Carolina",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Richmond",
+   "lon": -77.44,
+   "lat": 37.54
+  },
+  "port": {
+   "name": "Norfolk",
+   "lon": -76.29,
+   "lat": 36.85
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Virginia",
+     "West Virginia",
+     "North Carolina"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Full-only split: Virginia (Richmond) and North Carolina; Norfolk and Hampton Roads",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.75,
+   "rel_nonconformist": 0.15,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_us_carolina_georgia",
+  "name": "South Carolina and Georgia",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "Charleston",
+   "lon": -79.95,
+   "lat": 32.8
+  },
+  "port": {
+   "name": "Charleston",
+   "lon": -79.93,
+   "lat": 32.78
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "South Carolina",
+     "Georgia"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Charleston, the plantation South's port; Savannah",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_northeast",
+  "religion": {
+   "rel_protestant": 0.7,
+   "rel_nonconformist": 0.15,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_us_mississippi_valley",
+  "name": "US Mississippi Valley and Gulf",
+  "owner": "united_states",
+  "tier": "interest",
+  "capital": {
+   "name": "New Orleans",
+   "lon": -90.07,
+   "lat": 29.95
+  },
+  "port": {
+   "name": "New Orleans",
+   "lon": -90.07,
+   "lat": 29.95
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Louisiana",
+     "Mississippi",
+     "Alabama",
+     "Arkansas",
+     "Missouri"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Louisiana Purchase (1803) core and the Mississippi Territory; New Orleans is the key port",
+  "confidence": "M",
+  "religion": {
+   "rel_protestant": 0.4,
+   "rel_catholic": 0.4,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "ame_us_ohio_valley",
+  "name": "Ohio and Indiana",
+  "owner": "united_states",
+  "tier": "periphery",
+  "capital": {
+   "name": "Cincinnati",
+   "lon": -84.51,
+   "lat": 39.12
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Ohio",
+     "Indiana",
+     "Illinois"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Full-only split of Mississippi Valley: Ohio statehood 1803, Indiana Territory (Vincennes)",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_us_mississippi_valley",
+  "religion": {
+   "rel_protestant": 0.8,
+   "rel_nonconformist": 0.1,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_us_michigan",
+  "name": "Michigan Territory",
+  "owner": "united_states",
+  "tier": "periphery",
+  "capital": {
+   "name": "Detroit",
+   "lon": -83.05,
+   "lat": 42.33
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Michigan",
+     "Wisconsin"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Michigan Territory organised 1805 at Detroit; Mackinac; Wisconsin still Indiana Territory",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_mississippi_valley",
+  "religion": {
+   "rel_catholic": 0.4,
+   "rel_protestant": 0.2,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "ame_us_kentucky",
+  "name": "Kentucky and Tennessee",
+  "owner": "united_states",
+  "tier": "periphery",
+  "capital": {
+   "name": "Louisville",
+   "lon": -85.76,
+   "lat": 38.25
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Kentucky",
+     "Tennessee"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Louisville at the Falls of the Ohio; Kentucky (1792) and Tennessee (1796) statehood",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_us_mississippi_valley",
+  "religion": {
+   "rel_protestant": 0.8,
+   "rel_nonconformist": 0.1,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_florida",
+  "name": "Spanish Florida",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "St. Augustine",
+   "lon": -81.31,
+   "lat": 29.89
+  },
+  "port": {
+   "name": "Pensacola",
+   "lon": -87.21,
+   "lat": 30.42
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Florida"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "East and West Florida (West Florida disputed with USA; Mobile and Pensacola Spanish)",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.5,
+   "rel_animist": 0.5
+  }
+ },
+ {
+  "key": "ame_southwest",
+  "name": "Spanish Southwest",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Santa Fe",
+   "lon": -105.94,
+   "lat": 35.69
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Texas",
+     "New Mexico",
+     "Arizona",
+     "Utah",
+     "Nevada",
+     "Colorado"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Nuevo Mexico, Texas, and the Great Basin (nominal); Comanche and Apache dominate the interior",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "ame_texas",
+  "name": "Spanish Texas",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "San Antonio",
+   "lon": -98.49,
+   "lat": 29.42
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Texas"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Provincias Internas de Oriente, San Antonio de Bexar",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_southwest",
+  "religion": {
+   "rel_catholic": 0.5,
+   "rel_animist": 0.5
+  }
+ },
+ {
+  "key": "ame_california",
+  "name": "Alta California",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Monterey",
+   "lon": -121.89,
+   "lat": 36.6
+  },
+  "port": {
+   "name": "Monterey",
+   "lon": -121.89,
+   "lat": 36.6
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "California"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Mission chain from San Diego to San Francisco; Monterey is the capital",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.5,
+   "rel_animist": 0.5
+  }
+ },
+ {
+  "key": "ame_great_plains",
+  "name": "Great Plains and Rockies",
+  "owner": "native_plains",
+  "tier": "periphery",
+  "capital": {
+   "name": "Mandan villages (Knife River)",
+   "lon": -101.4,
+   "lat": 47.35
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "North Dakota",
+     "South Dakota",
+     "Nebraska",
+     "Kansas",
+     "Oklahoma",
+     "Iowa",
+     "Minnesota",
+     "Montana",
+     "Wyoming"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Lakota, Comanche, Crow, Pawnee, Mandan-Hidatsa; Lewis and Clark winter at Fort Mandan 1804-05",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "ame_pacific_northwest",
+  "name": "Pacific Northwest",
+  "owner": "native_pacific_nw",
+  "tier": "periphery",
+  "capital": {
+   "name": "Chinook villages (Columbia mouth)",
+   "lon": -123.849,
+   "lat": 46.18
+  },
+  "port": {
+   "name": "Columbia River mouth",
+   "lon": -124.0,
+   "lat": 46.25
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Oregon",
+     "Washington",
+     "Idaho"
+    ]
+   },
+   {
+    "admin": "Canada",
+    "names": [
+     "British Columbia"
+    ]
+   }
+  ],
+  "climate": "temperate_oceanic",
+  "notes": "Maritime fur trade coast; Nootka, Chinook, Salish; Fort Clatsop built Dec 1805",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "ame_russian_america",
+  "name": "Russian America",
+  "owner": "russian_american_company",
+  "tier": "periphery",
+  "capital": {
+   "name": "New Archangel (Sitka)",
+   "lon": -135.324,
+   "lat": 57.064
+  },
+  "port": {
+   "name": "New Archangel (Sitka)",
+   "lon": -135.33,
+   "lat": 57.05
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Alaska"
+    ]
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Russian-American Company (Baranov) at Sitka from 1804; Kodiak earlier",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 0.8,
+   "rel_orthodox": 0.2
+  }
+ },
+ {
+  "key": "ame_lower_canada",
+  "name": "Lower Canada",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Quebec",
+   "lon": -71.229,
+   "lat": 46.823
+  },
+  "port": {
+   "name": "Quebec",
+   "lon": -71.21,
+   "lat": 46.81
+  },
+  "admin1": [
+   {
+    "admin": "Canada",
+    "names": [
+     "Québec"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Province of Lower Canada (1791); Quebec and Montreal",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_protestant": 0.15
+  }
+ },
+ {
+  "key": "ame_upper_canada",
+  "name": "Upper Canada",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "York (Toronto)",
+   "lon": -79.38,
+   "lat": 43.65
+  },
+  "port": {
+   "name": "York (Toronto)",
+   "lon": -79.38,
+   "lat": 43.65
+  },
+  "admin1": [
+   {
+    "admin": "Canada",
+    "names": [
+     "Ontario"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Full-only split: Province of Upper Canada, Simcoe's capital York",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_lower_canada",
+  "religion": {
+   "rel_protestant": 0.8,
+   "rel_catholic": 0.1,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_atlantic_canada",
+  "name": "Atlantic Canada",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Halifax",
+   "lon": -63.583,
+   "lat": 44.641
+  },
+  "port": {
+   "name": "Halifax",
+   "lon": -63.57,
+   "lat": 44.65
+  },
+  "admin1": [
+   {
+    "admin": "Canada",
+    "names": [
+     "New Brunswick",
+     "Nova Scotia",
+     "Prince Edward Island",
+     "Newfoundland and Labrador"
+    ]
+   },
+   {
+    "iso_a2": "PM"
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Nova Scotia, New Brunswick, St John's Island, Newfoundland; Saint-Pierre and Miquelon occupied",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.6,
+   "rel_catholic": 0.4
+  }
+ },
+ {
+  "key": "ame_newfoundland",
+  "name": "Newfoundland and Labrador",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "St. John's",
+   "lon": -52.71,
+   "lat": 47.56
+  },
+  "port": {
+   "name": "St. John's",
+   "lon": -52.71,
+   "lat": 47.56
+  },
+  "admin1": [
+   {
+    "admin": "Canada",
+    "names": [
+     "Newfoundland and Labrador"
+    ]
+   },
+   {
+    "iso_a2": "PM"
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Full-only split: cod fishery, Newfoundland Station",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_atlantic_canada",
+  "religion": {
+   "rel_catholic": 0.5,
+   "rel_protestant": 0.5
+  }
+ },
+ {
+  "key": "ame_rupertsland",
+  "name": "Rupert's Land and North-West",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "York Factory",
+   "lon": -92.43,
+   "lat": 57.0
+  },
+  "port": {
+   "name": "York Factory",
+   "lon": -92.43,
+   "lat": 57.0
+  },
+  "admin1": [
+   {
+    "admin": "Canada",
+    "names": [
+     "Manitoba",
+     "Saskatchewan",
+     "Alberta",
+     "Yukon",
+     "Northwest Territories"
+    ]
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Hudson's Bay Company and North West Company fur trade; Blackfoot, Cree, Assiniboine",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_protestant": 0.05
+  }
+ },
+ {
+  "key": "ame_greenland_arctic",
+  "name": "Greenland and Arctic Isles",
+  "owner": "denmark",
+  "tier": "periphery",
+  "capital": {
+   "name": "Godthaab (Nuuk)",
+   "lon": -51.693,
+   "lat": 64.163
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Greenland"
+   },
+   {
+    "admin": "Canada",
+    "names": [
+     "Nunavut"
+    ]
+   },
+   {
+    "admin": "Norway",
+    "names": [
+     "Svalbard"
+    ]
+   }
+  ],
+  "climate": "arctic",
+  "notes": "IMPASSABLE: Danish Greenland colonies, Canadian Arctic archipelago, Svalbard",
+  "confidence": "H",
+  "impassable": true,
+  "religion": {
+   "rel_animist": 0.7,
+   "rel_protestant": 0.3
+  }
+ },
+ {
+  "key": "ame_iceland",
+  "name": "Iceland and Faroes",
+  "owner": "denmark",
+  "tier": "periphery",
+  "capital": {
+   "name": "Reykjavik",
+   "lon": -21.9,
+   "lat": 64.15
+  },
+  "port": {
+   "name": "Reykjavik",
+   "lon": -21.9,
+   "lat": 64.15
+  },
+  "admin1": [
+   {
+    "admin": "Iceland"
+   },
+   {
+    "admin": "Faroe Islands"
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Danish dependencies; placed in the ame_ prefix for the North Atlantic",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 1.0
+  }
+ },
+ {
+  "key": "ame_haiti",
+  "name": "Haiti",
+  "owner": "haiti",
+  "tier": "interest",
+  "capital": {
+   "name": "Port-au-Prince",
+   "lon": -72.34,
+   "lat": 18.54
+  },
+  "port": {
+   "name": "Port-au-Prince",
+   "lon": -72.34,
+   "lat": 18.54
+  },
+  "admin1": [
+   {
+    "admin": "Haiti"
+   },
+   {
+    "admin": "United States Minor Outlying Islands",
+    "names": [
+     "Navassa Island"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Independent since 1 Jan 1804; Dessalines emperor",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.7,
+   "rel_animist": 0.3
+  }
+ },
+ {
+  "key": "ame_santo_domingo",
+  "name": "Santo Domingo",
+  "owner": "france",
+  "tier": "interest",
+  "capital": {
+   "name": "Santo Domingo",
+   "lon": -69.9,
+   "lat": 18.48
+  },
+  "port": {
+   "name": "Santo Domingo",
+   "lon": -69.9,
+   "lat": 18.48
+  },
+  "admin1": [
+   {
+    "admin": "Dominican Republic"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Spanish half ceded 1795, held by French governor Ferrand since 1804",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_cuba_west",
+  "name": "Western Cuba",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Havana",
+   "lon": -82.37,
+   "lat": 23.14
+  },
+  "port": {
+   "name": "Havana",
+   "lon": -82.37,
+   "lat": 23.14
+  },
+  "admin1": [
+   {
+    "admin": "Cuba",
+    "box": [
+     -90,
+     19,
+     -78.0,
+     24
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Havana, tobacco and sugar; Spain's treasure fleet hub",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_cuba_east",
+  "name": "Eastern Cuba",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Santiago de Cuba",
+   "lon": -75.83,
+   "lat": 20.02
+  },
+  "port": {
+   "name": "Santiago de Cuba",
+   "lon": -75.83,
+   "lat": 20.02
+  },
+  "admin1": [
+   {
+    "admin": "Cuba"
+   },
+   {
+    "admin": "US Naval Base Guantanamo Bay"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Santiago and Camaguey; refugees from Saint-Domingue",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_cuba_west",
+  "religion": {
+   "rel_catholic": 0.8,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "ame_puerto_rico",
+  "name": "Puerto Rico",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "San Juan",
+   "lon": -66.104,
+   "lat": 18.458
+  },
+  "port": {
+   "name": "San Juan",
+   "lon": -66.1,
+   "lat": 18.47
+  },
+  "admin1": [
+   {
+    "admin": "Puerto Rico"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Spanish presidio island",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.95,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "ame_jamaica_bahamas",
+  "name": "Jamaica, Bahamas and Belize",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Kingston",
+   "lon": -76.79,
+   "lat": 17.97
+  },
+  "port": {
+   "name": "Kingston",
+   "lon": -76.79,
+   "lat": 17.97
+  },
+  "admin1": [
+   {
+    "admin": "Jamaica"
+   },
+   {
+    "admin": "Cayman Islands"
+   },
+   {
+    "admin": "The Bahamas"
+   },
+   {
+    "admin": "Turks and Caicos Islands"
+   },
+   {
+    "admin": "Belize"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "British western Caribbean; Belize is the Baymen logwood settlement (Spanish sovereignty)",
+  "confidence": "M",
+  "religion": {
+   "rel_protestant": 0.3,
+   "rel_animist": 0.7
+  }
+ },
+ {
+  "key": "ame_british_lesser_antilles",
+  "name": "British Lesser Antilles",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Bridgetown",
+   "lon": -59.62,
+   "lat": 13.1
+  },
+  "port": {
+   "name": "Bridgetown",
+   "lon": -59.62,
+   "lat": 13.1
+  },
+  "admin1": [
+   {
+    "admin": "Anguilla"
+   },
+   {
+    "admin": "Antigua and Barbuda"
+   },
+   {
+    "admin": "Montserrat"
+   },
+   {
+    "admin": "Saint Kitts and Nevis"
+   },
+   {
+    "admin": "British Virgin Islands"
+   },
+   {
+    "admin": "Barbados"
+   },
+   {
+    "admin": "Grenada"
+   },
+   {
+    "admin": "Saint Vincent and the Grenadines"
+   },
+   {
+    "admin": "Dominica"
+   },
+   {
+    "admin": "Saint Lucia"
+   },
+   {
+    "admin": "Trinidad and Tobago"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Leeward and Windward governments plus Trinidad (1797) and St Lucia (1803)",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.3,
+   "rel_animist": 0.7
+  }
+ },
+ {
+  "key": "ame_trinidad",
+  "name": "Trinidad and Tobago",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Port of Spain",
+   "lon": -61.51,
+   "lat": 10.65
+  },
+  "port": {
+   "name": "Port of Spain",
+   "lon": -61.51,
+   "lat": 10.65
+  },
+  "admin1": [
+   {
+    "admin": "Trinidad and Tobago"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: captured from Spain 1797",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_british_lesser_antilles",
+  "religion": {
+   "rel_catholic": 0.4,
+   "rel_protestant": 0.1,
+   "rel_animist": 0.5
+  }
+ },
+ {
+  "key": "ame_french_antilles",
+  "name": "French Antilles",
+  "owner": "france",
+  "tier": "interest",
+  "capital": {
+   "name": "Fort-de-France",
+   "lon": -61.071,
+   "lat": 14.616
+  },
+  "port": {
+   "name": "Fort-de-France",
+   "lon": -61.07,
+   "lat": 14.6
+  },
+  "admin1": [
+   {
+    "admin": "France",
+    "names": [
+     "Martinique",
+     "Guadeloupe"
+    ]
+   },
+   {
+    "admin": "Saint Martin"
+   },
+   {
+    "admin": "Saint Barthelemy"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Martinique (British-held until 1802, French again), Guadeloupe; St Barthelemy is Swedish (folded in)",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "ame_dutch_antilles",
+  "name": "Dutch Antilles",
+  "owner": "netherlands",
+  "tier": "periphery",
+  "capital": {
+   "name": "Willemstad",
+   "lon": -68.93,
+   "lat": 12.11
+  },
+  "port": {
+   "name": "Willemstad",
+   "lon": -68.93,
+   "lat": 12.11
+  },
+  "admin1": [
+   {
+    "admin": "Curaçao"
+   },
+   {
+    "admin": "Aruba"
+   },
+   {
+    "admin": "Caribbean Netherlands"
+   },
+   {
+    "admin": "Sint Maarten"
+   },
+   {
+    "admin": "Netherlands",
+    "names": [
+     "Saba",
+     "St. Eustatius"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Curacao, Aruba, Bonaire, St Eustatius, Saba, St Maarten",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.4,
+   "rel_protestant": 0.3,
+   "rel_animist": 0.3
+  }
+ },
+ {
+  "key": "ame_danish_west_indies",
+  "name": "Danish West Indies",
+  "owner": "denmark",
+  "tier": "periphery",
+  "capital": {
+   "name": "Charlotte Amalie",
+   "lon": -64.93,
+   "lat": 18.34
+  },
+  "port": {
+   "name": "Charlotte Amalie",
+   "lon": -64.93,
+   "lat": 18.34
+  },
+  "admin1": [
+   {
+    "admin": "United States Virgin Islands"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "St Thomas, St John, St Croix; free-port trade",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.4,
+   "rel_animist": 0.6
+  }
+ },
+ {
+  "key": "ame_british_atlantic_isles",
+  "name": "British Atlantic Outposts",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "St. George's (Bermuda)",
+   "lon": -64.68,
+   "lat": 32.38
+  },
+  "port": {
+   "name": "St. George's (Bermuda)",
+   "lon": -64.68,
+   "lat": 32.38
+  },
+  "admin1": [
+   {
+    "admin": "Bermuda"
+   },
+   {
+    "admin": "Falkland Islands"
+   },
+   {
+    "admin": "South Georgia and the Islands"
+   },
+   {
+    "admin": "Saint Helena"
+   },
+   {
+    "admin": "Norway",
+    "names": [
+     "Bouvet Island"
+    ]
+   }
+  ],
+  "climate": "temperate_oceanic",
+  "notes": "Bermuda, St Helena (East India Company), Tristan, Ascension, Falklands (Spanish Soledad until 1811; nominal)",
+  "confidence": "L",
+  "religion": {
+   "rel_protestant": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_mexico_central",
+  "name": "Central Mexico (New Spain core)",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Mexico City",
+   "lon": -99.13,
+   "lat": 19.43
+  },
+  "port": {
+   "name": "Veracruz",
+   "lon": -96.13,
+   "lat": 19.18
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Distrito Federal",
+     "México",
+     "Morelos",
+     "Puebla",
+     "Tlaxcala",
+     "Hidalgo",
+     "Querétaro",
+     "Guanajuato",
+     "Michoacán",
+     "Guerrero",
+     "Oaxaca",
+     "Veracruz",
+     "Tabasco"
+    ]
+   }
+  ],
+  "climate": "highland",
+  "notes": "Viceroyalty of New Spain heartland; Viceroy Iturrigaray (from Jan 1803)",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_mexico_pacific_south",
+  "name": "Oaxaca and Guerrero",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Oaxaca",
+   "lon": -96.73,
+   "lat": 17.06
+  },
+  "port": {
+   "name": "Acapulco",
+   "lon": -99.88,
+   "lat": 16.85
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Guerrero",
+     "Oaxaca"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Manila galleon terminus at Acapulco",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_mexico_central",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_nueva_galicia",
+  "name": "Nueva Galicia and the Bajio north",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Guadalajara",
+   "lon": -103.35,
+   "lat": 20.67
+  },
+  "port": {
+   "name": "San Blas",
+   "lon": -105.3,
+   "lat": 21.54
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Jalisco",
+     "Nayarit",
+     "Colima",
+     "Aguascalientes",
+     "Zacatecas",
+     "San Luis Potosí"
+    ]
+   },
+   {
+    "admin": "Clipperton Island"
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Audiencia of Guadalajara; Zacatecas silver",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_provincias_internas",
+  "name": "Provincias Internas",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Saltillo",
+   "lon": -101.0,
+   "lat": 25.42
+  },
+  "port": {
+   "name": "Tampico",
+   "lon": -97.86,
+   "lat": 22.25
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Nuevo León",
+     "Coahuila",
+     "Tamaulipas",
+     "Chihuahua",
+     "Durango"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Nuevo Reino de Leon, Coahuila, Nueva Vizcaya, Nuevo Santander; Comandancia General",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.7,
+   "rel_animist": 0.3
+  }
+ },
+ {
+  "key": "ame_sonora_baja",
+  "name": "Sonora, Sinaloa and the Californias",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Arizpe",
+   "lon": -110.17,
+   "lat": 30.33
+  },
+  "port": {
+   "name": "Guaymas",
+   "lon": -110.9,
+   "lat": 27.92
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Sonora",
+     "Sinaloa",
+     "Baja California",
+     "Baja California Sur"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Full-only split: Intendancy of Sonora y Sinaloa; Baja missions",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_provincias_internas",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "ame_yucatan",
+  "name": "Yucatan",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Merida",
+   "lon": -89.62,
+   "lat": 20.97
+  },
+  "port": {
+   "name": "Campeche",
+   "lon": -90.53,
+   "lat": 19.85
+  },
+  "admin1": [
+   {
+    "admin": "Mexico",
+    "names": [
+     "Yucatán",
+     "Campeche",
+     "Quintana Roo"
+    ]
+   },
+   {
+    "admin": "Mexico",
+    "box": [
+     -91,
+     21.5,
+     -88,
+     23.5
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Captaincy of Yucatan, logwood and henequen",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.8,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "ame_guatemala",
+  "name": "Captaincy General of Guatemala",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Guatemala City",
+   "lon": -90.51,
+   "lat": 14.63
+  },
+  "port": {
+   "name": "Omoa",
+   "lon": -88.04,
+   "lat": 15.77
+  },
+  "admin1": [
+   {
+    "admin": "Guatemala"
+   },
+   {
+    "admin": "El Salvador"
+   },
+   {
+    "admin": "Honduras"
+   },
+   {
+    "admin": "Nicaragua"
+   },
+   {
+    "admin": "Costa Rica"
+   },
+   {
+    "admin": "Mexico",
+    "names": [
+     "Chiapas"
+    ]
+   },
+   {
+    "admin": "Colombia",
+    "names": [
+     "San Andrés y Providencia"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Kingdom of Guatemala; capital moved to Nueva Guatemala after the 1773 quake",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_nicaragua_costa_rica",
+  "name": "Nicaragua and Costa Rica",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Leon",
+   "lon": -86.88,
+   "lat": 12.44
+  },
+  "port": {
+   "name": "Realejo",
+   "lon": -87.17,
+   "lat": 12.54
+  },
+  "admin1": [
+   {
+    "admin": "Nicaragua"
+   },
+   {
+    "admin": "Costa Rica"
+   },
+   {
+    "admin": "Colombia",
+    "names": [
+     "San Andrés y Providencia"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Leon intendancy, Cartago",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_guatemala",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_panama",
+  "name": "Panama",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Panama City",
+   "lon": -79.52,
+   "lat": 8.98
+  },
+  "port": {
+   "name": "Portobelo",
+   "lon": -79.65,
+   "lat": 9.55
+  },
+  "admin1": [
+   {
+    "admin": "Panama"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Full-only split: Isthmus under New Granada; Portobelo and Panama transit route",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_new_granada",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_new_granada",
+  "name": "New Granada",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Bogota",
+   "lon": -74.07,
+   "lat": 4.71
+  },
+  "port": {
+   "name": "Cartagena",
+   "lon": -75.55,
+   "lat": 10.39
+  },
+  "admin1": [
+   {
+    "admin": "Colombia"
+   }
+  ],
+  "climate": "highland",
+  "notes": "Viceroyalty of New Granada, Viceroy Amar y Borbon",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_quito",
+  "name": "Presidency of Quito",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Quito",
+   "lon": -78.52,
+   "lat": -0.22
+  },
+  "port": {
+   "name": "Guayaquil",
+   "lon": -79.9,
+   "lat": -2.19
+  },
+  "admin1": [
+   {
+    "admin": "Ecuador"
+   }
+  ],
+  "climate": "highland",
+  "notes": "Full-only split: Audiencia of Quito under the Viceroyalty of New Granada",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_new_granada",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_venezuela",
+  "name": "Captaincy General of Venezuela",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Caracas",
+   "lon": -66.9,
+   "lat": 10.5
+  },
+  "port": {
+   "name": "La Guaira",
+   "lon": -66.93,
+   "lat": 10.6
+  },
+  "admin1": [
+   {
+    "admin": "Venezuela"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Cacao and indigo; includes Guayana (Angostura) and Maracaibo",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_british_guiana",
+  "name": "British Guiana and Surinam",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Georgetown (Stabroek)",
+   "lon": -58.16,
+   "lat": 6.8
+  },
+  "port": {
+   "name": "Georgetown (Stabroek)",
+   "lon": -58.16,
+   "lat": 6.8
+  },
+  "admin1": [
+   {
+    "admin": "Guyana"
+   },
+   {
+    "admin": "Suriname"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Demerara-Essequibo-Berbice (1803) and Surinam (1804) under British occupation",
+  "confidence": "M",
+  "religion": {
+   "rel_protestant": 0.25,
+   "rel_animist": 0.75
+  }
+ },
+ {
+  "key": "ame_french_guiana",
+  "name": "French Guiana",
+  "owner": "france",
+  "tier": "periphery",
+  "capital": {
+   "name": "Cayenne",
+   "lon": -52.33,
+   "lat": 4.94
+  },
+  "port": {
+   "name": "Cayenne",
+   "lon": -52.33,
+   "lat": 4.94
+  },
+  "admin1": [
+   {
+    "admin": "France",
+    "names": [
+     "Guyane française"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Cayenne penal colony",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.5,
+   "rel_animist": 0.5
+  }
+ },
+ {
+  "key": "ame_amazonia",
+  "name": "Amazon and Orinoco Hinterland",
+  "owner": "amazonian_peoples",
+  "tier": "periphery",
+  "capital": {
+   "name": "Barra do Rio Negro (Manaus)",
+   "lon": -60.02,
+   "lat": -3.12
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Amazonas",
+     "Roraima",
+     "Acre",
+     "Rondônia"
+    ]
+   },
+   {
+    "admin": "Peru",
+    "names": [
+     "Loreto",
+     "Ucayali",
+     "Madre de Dios"
+    ]
+   },
+   {
+    "admin": "Bolivia",
+    "names": [
+     "Pando",
+     "El Beni"
+    ]
+   },
+   {
+    "admin": "Colombia",
+    "names": [
+     "Amazonas",
+     "Caquetá",
+     "Putumayo",
+     "Guainía",
+     "Vaupés",
+     "Guaviare",
+     "Vichada",
+     "Meta",
+     "Casanare",
+     "Arauca"
+    ]
+   },
+   {
+    "admin": "Ecuador",
+    "names": [
+     "Sucumbios",
+     "Orellana",
+     "Pastaza",
+     "Napo",
+     "Morona Santiago",
+     "Zamora Chinchipe"
+    ]
+   },
+   {
+    "admin": "Venezuela",
+    "names": [
+     "Amazonas"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Uncontrolled Amazon basin; Portuguese Barra do Rio Negro is a captaincy seat",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "ame_peru",
+  "name": "Viceroyalty of Peru",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Lima",
+   "lon": -77.04,
+   "lat": -12.05
+  },
+  "port": {
+   "name": "Callao",
+   "lon": -77.15,
+   "lat": -12.05
+  },
+  "admin1": [
+   {
+    "admin": "Peru"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Lima, Callao and the coastal and central Andes",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_peru_sur",
+  "name": "Southern Peru and Cuzco",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Cuzco",
+   "lon": -71.97,
+   "lat": -13.52
+  },
+  "port": {
+   "name": "Arica",
+   "lon": -70.31,
+   "lat": -18.48
+  },
+  "admin1": [
+   {
+    "admin": "Peru",
+    "names": [
+     "Arequipa",
+     "Moquegua",
+     "Tacna",
+     "Cusco",
+     "Ayacucho",
+     "Apurímac",
+     "Huancavelica",
+     "Puno"
+    ]
+   },
+   {
+    "admin": "Chile",
+    "names": [
+     "Arica y Parinacota",
+     "Tarapacá"
+    ]
+   }
+  ],
+  "climate": "highland",
+  "notes": "Full-only split: Cuzco intendancy, Arequipa; Arica and Tarapaca were Peruvian",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_peru",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_upper_peru",
+  "name": "Upper Peru (Charcas)",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "La Plata (Sucre)",
+   "lon": -65.26,
+   "lat": -19.04
+  },
+  "port": {
+   "name": "Cobija",
+   "lon": -70.4,
+   "lat": -22.55
+  },
+  "admin1": [
+   {
+    "admin": "Bolivia"
+   },
+   {
+    "admin": "Chile",
+    "names": [
+     "Antofagasta"
+    ]
+   }
+  ],
+  "climate": "highland",
+  "notes": "Full-only split: Audiencia of Charcas under Rio de la Plata; Potosi silver",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_peru",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_chile",
+  "name": "Captaincy General of Chile",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Santiago",
+   "lon": -70.65,
+   "lat": -33.45
+  },
+  "port": {
+   "name": "Valparaiso",
+   "lon": -71.62,
+   "lat": -33.04
+  },
+  "admin1": [
+   {
+    "admin": "Chile"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Spanish Chile from the Atacama to Chiloe",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.95,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "ame_mapuche_patagonia",
+  "name": "Araucania and Patagonia",
+  "owner": "mapuche",
+  "tier": "periphery",
+  "capital": {
+   "name": "Boroa (Mapuche heartland)",
+   "lon": -72.8,
+   "lat": -38.8
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Chile",
+    "names": [
+     "La Araucanía",
+     "Aisén del General Carlos Ibáñez del Campo",
+     "Magallanes y Antártica Chilena"
+    ]
+   },
+   {
+    "admin": "Argentina",
+    "names": [
+     "Río Negro",
+     "Neuquén",
+     "Chubut",
+     "Santa Cruz",
+     "Tierra del Fuego",
+     "La Pampa"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Free Mapuche south of the Biobio; Pampas and Tehuelche tribes; Carmen de Patagones is a Spanish outpost",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "ame_rio_de_la_plata",
+  "name": "Rio de la Plata",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Buenos Aires",
+   "lon": -58.38,
+   "lat": -34.6
+  },
+  "port": {
+   "name": "Buenos Aires",
+   "lon": -58.38,
+   "lat": -34.6
+  },
+  "admin1": [
+   {
+    "admin": "Argentina",
+    "names": [
+     "Buenos Aires",
+     "Ciudad de Buenos Aires",
+     "Santa Fe",
+     "Entre Ríos",
+     "Corrientes"
+    ]
+   },
+   {
+    "admin": "Uruguay"
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Viceroyalty of Rio de la Plata (Buenos Aires + Banda Oriental); British invasions are 1806",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.95,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "ame_uruguay",
+  "name": "Banda Oriental",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Montevideo",
+   "lon": -56.19,
+   "lat": -34.9
+  },
+  "port": {
+   "name": "Montevideo",
+   "lon": -56.19,
+   "lat": -34.9
+  },
+  "admin1": [
+   {
+    "admin": "Uruguay"
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Full-only split: Montevideo naval base",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_rio_de_la_plata",
+  "religion": {
+   "rel_catholic": 0.95,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "ame_interior_plata",
+  "name": "Tucuman, Cuyo and Paraguay",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Cordoba",
+   "lon": -64.18,
+   "lat": -31.42
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Argentina"
+   },
+   {
+    "admin": "Paraguay"
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Interior of the Rio de la Plata viceroyalty incl. Mendoza and Asuncion",
+  "confidence": "M",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_paraguay",
+  "name": "Paraguay and Misiones",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Asuncion",
+   "lon": -57.63,
+   "lat": -25.28
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Paraguay"
+   },
+   {
+    "admin": "Argentina",
+    "names": [
+     "Misiones"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Full-only split: Guarani missions and Paraguay province",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_interior_plata",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_brazil_southeast",
+  "name": "Brazil Southeast and South",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Rio de Janeiro",
+   "lon": -43.2,
+   "lat": -22.9
+  },
+  "port": {
+   "name": "Rio de Janeiro",
+   "lon": -43.2,
+   "lat": -22.9
+  },
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Rio de Janeiro",
+     "Espírito Santo",
+     "São Paulo",
+     "Minas Gerais",
+     "Paraná",
+     "Santa Catarina",
+     "Rio Grande do Sul"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Rio (viceregal seat until 1808 court arrival), gold of Minas, Sao Paulo, southern ranching frontier",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "ame_brazil_south",
+  "name": "Southern Brazil",
+  "owner": "portugal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Porto Alegre",
+   "lon": -51.23,
+   "lat": -30.03
+  },
+  "port": {
+   "name": "Rio Grande",
+   "lon": -52.1,
+   "lat": -32.03
+  },
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Paraná",
+     "Santa Catarina",
+     "Rio Grande do Sul"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Full-only split: Rio Grande de Sao Pedro, contested with Spain",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_brazil_southeast",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "ame_brazil_minas",
+  "name": "Minas Gerais",
+  "owner": "portugal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Vila Rica (Ouro Preto)",
+   "lon": -43.5,
+   "lat": -20.39
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Minas Gerais"
+    ]
+   }
+  ],
+  "climate": "highland",
+  "notes": "Full-only split: gold and diamond district",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_brazil_southeast",
+  "religion": {
+   "rel_catholic": 0.8,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "ame_brazil_northeast",
+  "name": "Brazil Northeast",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Salvador",
+   "lon": -38.5,
+   "lat": -12.97
+  },
+  "port": {
+   "name": "Salvador",
+   "lon": -38.5,
+   "lat": -12.97
+  },
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Bahia",
+     "Sergipe",
+     "Alagoas",
+     "Pernambuco",
+     "Paraíba",
+     "Rio Grande do Norte",
+     "Ceará",
+     "Piauí"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Sugar coast: Bahia and Pernambuco",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.75,
+   "rel_animist": 0.25
+  }
+ },
+ {
+  "key": "ame_brazil_pernambuco",
+  "name": "Pernambuco and the Sertao",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Recife",
+   "lon": -34.88,
+   "lat": -8.05
+  },
+  "port": {
+   "name": "Recife",
+   "lon": -34.88,
+   "lat": -8.05
+  },
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Pernambuco",
+     "Paraíba",
+     "Rio Grande do Norte",
+     "Ceará",
+     "Piauí",
+     "Alagoas"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Recife sugar and cotton",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_brazil_northeast",
+  "religion": {
+   "rel_catholic": 0.8,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "ame_brazil_north",
+  "name": "Para and Maranhao",
+  "owner": "portugal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Belem",
+   "lon": -48.489,
+   "lat": -1.454
+  },
+  "port": {
+   "name": "Belem",
+   "lon": -48.5,
+   "lat": -1.46
+  },
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Pará",
+     "Maranhão",
+     "Amapá"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Full-only split: Estado do Grao-Para e Maranhao",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "ame_brazil_northeast",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "ame_brazil_center_west",
+  "name": "Goias and Mato Grosso",
+  "owner": "portugal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Vila Boa de Goias",
+   "lon": -50.14,
+   "lat": -15.93
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Brazil",
+    "names": [
+     "Goiás",
+     "Mato Grosso",
+     "Mato Grosso do Sul",
+     "Tocantins",
+     "Distrito Federal"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Full-only split: Interior gold and bandeirante frontier",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "ame_brazil_southeast",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "afr_morocco",
+  "name": "Sultanate of Morocco",
+  "owner": "morocco",
+  "tier": "core",
+  "capital": {
+   "name": "Fes",
+   "lon": -5.0,
+   "lat": 34.03
+  },
+  "port": {
+   "name": "Tangier",
+   "lon": -5.81,
+   "lat": 35.77
+  },
+  "admin1": [
+   {
+    "admin": "Morocco"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Sulayman's Morocco (Fes, Marrakesh, Tangier, Essaouira)",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_morocco_south",
+  "name": "Southern Morocco",
+  "owner": "morocco",
+  "tier": "interest",
+  "capital": {
+   "name": "Marrakesh",
+   "lon": -8.0,
+   "lat": 31.63
+  },
+  "port": {
+   "name": "Mogador (Essaouira)",
+   "lon": -9.77,
+   "lat": 31.51
+  },
+  "admin1": [
+   {
+    "admin": "Morocco",
+    "box": [
+     -14,
+     20,
+     -1,
+     32.6
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Marrakesh, Sous, Mogador trade port",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "afr_morocco",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_algiers",
+  "name": "Regency of Algiers",
+  "owner": "algiers",
+  "tier": "core",
+  "capital": {
+   "name": "Algiers",
+   "lon": 3.06,
+   "lat": 36.77
+  },
+  "port": {
+   "name": "Algiers",
+   "lon": 3.06,
+   "lat": 36.77
+  },
+  "admin1": [
+   {
+    "admin": "Algeria",
+    "box": [
+     0.8,
+     34.0,
+     5.1,
+     37.5
+    ]
+   },
+   {
+    "admin": "Algeria",
+    "box": [
+     -3.0,
+     34.0,
+     0.8,
+     37.5
+    ]
+   },
+   {
+    "admin": "Algeria",
+    "box": [
+     5.1,
+     34.0,
+     9.5,
+     37.5
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Dey Mustafa Pasha; Beyliks of Titteri, Oran and Constantine",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_oran",
+  "name": "Beylik of Oran",
+  "owner": "algiers",
+  "tier": "core",
+  "capital": {
+   "name": "Mascara",
+   "lon": 0.14,
+   "lat": 35.4
+  },
+  "port": {
+   "name": "Oran",
+   "lon": -0.64,
+   "lat": 35.7
+  },
+  "admin1": [
+   {
+    "admin": "Algeria",
+    "box": [
+     -3.0,
+     34.0,
+     0.8,
+     37.5
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Full-only split: western beylik (capital at Mascara until 1792, Oran Spanish until 1792)",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "afr_algiers",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_constantine",
+  "name": "Beylik of Constantine",
+  "owner": "algiers",
+  "tier": "core",
+  "capital": {
+   "name": "Constantine",
+   "lon": 6.61,
+   "lat": 36.36
+  },
+  "port": {
+   "name": "Annaba (Bone)",
+   "lon": 7.77,
+   "lat": 36.9
+  },
+  "admin1": [
+   {
+    "admin": "Algeria",
+    "box": [
+     5.1,
+     34.0,
+     9.5,
+     37.5
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Full-only split: eastern beylik",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "afr_algiers",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_tunis",
+  "name": "Beylik of Tunis",
+  "owner": "tunis",
+  "tier": "core",
+  "capital": {
+   "name": "Tunis",
+   "lon": 10.18,
+   "lat": 36.8
+  },
+  "port": {
+   "name": "Tunis",
+   "lon": 10.18,
+   "lat": 36.8
+  },
+  "admin1": [
+   {
+    "admin": "Tunisia"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Hammuda Pasha Husainid",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_tripolitania",
+  "name": "Karamanli Tripolitania",
+  "owner": "tripolitania",
+  "tier": "core",
+  "capital": {
+   "name": "Tripoli",
+   "lon": 13.19,
+   "lat": 32.89
+  },
+  "port": {
+   "name": "Tripoli",
+   "lon": 13.19,
+   "lat": 32.89
+  },
+  "admin1": [
+   {
+    "admin": "Libya",
+    "names": [
+     "An Nuqat al Khams",
+     "Az Zawiyah",
+     "Al Marqab",
+     "Tajura' wa an Nawahi al Arba",
+     "Al Jifarah",
+     "Mizdah",
+     "Misratah",
+     "Surt",
+     "Al Butnan",
+     "Ajdabiya",
+     "Al Qubbah",
+     "Al Jabal al Akhdar",
+     "Al Marj",
+     "Benghazi"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Yusuf Karamanli; Tripoli and Cyrenaica; Fezzan is a tributary under the Sahara region",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_cyrenaica",
+  "name": "Cyrenaica",
+  "owner": "tripolitania",
+  "tier": "core",
+  "capital": {
+   "name": "Benghazi",
+   "lon": 20.07,
+   "lat": 32.12
+  },
+  "port": {
+   "name": "Benghazi",
+   "lon": 20.07,
+   "lat": 32.12
+  },
+  "admin1": [
+   {
+    "admin": "Libya",
+    "names": [
+     "Al Butnan",
+     "Ajdabiya",
+     "Al Qubbah",
+     "Al Jabal al Akhdar",
+     "Al Marj",
+     "Benghazi"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Full-only split: Derna, Benghazi, Barqa",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "afr_tripolitania",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_lower_egypt",
+  "name": "Lower Egypt",
+  "owner": "egypt",
+  "tier": "core",
+  "capital": {
+   "name": "Cairo",
+   "lon": 31.25,
+   "lat": 30.04
+  },
+  "port": {
+   "name": "Damietta",
+   "lon": 31.81,
+   "lat": 31.42
+  },
+  "admin1": [
+   {
+    "admin": "Egypt"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Nile Delta, Cairo and Sinai; Muhammad Ali becomes wali May 1805; Damietta the eastern Delta port",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_orthodox": 0.1
+  }
+ },
+ {
+  "key": "afr_alexandria",
+  "name": "Alexandria and Beheira",
+  "owner": "egypt",
+  "tier": "core",
+  "capital": {
+   "name": "Alexandria",
+   "lon": 29.92,
+   "lat": 31.2
+  },
+  "port": {
+   "name": "Alexandria",
+   "lon": 29.92,
+   "lat": 31.2
+  },
+  "admin1": [
+   {
+    "admin": "Egypt",
+    "names": [
+     "Al Iskandariyah",
+     "Al Buhayrah",
+     "Matruh"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Alexandria, the western Delta (Beheira) and the Marmarica coast; British expedition 1807",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "afr_lower_egypt",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_orthodox": 0.05,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "afr_upper_egypt",
+  "name": "Upper Egypt (Mamluk Beys)",
+  "owner": "mamluks",
+  "tier": "core",
+  "capital": {
+   "name": "Girga",
+   "lon": 31.88,
+   "lat": 26.34
+  },
+  "port": {
+   "name": "Qusayr",
+   "lon": 34.28,
+   "lat": 26.1
+  },
+  "admin1": [
+   {
+    "admin": "Egypt",
+    "names": [
+     "Al Minya",
+     "Suhaj",
+     "Qina",
+     "Asyut",
+     "Luxor",
+     "Aswan",
+     "Al Bahr al Ahmar",
+     "Al Wadi at Jadid"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Elfi Bey and Bardisi's Mamluk households hold the Said",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_orthodox": 0.15
+  }
+ },
+ {
+  "key": "afr_sahara",
+  "name": "Sahara and Saharan Confederations",
+  "owner": "saharan_confederations",
+  "tier": "periphery",
+  "capital": {
+   "name": "Chinguetti",
+   "lon": -11.64,
+   "lat": 20.46
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Algeria"
+   },
+   {
+    "admin": "Mauritania"
+   },
+   {
+    "admin": "Western Sahara"
+   },
+   {
+    "admin": "Mali",
+    "names": [
+     "Timbuktu",
+     "Gao",
+     "Kidal"
+    ]
+   },
+   {
+    "admin": "Libya"
+   },
+   {
+    "admin": "Niger",
+    "names": [
+     "Agadez"
+    ]
+   },
+   {
+    "admin": "Chad",
+    "names": [
+     "Borkou",
+     "Tibesti",
+     "Ennedi"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Moorish emirates, Tuareg and Tubu confederations, Fezzan and Kufra oases",
+  "confidence": "L",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "afr_sennar",
+  "name": "Funj Sultanate of Sennar",
+  "owner": "sennar",
+  "tier": "periphery",
+  "capital": {
+   "name": "Sennar",
+   "lon": 33.6,
+   "lat": 13.55
+  },
+  "port": {
+   "name": "Suakin",
+   "lon": 37.33,
+   "lat": 19.1
+  },
+  "admin1": [
+   {
+    "admin": "Sudan",
+    "names": [
+     "Northern",
+     "River Nile",
+     "Khartoum",
+     "Gezira",
+     "Sennar",
+     "Blue Nile",
+     "White Nile",
+     "Gedarif",
+     "Kassala",
+     "Red Sea"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Funj Sultanate under Hamaj regents; Nubia and the Red Sea hills",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "afr_darfur",
+  "name": "Darfur, Kordofan and the Nilotic South",
+  "owner": "darfur",
+  "tier": "periphery",
+  "capital": {
+   "name": "El Fasher",
+   "lon": 25.35,
+   "lat": 13.63
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Sudan"
+   },
+   {
+    "admin": "S. Sudan"
+   },
+   {
+    "admin": "Chad",
+    "names": [
+     "Ouaddaï",
+     "Wadi Fira",
+     "Sila"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Fur sultanate with Kordofan; Wadai and the Nilotic south folded in",
+  "confidence": "L",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "afr_ethiopia",
+  "name": "Ethiopia and the Horn",
+  "owner": "ethiopia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Gondar",
+   "lon": 37.47,
+   "lat": 12.6
+  },
+  "port": {
+   "name": "Massawa",
+   "lon": 39.47,
+   "lat": 15.61
+  },
+  "admin1": [
+   {
+    "admin": "Ethiopia"
+   },
+   {
+    "admin": "Eritrea"
+   },
+   {
+    "admin": "Djibouti"
+   }
+  ],
+  "climate": "highland",
+  "notes": "Zemene Mesafint; Gondar emperor is a puppet of Ras Wolde Selassie",
+  "confidence": "M",
+  "religion": {
+   "rel_orthodox": 0.6,
+   "rel_islamic": 0.3,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "afr_horn",
+  "name": "Somali Coast and Harar",
+  "owner": "ethiopia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Harar",
+   "lon": 42.12,
+   "lat": 9.31
+  },
+  "port": {
+   "name": "Berbera",
+   "lon": 45.01,
+   "lat": 10.44
+  },
+  "admin1": [
+   {
+    "admin": "Ethiopia",
+    "names": [
+     "Somali",
+     "Dire Dawa",
+     "Harari People"
+    ]
+   },
+   {
+    "admin": "Somalia"
+   },
+   {
+    "admin": "Somaliland"
+   },
+   {
+    "admin": "Kenya",
+    "names": [
+     "North-Eastern"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Harar emirate, Somali clans, Mogadishu and Berbera coast",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "afr_ethiopia",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_orthodox": 0.1
+  }
+ },
+ {
+  "key": "afr_swahili_coast",
+  "name": "Swahili Coast and Zanzibar",
+  "owner": "oman",
+  "tier": "interest",
+  "capital": {
+   "name": "Zanzibar",
+   "lon": 39.19,
+   "lat": -6.16
+  },
+  "port": {
+   "name": "Zanzibar",
+   "lon": 39.19,
+   "lat": -6.16
+  },
+  "admin1": [
+   {
+    "admin": "United Republic of Tanzania",
+    "names": [
+     "Tanga",
+     "Pwani",
+     "Dar-Es-Salaam",
+     "Zanzibar South and Central",
+     "Kaskazini-Unguja",
+     "Zanzibar West",
+     "Kusini-Pemba",
+     "Kaskazini-Pemba",
+     "Lindi",
+     "Mtwara"
+    ]
+   },
+   {
+    "admin": "Kenya",
+    "names": [
+     "Coast"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Omani sultan's East African possessions; Mombasa, Kilwa, Zanzibar",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "afr_great_lakes",
+  "name": "Great Lakes and East African Interior",
+  "owner": "great_lakes_kingdoms",
+  "tier": "periphery",
+  "capital": {
+   "name": "Mengo (Buganda)",
+   "lon": 32.58,
+   "lat": 0.32
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Uganda"
+   },
+   {
+    "admin": "Rwanda"
+   },
+   {
+    "admin": "Burundi"
+   },
+   {
+    "admin": "United Republic of Tanzania"
+   },
+   {
+    "admin": "Kenya"
+   },
+   {
+    "admin": "Democratic Republic of the Congo",
+    "names": [
+     "Nord-Kivu",
+     "Sud-Kivu",
+     "Maniema",
+     "Orientale"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Buganda, Bunyoro, Rwanda, Burundi, Nyamwezi trade, Maasai",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "afr_mozambique",
+  "name": "Portuguese Mozambique",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Mozambique Island",
+   "lon": 40.725,
+   "lat": -14.981
+  },
+  "port": {
+   "name": "Mozambique Island",
+   "lon": 40.73,
+   "lat": -15.03
+  },
+  "admin1": [
+   {
+    "admin": "Mozambique"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Captaincy-General of Mozambique, Zambezi prazos and ivory/slave trade",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 0.85,
+   "rel_islamic": 0.1,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "afr_lunda_luba",
+  "name": "Lunda, Luba and Congo Basin",
+  "owner": "lunda_luba_kingdoms",
+  "tier": "periphery",
+  "capital": {
+   "name": "Musumba (Mwata Yamvo)",
+   "lon": 23.3,
+   "lat": -8.5
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Democratic Republic of the Congo",
+    "names": [
+     "Katanga",
+     "Kasaï-Occidental",
+     "Kasaï-Oriental",
+     "Équateur",
+     "Bandundu",
+     "Kinshasa City",
+     "Bas-Congo"
+    ]
+   },
+   {
+    "admin": "Zambia"
+   },
+   {
+    "admin": "Malawi"
+   },
+   {
+    "admin": "Angola",
+    "names": [
+     "Moxico",
+     "Lunda Norte",
+     "Lunda Sul"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Lunda empire, Luba, Kazembe, Bemba, Maravi remnants; Congo basin",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "afr_angola",
+  "name": "Portuguese Angola",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Luanda",
+   "lon": 13.23,
+   "lat": -8.84
+  },
+  "port": {
+   "name": "Luanda",
+   "lon": 13.23,
+   "lat": -8.84
+  },
+  "admin1": [
+   {
+    "admin": "Angola"
+   },
+   {
+    "admin": "Sao Tome and Principe"
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Luanda and Benguela slave coast; Sao Tome and Principe",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 0.8,
+   "rel_catholic": 0.2
+  }
+ },
+ {
+  "key": "afr_lower_guinea",
+  "name": "Lower Guinea Coast",
+  "owner": "west_central_african_peoples",
+  "tier": "interest",
+  "capital": {
+   "name": "Calabar",
+   "lon": 8.33,
+   "lat": 4.95
+  },
+  "port": {
+   "name": "Calabar",
+   "lon": 8.33,
+   "lat": 4.95
+  },
+  "admin1": [
+   {
+    "admin": "Cameroon",
+    "names": [
+     "Sud",
+     "Est",
+     "Littoral",
+     "Centre",
+     "Ouest",
+     "Sud-Ouest",
+     "Nord-Ouest"
+    ]
+   },
+   {
+    "admin": "Equatorial Guinea"
+   },
+   {
+    "admin": "Gabon"
+   },
+   {
+    "admin": "Republic of the Congo"
+   },
+   {
+    "admin": "Nigeria",
+    "names": [
+     "Cross River",
+     "Akwa Ibom",
+     "Rivers",
+     "Bayelsa",
+     "Abia",
+     "Ebonyi",
+     "Anambra",
+     "Enugu",
+     "Imo"
+    ]
+   },
+   {
+    "admin": "Angola",
+    "names": [
+     "Cabinda"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Efik, Igbo, Ijaw, Fang, Duala, Loango; Bight of Biafra slave coast",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "afr_oyo",
+  "name": "Oyo, Dahomey and the Slave Coast",
+  "owner": "oyo",
+  "tier": "interest",
+  "capital": {
+   "name": "Oyo-Ile",
+   "lon": 4.1,
+   "lat": 8.2
+  },
+  "port": {
+   "name": "Lagos",
+   "lon": 3.39,
+   "lat": 6.45
+  },
+  "admin1": [
+   {
+    "admin": "Benin"
+   },
+   {
+    "admin": "Togo"
+   },
+   {
+    "admin": "Nigeria",
+    "names": [
+     "Lagos",
+     "Ogun",
+     "Oyo",
+     "Osun",
+     "Ondo",
+     "Ekiti",
+     "Kwara",
+     "Edo",
+     "Delta"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Oyo empire (Alafin Awole), Dahomey (Adandozan), Benin, Ouidah and Lagos ports",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "afr_sokoto",
+  "name": "Sokoto Caliphate and Hausaland",
+  "owner": "sokoto_caliphate",
+  "tier": "periphery",
+  "capital": {
+   "name": "Degel",
+   "lon": 5.37,
+   "lat": 13.05
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Nigeria",
+    "names": [
+     "Sokoto",
+     "Kebbi",
+     "Zamfara",
+     "Katsina",
+     "Kano",
+     "Jigawa",
+     "Kaduna",
+     "Bauchi",
+     "Gombe",
+     "Plateau",
+     "Nassarawa",
+     "Federal Capital Territory",
+     "Niger",
+     "Kogi",
+     "Benue",
+     "Taraba",
+     "Adamawa"
+    ]
+   },
+   {
+    "admin": "Niger",
+    "names": [
+     "Tahoua",
+     "Maradi",
+     "Dosso"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Usman dan Fodio's jihad founded 1804; Hausa kingdoms and Middle Belt",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.8,
+   "rel_animist": 0.2
+  }
+ },
+ {
+  "key": "afr_bornu",
+  "name": "Kanem-Bornu and Lake Chad",
+  "owner": "bornu",
+  "tier": "periphery",
+  "capital": {
+   "name": "Birni Gazargamu",
+   "lon": 12.6,
+   "lat": 13.0
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Nigeria",
+    "names": [
+     "Borno",
+     "Yobe"
+    ]
+   },
+   {
+    "admin": "Niger",
+    "names": [
+     "Diffa",
+     "Zinder"
+    ]
+   },
+   {
+    "admin": "Chad",
+    "names": [
+     "Lac",
+     "Kanem",
+     "Hadjer-Lamis",
+     "Chari-Baguirmi",
+     "Ville de N'Djamena",
+     "Barh El Gazel",
+     "Batha",
+     "Guéra"
+    ]
+   },
+   {
+    "admin": "Cameroon",
+    "names": [
+     "Extrême-Nord",
+     "Nord"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Bornu mai under Fulani pressure; Kanem, Damagaram",
+  "confidence": "L",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "afr_ubangi",
+  "name": "Ubangi-Chari and Baguirmi",
+  "owner": "bornu",
+  "tier": "periphery",
+  "capital": {
+   "name": "Ndele (Bangui site)",
+   "lon": 18.56,
+   "lat": 4.36
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Central African Republic"
+   },
+   {
+    "admin": "Chad",
+    "names": [
+     "Salamat",
+     "Moyen-Chari",
+     "Mandoul",
+     "Logone Oriental",
+     "Logone Occidental",
+     "Mayo-Kebbi Est",
+     "Mayo-Kebbi Ouest",
+     "Tandjilé"
+    ]
+   },
+   {
+    "admin": "Cameroon",
+    "names": [
+     "Adamaoua"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Full-only split: Slave-raided belt; Baguirmi, Azande, Banda",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "afr_bornu",
+  "religion": {
+   "rel_animist": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "afr_niger_bend",
+  "name": "Segu, Mossi and the Niger Bend",
+  "owner": "segu_bambara",
+  "tier": "periphery",
+  "capital": {
+   "name": "Segou",
+   "lon": -6.27,
+   "lat": 13.43
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Mali",
+    "names": [
+     "Kayes",
+     "Ségou",
+     "Mopti",
+     "Sikasso",
+     "Koulikoro",
+     "Bamako"
+    ]
+   },
+   {
+    "admin": "Burkina Faso"
+   },
+   {
+    "admin": "Niger",
+    "names": [
+     "Tillabéri",
+     "Niamey"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Bambara Segu (Da Monzon), Mossi kingdoms, Masina; Mungo Park's second expedition 1805",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.6,
+   "rel_islamic": 0.4
+  }
+ },
+ {
+  "key": "afr_asante",
+  "name": "Asante and the Gold Coast",
+  "owner": "asante",
+  "tier": "interest",
+  "capital": {
+   "name": "Kumasi",
+   "lon": -1.62,
+   "lat": 6.69
+  },
+  "port": {
+   "name": "Cape Coast",
+   "lon": -1.25,
+   "lat": 5.1
+  },
+  "admin1": [
+   {
+    "admin": "Ghana"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Asantehene Osei Bonsu; Fante coast with British, Dutch, Danish forts",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "afr_upper_guinea_coast",
+  "name": "Liberia and Ivory Coast",
+  "owner": "guinea_coast_peoples",
+  "tier": "periphery",
+  "capital": {
+   "name": "Cape Mesurado",
+   "lon": -10.8,
+   "lat": 6.31
+  },
+  "port": {
+   "name": "Cape Mesurado",
+   "lon": -10.8,
+   "lat": 6.31
+  },
+  "admin1": [
+   {
+    "admin": "Liberia"
+   },
+   {
+    "admin": "Ivory Coast"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Kru, Vai, Baule, Dan; pepper and grain coast",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 0.8,
+   "rel_islamic": 0.2
+  }
+ },
+ {
+  "key": "afr_sierra_leone",
+  "name": "Sierra Leone",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Freetown",
+   "lon": -13.23,
+   "lat": 8.48
+  },
+  "port": {
+   "name": "Freetown",
+   "lon": -13.23,
+   "lat": 8.48
+  },
+  "admin1": [
+   {
+    "admin": "Sierra Leone"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Sierra Leone Company colony (Crown colony 1808)",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 0.6,
+   "rel_protestant": 0.3,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "afr_futa_jallon",
+  "name": "Futa Jallon and Upper Guinea",
+  "owner": "futa_jallon",
+  "tier": "interest",
+  "capital": {
+   "name": "Timbo",
+   "lon": -11.65,
+   "lat": 10.63
+  },
+  "port": {
+   "name": "Conakry",
+   "lon": -13.7,
+   "lat": 9.5
+  },
+  "admin1": [
+   {
+    "admin": "Guinea"
+   },
+   {
+    "admin": "Guinea Bissau"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Fula imamate; Portuguese Bissau and Cacheu enclaves",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.7,
+   "rel_animist": 0.3
+  }
+ },
+ {
+  "key": "afr_senegambia",
+  "name": "Senegambia",
+  "owner": "france",
+  "tier": "interest",
+  "capital": {
+   "name": "Saint-Louis",
+   "lon": -16.49,
+   "lat": 16.027
+  },
+  "port": {
+   "name": "Saint-Louis",
+   "lon": -16.5,
+   "lat": 16.03
+  },
+  "admin1": [
+   {
+    "admin": "Senegal"
+   },
+   {
+    "admin": "Gambia"
+   }
+  ],
+  "climate": "savanna",
+  "notes": "French Saint-Louis and Goree; British trade on the Gambia; Wolof, Futa Toro",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_animist": 0.3,
+   "rel_catholic": 0.1
+  }
+ },
+ {
+  "key": "afr_atlantic_isles",
+  "name": "Portuguese Atlantic Islands",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Funchal",
+   "lon": -16.92,
+   "lat": 32.65
+  },
+  "port": {
+   "name": "Funchal",
+   "lon": -16.92,
+   "lat": 32.65
+  },
+  "admin1": [
+   {
+    "admin": "Portugal",
+    "names": [
+     "Madeira",
+     "Azores"
+    ]
+   },
+   {
+    "admin": "Cape Verde"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Madeira, Azores, Cape Verde",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  }
+ },
+ {
+  "key": "afr_canary_isles",
+  "name": "Canary Islands",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Las Palmas",
+   "lon": -15.425,
+   "lat": 28.12
+  },
+  "port": {
+   "name": "Las Palmas",
+   "lon": -15.41,
+   "lat": 28.12
+  },
+  "admin1": [
+   {
+    "admin": "Spain",
+    "names": [
+     "Las Palmas",
+     "Santa Cruz de Tenerife"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Captaincy of the Canaries",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  }
+ },
+ {
+  "key": "afr_cape_colony",
+  "name": "Cape Colony",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Cape Town",
+   "lon": 18.42,
+   "lat": -33.92
+  },
+  "port": {
+   "name": "Cape Town",
+   "lon": 18.42,
+   "lat": -33.92
+  },
+  "admin1": [
+   {
+    "admin": "South Africa",
+    "names": [
+     "Western Cape",
+     "Northern Cape"
+    ]
+   },
+   {
+    "admin": "South Africa",
+    "names": [
+     "Eastern Cape"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       16,
+       -35.5,
+       26.8,
+       -28
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Batavian governor Janssens (from Dec 1802); captured by Britain Jan 1806",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.4,
+   "rel_animist": 0.5,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "afr_southern_interior",
+  "name": "Southern African Interior",
+  "owner": "south_african_chiefdoms",
+  "tier": "periphery",
+  "capital": {
+   "name": "Mthethwa paramountcy (Dingiswayo)",
+   "lon": 31.4,
+   "lat": -28.5
+  },
+  "port": {
+   "name": "Port Natal",
+   "lon": 31.03,
+   "lat": -29.86
+  },
+  "admin1": [
+   {
+    "admin": "South Africa",
+    "names": [
+     "KwaZulu-Natal",
+     "Free State",
+     "Gauteng",
+     "North West",
+     "Limpopo",
+     "Mpumalanga",
+     "Eastern Cape"
+    ]
+   },
+   {
+    "admin": "Lesotho"
+   },
+   {
+    "admin": "Swaziland"
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Xhosa, Mthethwa/Ndwandwe, Sotho-Tswana, Swazi; Boer frontier on the Fish River",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "afr_kalahari_zambezi",
+  "name": "Kalahari and Zambezi Plateau",
+  "owner": "south_african_chiefdoms",
+  "tier": "periphery",
+  "capital": {
+   "name": "Danamombe (Rozvi)",
+   "lon": 29.5,
+   "lat": -19.9
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Namibia"
+   },
+   {
+    "admin": "Botswana"
+   },
+   {
+    "admin": "Zimbabwe"
+   },
+   {
+    "admin": "Angola",
+    "names": [
+     "Cunene",
+     "Cuando Cubango"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Rozvi, Herero, Nama, Tswana, Ovambo",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "afr_southern_interior",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "afr_madagascar",
+  "name": "Madagascar and Comoros",
+  "owner": "merina",
+  "tier": "interest",
+  "capital": {
+   "name": "Antananarivo",
+   "lon": 47.52,
+   "lat": -18.91
+  },
+  "port": {
+   "name": "Tamatave",
+   "lon": 49.41,
+   "lat": -18.15
+  },
+  "admin1": [
+   {
+    "admin": "Madagascar"
+   },
+   {
+    "admin": "Comoros"
+   },
+   {
+    "admin": "France",
+    "names": [
+     "Mayotte"
+    ]
+   },
+   {
+    "admin": "French Southern and Antarctic Lands",
+    "names": [
+     "Iles Eparses de l'ocean Indien"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Merina highlands expanding; Sakalava and Betsimisaraka coasts; French traders at Tamatave",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "afr_mascarenes",
+  "name": "Mascarenes and Seychelles",
+  "owner": "france",
+  "tier": "interest",
+  "capital": {
+   "name": "Port Louis",
+   "lon": 57.5,
+   "lat": -20.16
+  },
+  "port": {
+   "name": "Port Louis",
+   "lon": 57.5,
+   "lat": -20.16
+  },
+  "admin1": [
+   {
+    "admin": "Mauritius"
+   },
+   {
+    "admin": "Seychelles"
+   },
+   {
+    "admin": "France",
+    "names": [
+     "La Réunion"
+    ]
+   },
+   {
+    "admin": "British Indian Ocean Territory"
+   },
+   {
+    "admin": "French Southern and Antarctic Lands",
+    "names": [
+     "Archipel des Kerguelen",
+     "Archipel des Crozet",
+     "Iles Saint-Paul et Nouvelle-Amsterdam"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Isle de France (Decaen) and Bourbon, corsair base; Seychelles French until 1810",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_animist": 0.3,
+   "rel_hindu": 0.1
+  }
+ },
+ {
+  "key": "afr_malta",
+  "name": "Malta",
+  "owner": "britain",
+  "tier": "core",
+  "capital": {
+   "name": "Valletta",
+   "lon": 14.51,
+   "lat": 35.9
+  },
+  "port": {
+   "name": "Valletta",
+   "lon": 14.51,
+   "lat": 35.9
+  },
+  "admin1": [
+   {
+    "admin": "Malta"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "British since 1800; Amiens return to the Knights never executed",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  }
+ },
+ {
+  "key": "mea_cyprus",
+  "name": "Cyprus",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Nicosia",
+   "lon": 33.36,
+   "lat": 35.17
+  },
+  "port": {
+   "name": "Larnaca",
+   "lon": 33.64,
+   "lat": 34.92
+  },
+  "admin1": [
+   {
+    "admin": "Cyprus"
+   },
+   {
+    "admin": "Northern Cyprus"
+   },
+   {
+    "admin": "Akrotiri Sovereign Base Area"
+   },
+   {
+    "admin": "Dhekelia Sovereign Base Area"
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Ottoman eyalet",
+  "confidence": "H",
+  "religion": {
+   "rel_orthodox": 0.75,
+   "rel_islamic": 0.25
+  }
+ },
+ {
+  "key": "mea_anatolia_aegean",
+  "name": "Western Anatolia",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Smyrna (Izmir)",
+   "lon": 27.14,
+   "lat": 38.42
+  },
+  "port": {
+   "name": "Smyrna (Izmir)",
+   "lon": 27.14,
+   "lat": 38.42
+  },
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Çanakkale",
+     "Balikesir",
+     "Izmir",
+     "Manisa",
+     "Aydin",
+     "Mugla",
+     "Denizli",
+     "Usak",
+     "Kütahya",
+     "Afyonkarahisar",
+     "Isparta",
+     "Burdur",
+     "Antalya",
+     "Bursa",
+     "Bilecik",
+     "Yalova",
+     "Kocaeli",
+     "Sakarya",
+     "Eskisehir"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Aegean coast, Marmara Asian shore, Lakes District",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.75,
+   "rel_orthodox": 0.25
+  }
+ },
+ {
+  "key": "mea_anatolia_central",
+  "name": "Central Anatolia",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Ankara",
+   "lon": 32.85,
+   "lat": 39.93
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Ankara",
+     "Çankiri",
+     "Kinkkale",
+     "Kirsehir",
+     "Nevsehir",
+     "Aksaray",
+     "Nigde",
+     "Konya",
+     "Bolu",
+     "Düzce",
+     "Karabük",
+     "Zinguldak",
+     "Bartın",
+     "Kastamonu",
+     "Yozgat",
+     "Kayseri",
+     "Sivas",
+     "Çorum"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Plateau from Konya to Sivas and the western Black Sea hinterland",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_orthodox": 0.1
+  }
+ },
+ {
+  "key": "mea_anatolia_black_sea",
+  "name": "Pontic Coast",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Trebizond",
+   "lon": 39.72,
+   "lat": 41.0
+  },
+  "port": {
+   "name": "Trebizond",
+   "lon": 39.72,
+   "lat": 41.0
+  },
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Sinop",
+     "Samsun",
+     "Amasya",
+     "Tokat",
+     "Ordu",
+     "Giresun",
+     "Trabzon",
+     "Rize",
+     "Artvin",
+     "Gümüshane",
+     "Bayburt"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Black Sea coast, Trebizond and Samsun ports; Canik derebeys",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.8,
+   "rel_orthodox": 0.2
+  }
+ },
+ {
+  "key": "mea_anatolia_east",
+  "name": "Eastern Anatolia and Kurdistan",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Erzurum",
+   "lon": 41.27,
+   "lat": 39.9
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Erzurum",
+     "Erzincan",
+     "Tunceli",
+     "Bingöl",
+     "Mus",
+     "Bitlis",
+     "Van",
+     "Hakkari",
+     "Agri",
+     "Iğdir",
+     "Kars",
+     "Ardahan",
+     "Diyarbakir",
+     "Mardin",
+     "Batman",
+     "Siirt",
+     "Sirnak",
+     "Sanliurfa",
+     "Adiyaman",
+     "Malatya",
+     "Elazig"
+    ]
+   }
+  ],
+  "climate": "highland",
+  "notes": "Erzurum, Van, Kars and Kurdish emirates of Hakkari, Bitlis",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.75,
+   "rel_orthodox": 0.25
+  }
+ },
+ {
+  "key": "mea_kurdistan_jazira",
+  "name": "Diyarbakir and the Jazira",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Diyarbakir",
+   "lon": 40.23,
+   "lat": 37.91
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Diyarbakir",
+     "Mardin",
+     "Batman",
+     "Siirt",
+     "Sirnak",
+     "Sanliurfa",
+     "Adiyaman",
+     "Malatya",
+     "Elazig",
+     "Tunceli",
+     "Bingöl",
+     "Bitlis",
+     "Mus",
+     "Hakkari"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Kurdistan eyalet",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_anatolia_east",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_orthodox": 0.15
+  }
+ },
+ {
+  "key": "mea_syria_aleppo",
+  "name": "Aleppo and Cilicia",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Aleppo",
+   "lon": 37.16,
+   "lat": 36.2
+  },
+  "port": {
+   "name": "Alexandretta",
+   "lon": 36.17,
+   "lat": 36.59
+  },
+  "admin1": [
+   {
+    "admin": "Syria",
+    "names": [
+     "Aleppo",
+     "Idlib",
+     "Ar Raqqah",
+     "Hasaka (Al Haksa)",
+     "Dayr Az Zawr",
+     "Lattakia"
+    ]
+   },
+   {
+    "admin": "Turkey",
+    "names": [
+     "Hatay",
+     "Kilis",
+     "Gaziantep",
+     "K. Maras",
+     "Adana",
+     "Mersin",
+     "Osmaniye",
+     "Karaman"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Aleppo eyalet and the Adana (Cilicia) Kozanoglu derebeys",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_orthodox": 0.1,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "mea_cilicia",
+  "name": "Cilicia",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Adana",
+   "lon": 35.32,
+   "lat": 37.0
+  },
+  "port": {
+   "name": "Mersin",
+   "lon": 34.64,
+   "lat": 36.8
+  },
+  "admin1": [
+   {
+    "admin": "Turkey",
+    "names": [
+     "Adana",
+     "Mersin",
+     "Osmaniye",
+     "Karaman",
+     "K. Maras"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Full-only split: Kozanoglu derebeys",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_syria_aleppo",
+  "religion": {
+   "rel_islamic": 0.8,
+   "rel_orthodox": 0.2
+  }
+ },
+ {
+  "key": "mea_damascus",
+  "name": "Damascus and Lebanon",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Damascus",
+   "lon": 36.29,
+   "lat": 33.51
+  },
+  "port": {
+   "name": "Beirut",
+   "lon": 35.5,
+   "lat": 33.89
+  },
+  "admin1": [
+   {
+    "admin": "Syria",
+    "names": [
+     "Damascus",
+     "Rif Dimashq",
+     "Quneitra",
+     "Dar`a",
+     "As Suwayda'",
+     "Homs (Hims)",
+     "Hamah",
+     "UNDOF"
+    ]
+   },
+   {
+    "admin": "Jordan"
+   },
+   {
+    "admin": "Lebanon"
+   },
+   {
+    "admin": "Syria",
+    "names": [
+     "Tartus"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Damascus eyalet incl. the Hajj route, with Mount Lebanon (Emir Bashir Shihab) and the Sidon coast",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.7,
+   "rel_catholic": 0.18,
+   "rel_orthodox": 0.12
+  }
+ },
+ {
+  "key": "mea_palestine",
+  "name": "Palestine and Galilee",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Jerusalem",
+   "lon": 35.22,
+   "lat": 31.78
+  },
+  "port": {
+   "name": "Jaffa",
+   "lon": 34.75,
+   "lat": 32.05
+  },
+  "admin1": [
+   {
+    "admin": "Israel",
+    "names": [
+     "Jerusalem",
+     "HaMerkaz",
+     "Tel Aviv",
+     "HaDarom"
+    ]
+   },
+   {
+    "admin": "West Bank"
+   },
+   {
+    "admin": "Gaza Strip"
+   },
+   {
+    "admin": "Israel",
+    "names": [
+     "Haifa",
+     "HaZafon"
+    ]
+   }
+  ],
+  "climate": "mediterranean",
+  "notes": "Full-only split: Jerusalem, Jaffa, Gaza and Acre (Jazzar Pasha d. 1804; Sulayman Pasha)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "mea_damascus",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_orthodox": 0.1,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "mea_baghdad",
+  "name": "Baghdad and Mosul",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Baghdad",
+   "lon": 44.4,
+   "lat": 33.31
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Iraq",
+    "names": [
+     "Baghdad",
+     "Diyala",
+     "Sala ad-Din",
+     "Al-Anbar",
+     "Babil",
+     "Karbala'",
+     "An-Najaf",
+     "Al-Qādisiyyah",
+     "Wasit",
+     "Ninawa",
+     "Dihok",
+     "Arbil",
+     "As-Sulaymaniyah",
+     "At-Ta'mim"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Baghdad Mamluk pashalik (Sulayman Pasha); Mosul, Kurdish Baban emirate",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.95,
+   "rel_orthodox": 0.05
+  }
+ },
+ {
+  "key": "mea_mosul",
+  "name": "Mosul and Kurdistan (Iraq)",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Mosul",
+   "lon": 43.12,
+   "lat": 36.34
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Iraq",
+    "names": [
+     "Ninawa",
+     "Dihok",
+     "Arbil",
+     "As-Sulaymaniyah",
+     "At-Ta'mim"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Full-only split: Jalili governors of Mosul",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_baghdad",
+  "religion": {
+   "rel_islamic": 0.8,
+   "rel_orthodox": 0.2
+  }
+ },
+ {
+  "key": "mea_basra",
+  "name": "Basra and the Gulf Shore",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Basra",
+   "lon": 47.78,
+   "lat": 30.5
+  },
+  "port": {
+   "name": "Basra",
+   "lon": 47.78,
+   "lat": 30.5
+  },
+  "admin1": [
+   {
+    "admin": "Iraq",
+    "names": [
+     "Al-Basrah",
+     "Maysan",
+     "Dhi-Qar",
+     "Al-Muthannia"
+    ]
+   },
+   {
+    "admin": "Kuwait"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Full-only split: Basra pashalik, Muntafiq confederation, Kuwait of the Sabah",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_baghdad",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_arabia",
+  "name": "Najd and Hejaz (Emirate of Diriyah)",
+  "owner": "diriyah",
+  "tier": "interest",
+  "capital": {
+   "name": "Diriyah",
+   "lon": 46.57,
+   "lat": 24.74
+  },
+  "port": {
+   "name": "Jizan",
+   "lon": 42.55,
+   "lat": 16.89
+  },
+  "admin1": [
+   {
+    "admin": "Saudi Arabia",
+    "names": [
+     "Ar Riyad",
+     "Al Quassim",
+     "Ha'il",
+     "Al Jawf",
+     "Al Hudud ash Shamaliyah",
+     "Tabuk",
+     "Al Madinah",
+     "Makkah",
+     "Al Bahah",
+     "`Asir",
+     "Jizan",
+     "Najran"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Saud ibn Abd al-Aziz holds Najd, Mecca (1803), Medina (Apr 1805), Asir",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_hejaz",
+  "name": "Hejaz",
+  "owner": "diriyah",
+  "tier": "interest",
+  "capital": {
+   "name": "Mecca",
+   "lon": 39.83,
+   "lat": 21.42
+  },
+  "port": {
+   "name": "Jeddah",
+   "lon": 39.17,
+   "lat": 21.5
+  },
+  "admin1": [
+   {
+    "admin": "Saudi Arabia",
+    "names": [
+     "Makkah",
+     "Al Madinah",
+     "Al Bahah",
+     "Tabuk"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Full-only split: Holy Cities; Sharif Ghalib tributary",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_arabia",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_gulf_coast",
+  "name": "Eastern Arabia and the Gulf Coast",
+  "owner": "diriyah",
+  "tier": "periphery",
+  "capital": {
+   "name": "Hofuf (Al-Hasa)",
+   "lon": 49.58,
+   "lat": 25.38
+  },
+  "port": {
+   "name": "Manama",
+   "lon": 50.58,
+   "lat": 26.23
+  },
+  "admin1": [
+   {
+    "admin": "Saudi Arabia",
+    "names": [
+     "Ash Sharqiyah"
+    ]
+   },
+   {
+    "admin": "Bahrain"
+   },
+   {
+    "admin": "Qatar"
+   },
+   {
+    "admin": "United Arab Emirates"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Full-only split: Al-Hasa (Saudi since 1795), Utub of Bahrain, Qasimi raiders",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "mea_arabia",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_oman",
+  "name": "Muscat and Oman",
+  "owner": "oman",
+  "tier": "interest",
+  "capital": {
+   "name": "Muscat",
+   "lon": 58.59,
+   "lat": 23.61
+  },
+  "port": {
+   "name": "Muscat",
+   "lon": 58.59,
+   "lat": 23.61
+  },
+  "admin1": [
+   {
+    "admin": "Oman"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Sultan Said bin Sultan (co-ruler); Sur and Muscat maritime empire",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_yemen",
+  "name": "Yemen",
+  "owner": "yemen",
+  "tier": "interest",
+  "capital": {
+   "name": "Sana'a",
+   "lon": 44.21,
+   "lat": 15.35
+  },
+  "port": {
+   "name": "Mocha",
+   "lon": 43.25,
+   "lat": 13.32
+  },
+  "admin1": [
+   {
+    "admin": "Yemen"
+   }
+  ],
+  "climate": "highland",
+  "notes": "Zaydi Imamate with Mocha coffee port; Hadramawt, Mahra and Aden (Lahej) folded in",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_persia_irak_ajami",
+  "name": "Qajar Persia: Iraq-i Ajam",
+  "owner": "persia",
+  "tier": "interest",
+  "capital": {
+   "name": "Tehran",
+   "lon": 51.39,
+   "lat": 35.69
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Iran",
+    "names": [
+     "Tehran",
+     "Alborz",
+     "Qom",
+     "Markazi",
+     "Hamadan",
+     "Qazvin",
+     "Esfahan",
+     "Mazandaran",
+     "Gilan",
+     "Golestan",
+     "Semnan",
+     "Kermanshah",
+     "Kordestan",
+     "Lorestan",
+     "Ilam"
+    ]
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Fath-Ali Shah's heartland; Tehran capital since 1796",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.97,
+   "rel_orthodox": 0.03
+  }
+ },
+ {
+  "key": "mea_persia_azerbaijan",
+  "name": "Persian Azerbaijan",
+  "owner": "persia",
+  "tier": "interest",
+  "capital": {
+   "name": "Tabriz",
+   "lon": 46.29,
+   "lat": 38.08
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Iran",
+    "names": [
+     "West Azarbaijan",
+     "East Azarbaijan",
+     "Ardebil",
+     "Zanjan"
+    ]
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Crown prince Abbas Mirza's army base against Russia",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_orthodox": 0.1
+  }
+ },
+ {
+  "key": "mea_persia_fars",
+  "name": "Fars, Khuzestan and the Gulf",
+  "owner": "persia",
+  "tier": "interest",
+  "capital": {
+   "name": "Shiraz",
+   "lon": 52.53,
+   "lat": 29.61
+  },
+  "port": {
+   "name": "Bushehr",
+   "lon": 50.84,
+   "lat": 28.97
+  },
+  "admin1": [
+   {
+    "admin": "Iran",
+    "names": [
+     "Fars",
+     "Bushehr",
+     "Hormozgan",
+     "Khuzestan",
+     "Kohgiluyeh and Buyer Ahmad",
+     "Chahar Mahall and Bakhtiari",
+     "Yazd",
+     "Kerman"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Shiraz, Bushehr; Ka'b Arabs and Lur/Bakhtiari tribes",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_persia_khorasan",
+  "name": "Khorasan and Baluchistan",
+  "owner": "persia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Mashhad",
+   "lon": 59.6,
+   "lat": 36.3
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Iran",
+    "names": [
+     "Razavi Khorasan",
+     "North Khorasan",
+     "South Khorasan",
+     "Sistan and Baluchestan"
+    ]
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Mashhad under Qajar governor; Afghan and Baluch frontier",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "mea_georgia",
+  "name": "Georgia",
+  "owner": "russia",
+  "tier": "interest",
+  "capital": {
+   "name": "Tbilisi",
+   "lon": 44.79,
+   "lat": 41.72
+  },
+  "port": {
+   "name": "Poti",
+   "lon": 41.67,
+   "lat": 42.15
+  },
+  "admin1": [
+   {
+    "admin": "Georgia"
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Kartli-Kakheti annexed 1801; Imereti, Mingrelia, Guria under Russian protection or Ottoman pressure",
+  "confidence": "M",
+  "religion": {
+   "rel_orthodox": 0.85,
+   "rel_islamic": 0.15
+  }
+ },
+ {
+  "key": "mea_transcaucasia",
+  "name": "Persian Transcaucasia",
+  "owner": "persia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Baku",
+   "lon": 49.87,
+   "lat": 40.41
+  },
+  "port": {
+   "name": "Baku",
+   "lon": 49.87,
+   "lat": 40.41
+  },
+  "admin1": [
+   {
+    "admin": "Armenia"
+   },
+   {
+    "admin": "Azerbaijan"
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Baku, Karabagh, Shirvan, Erivan khanates; Ganja taken by Russia Jan 1804",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_orthodox": 0.15
+  }
+ },
+ {
+  "key": "mea_armenia_erivan",
+  "name": "Erivan Khanate",
+  "owner": "persia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Erivan",
+   "lon": 44.51,
+   "lat": 40.18
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Armenia"
+   }
+  ],
+  "climate": "highland",
+  "notes": "Full-only split: Erivan khanate; Sardar Hosein Khan Qajar",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "mea_transcaucasia",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_orthodox": 0.4
+  }
+ },
+ {
+  "key": "mea_north_caucasus",
+  "name": "North Caucasus Line",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Georgievsk",
+   "lon": 43.47,
+   "lat": 44.15
+  },
+  "port": {
+   "name": "Phanagoria (Taman)",
+   "lon": 36.71,
+   "lat": 45.21
+  },
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Krasnodar",
+     "Adygey",
+     "Karachay-Cherkess",
+     "Kabardin-Balkar",
+     "North Ossetia",
+     "Ingush",
+     "Chechnya",
+     "Dagestan",
+     "Stavropol'",
+     "Kalmyk",
+     "Astrakhan'",
+     "Rostov"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Caucasian Line, Don/Kuban Cossacks, Kalmyks; mountaineer peoples unconquered; port Taman (Phanagoria fortress, Russian since 1783): Astrakhan is on the Caspian, which is off-map",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_orthodox": 0.4
+  }
+ },
+ {
+  "key": "asi_volga_urals",
+  "name": "Volga and Urals",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kazan",
+   "lon": 49.11,
+   "lat": 55.79
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Volgograd",
+     "Saratov",
+     "Penza",
+     "Mordovia",
+     "Nizhegorod",
+     "Chuvash",
+     "Mariy-El",
+     "Tatarstan",
+     "Ul'yanovsk",
+     "Samara",
+     "Orenburg",
+     "Bashkortostan",
+     "Udmurt",
+     "Kirov",
+     "Perm'",
+     "Chelyabinsk",
+     "Sverdlovsk"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Kazan, Orenburg line, Ural mines; Bashkirs and Tatars",
+  "confidence": "H",
+  "religion": {
+   "rel_orthodox": 0.75,
+   "rel_islamic": 0.2,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "asi_russian_north",
+  "name": "Russian North",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Arkhangelsk",
+   "lon": 40.54,
+   "lat": 64.54
+  },
+  "port": {
+   "name": "Arkhangelsk",
+   "lon": 40.54,
+   "lat": 64.54
+  },
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Murmansk",
+     "Arkhangel'sk",
+     "Nenets",
+     "Komi"
+    ]
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Full-only split: White Sea port and the northern taiga with the Kola uyezd (Karelia, Vologda and Voronezh are the w8 regions asi_olonets, asi_vologda, asi_voronezh)",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "asi_volga_urals",
+  "religion": {
+   "rel_orthodox": 0.95,
+   "rel_animist": 0.05
+  }
+ },
+ {
+  "key": "asi_west_siberia",
+  "name": "West Siberia",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Tobolsk",
+   "lon": 68.25,
+   "lat": 58.2
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Tyumen'",
+     "Kurgan",
+     "Omsk",
+     "Novosibirsk",
+     "Altay",
+     "Tomsk",
+     "Kemerovo",
+     "Khanty-Mansiy",
+     "Yamal-Nenets",
+     "Gorno-Altay"
+    ]
+   },
+   {
+    "admin": "Russia",
+    "box": [
+     66,
+     68,
+     69,
+     70
+    ]
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Government of Tobolsk and Tomsk",
+  "confidence": "H",
+  "religion": {
+   "rel_orthodox": 0.85,
+   "rel_animist": 0.1,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "asi_east_siberia",
+  "name": "East Siberia and Okhotsk",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Irkutsk",
+   "lon": 104.28,
+   "lat": 52.29
+  },
+  "port": {
+   "name": "Okhotsk",
+   "lon": 143.2,
+   "lat": 59.36
+  },
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Krasnoyarsk",
+     "Irkutsk",
+     "Khakass",
+     "Buryat",
+     "Chita",
+     "Sakha (Yakutia)",
+     "Maga Buryatdan",
+     "Kamchatka",
+     "Chukchi Autonomous Okrug"
+    ]
+   },
+   {
+    "admin": "Russia",
+    "names": [
+     "Khabarovsk"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       100,
+       54.5,
+       181,
+       81
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Irkutsk governor-generalship; Kyakhta trade with China, Yakutsk, Okhotsk, Kamchatka",
+  "confidence": "M",
+  "religion": {
+   "rel_orthodox": 0.6,
+   "rel_animist": 0.3,
+   "rel_buddhist": 0.1
+  }
+ },
+ {
+  "key": "asi_kazakh_steppe",
+  "name": "Kazakh Steppe",
+  "owner": "kazakh_hordes",
+  "tier": "periphery",
+  "capital": {
+   "name": "Turkestan",
+   "lon": 68.27,
+   "lat": 43.3
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Kazakhstan"
+   },
+   {
+    "admin": "Baykonur Cosmodrome"
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Junior, Middle and Senior Zhuz nomads",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "asi_khiva",
+  "name": "Khanate of Khiva and Turkmen Lands",
+  "owner": "khiva",
+  "tier": "periphery",
+  "capital": {
+   "name": "Khiva",
+   "lon": 60.36,
+   "lat": 41.38
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Uzbekistan",
+    "names": [
+     "Khorezm",
+     "Karakalpakstan"
+    ]
+   },
+   {
+    "admin": "Turkmenistan"
+   }
+  ],
+  "climate": "desert",
+  "notes": "Inaq dynasty on the Amu Darya delta; Yomut and Teke Turkmen",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "asi_bukhara",
+  "name": "Emirate of Bukhara",
+  "owner": "bukhara",
+  "tier": "periphery",
+  "capital": {
+   "name": "Bukhara",
+   "lon": 64.42,
+   "lat": 39.77
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Uzbekistan",
+    "names": [
+     "Bukhoro",
+     "Navoi",
+     "Samarkand",
+     "Kashkadarya",
+     "Surkhandarya",
+     "Jizzakh"
+    ]
+   },
+   {
+    "admin": "Tajikistan",
+    "names": [
+     "Dushanbe",
+     "Khatlon",
+     "Tadzhikistan Territories",
+     "Gorno-Badakhshan"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Manghit emirate: Bukhara, Samarkand, Hissar, Badakhshan",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "asi_kokand",
+  "name": "Khanate of Kokand and Fergana",
+  "owner": "kokand",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kokand",
+   "lon": 70.94,
+   "lat": 40.53
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Uzbekistan"
+   },
+   {
+    "admin": "Kyrgyzstan"
+   },
+   {
+    "admin": "Tajikistan",
+    "names": [
+     "Leninabad"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Fergana valley khanate; Tashkent and Kyrgyz tribes",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "asi_durrani",
+  "name": "Durrani Afghanistan",
+  "owner": "durrani_empire",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kabul",
+   "lon": 69.17,
+   "lat": 34.53
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Afghanistan"
+   },
+   {
+    "admin": "Pakistan",
+    "names": [
+     "K.P.",
+     "F.A.T.A.",
+     "F.C.T."
+    ]
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Shah Mahmud (Shuja contested) holds Kabul, Kandahar, Peshawar",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.95,
+   "rel_hindu": 0.03,
+   "rel_sikh": 0.02
+  }
+ },
+ {
+  "key": "asi_herat",
+  "name": "Herat and Afghan Turkestan",
+  "owner": "durrani_empire",
+  "tier": "periphery",
+  "capital": {
+   "name": "Herat",
+   "lon": 62.2,
+   "lat": 34.34
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Afghanistan",
+    "names": [
+     "Hirat",
+     "Farah",
+     "Badghis",
+     "Ghor",
+     "Faryab",
+     "Jawzjan",
+     "Balkh",
+     "Sari Pul",
+     "Samangan",
+     "Baghlan",
+     "Kunduz",
+     "Takhar",
+     "Badakhshan",
+     "Bamyan"
+    ]
+   }
+  ],
+  "climate": "continental_arid",
+  "notes": "Full-only split: Herat principality and the Uzbek begs north of the Hindu Kush",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "asi_durrani",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "asi_kashmir",
+  "name": "Kashmir",
+  "owner": "durrani_empire",
+  "tier": "periphery",
+  "capital": {
+   "name": "Srinagar",
+   "lon": 74.8,
+   "lat": 34.08
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Jammu and Kashmir",
+     "Ladakh"
+    ]
+   },
+   {
+    "admin": "Pakistan",
+    "names": [
+     "Azad Kashmir",
+     "Northern Areas"
+    ]
+   },
+   {
+    "admin": "Siachen Glacier"
+   }
+  ],
+  "climate": "alpine",
+  "notes": "Full-only split: Durrani governor at Srinagar; Dogra Jammu and Balti/Gilgit chiefs",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "asi_durrani",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_hindu": 0.15
+  }
+ },
+ {
+  "key": "asi_sikh_punjab",
+  "name": "Sikh Punjab",
+  "owner": "sikh_empire",
+  "tier": "interest",
+  "capital": {
+   "name": "Lahore",
+   "lon": 74.34,
+   "lat": 31.55
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Pakistan",
+    "names": [
+     "Punjab"
+    ]
+   },
+   {
+    "admin": "India",
+    "names": [
+     "Punjab",
+     "Himachal Pradesh",
+     "Chandigarh"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Ranjit Singh (Maharaja 1801); misl territories and Cis-Sutlej states",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.45,
+   "rel_hindu": 0.35,
+   "rel_sikh": 0.2
+  }
+ },
+ {
+  "key": "asi_sindh_baluchistan",
+  "name": "Sindh",
+  "owner": "sindh_baluchistan",
+  "tier": "interest",
+  "capital": {
+   "name": "Hyderabad (Sindh)",
+   "lon": 68.37,
+   "lat": 25.38
+  },
+  "port": {
+   "name": "Karachi",
+   "lon": 67.0,
+   "lat": 24.86
+  },
+  "admin1": [
+   {
+    "admin": "Pakistan",
+    "names": [
+     "Sind"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Talpur Amirs of Hyderabad, Khairpur and Mirpur; Karachi taken from Kalat 1795",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_hindu": 0.15
+  }
+ },
+ {
+  "key": "asi_baluchistan",
+  "name": "Baluchistan",
+  "owner": "kalat",
+  "tier": "interest",
+  "capital": {
+   "name": "Kalat",
+   "lon": 66.58,
+   "lat": 29.03
+  },
+  "port": {
+   "name": "Sonmiani",
+   "lon": 66.6,
+   "lat": 25.42
+  },
+  "admin1": [
+   {
+    "admin": "Pakistan",
+    "names": [
+     "Baluchistan"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Khanate of Kalat (Mahmud Khan I), nominal Durrani vassal; Las Bela and Sonmiani; Makran coast",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.97,
+   "rel_hindu": 0.03
+  }
+ },
+ {
+  "key": "asi_bengal",
+  "name": "Bengal Presidency",
+  "owner": "east_india_company",
+  "tier": "interest",
+  "capital": {
+   "name": "Calcutta",
+   "lon": 88.36,
+   "lat": 22.57
+  },
+  "port": {
+   "name": "Calcutta",
+   "lon": 88.36,
+   "lat": 22.57
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "West Bengal",
+     "Bihar",
+     "Jharkhand",
+     "Andaman and Nicobar"
+    ]
+   },
+   {
+    "admin": "Bangladesh"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Fort William, Governor-General Cornwallis (arrives July 1805)",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.6,
+   "rel_islamic": 0.4
+  }
+ },
+ {
+  "key": "asi_orissa",
+  "name": "Orissa",
+  "owner": "east_india_company",
+  "tier": "interest",
+  "capital": {
+   "name": "Cuttack",
+   "lon": 85.88,
+   "lat": 20.46
+  },
+  "port": {
+   "name": "Balasore",
+   "lon": 86.93,
+   "lat": 21.49
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Odisha"
+    ]
+   }
+  ],
+  "climate": "savanna",
+  "notes": "Cuttack and the Puri temple coast, taken from the Bhonsle 1803 (Treaty of Deogaon)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "asi_bengal",
+  "religion": {
+   "rel_hindu": 0.95,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "asi_northeast_himalaya",
+  "name": "Assam, Bhutan and the Eastern Hills",
+  "owner": "assam_hill_peoples",
+  "tier": "periphery",
+  "capital": {
+   "name": "Jorhat",
+   "lon": 94.2,
+   "lat": 26.75
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Assam",
+     "Meghalaya",
+     "Tripura",
+     "Manipur",
+     "Nagaland",
+     "Mizoram",
+     "Arunachal Pradesh",
+     "Sikkim"
+    ]
+   },
+   {
+    "admin": "Bhutan"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Ahom Assam, Manipur, Bhutan, Tripura, hill tribes",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.5,
+   "rel_animist": 0.4,
+   "rel_buddhist": 0.1
+  }
+ },
+ {
+  "key": "asi_nepal",
+  "name": "Gorkha Nepal",
+  "owner": "nepal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kathmandu",
+   "lon": 85.32,
+   "lat": 27.71
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Nepal"
+   },
+   {
+    "admin": "India",
+    "names": [
+     "Uttarakhand"
+    ]
+   }
+  ],
+  "climate": "alpine",
+  "notes": "Gorkha empire reaches Kumaon and Garhwal (1790-1803); Kangra siege 1806-09",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.8,
+   "rel_buddhist": 0.2
+  }
+ },
+ {
+  "key": "asi_delhi_doab",
+  "name": "Delhi, Doab and Ceded Provinces",
+  "owner": "east_india_company",
+  "tier": "interest",
+  "capital": {
+   "name": "Delhi",
+   "lon": 77.21,
+   "lat": 28.61
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Delhi",
+     "Haryana",
+     "Uttar Pradesh"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Conquered Provinces (1803) with the Mughal Shah Alam II under Company protection; Ceded Provinces of 1801",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.65,
+   "rel_islamic": 0.35
+  }
+ },
+ {
+  "key": "asi_awadh",
+  "name": "Awadh",
+  "owner": "awadh",
+  "tier": "interest",
+  "capital": {
+   "name": "Lucknow",
+   "lon": 80.95,
+   "lat": 26.85
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Uttar Pradesh"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       80.0,
+       26.0,
+       82.7,
+       28.6
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Nawab Saadat Ali Khan; subsidiary of the Company; Awadh rump after the 1801 cession",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.8,
+   "rel_islamic": 0.2
+  }
+ },
+ {
+  "key": "asi_rajputana",
+  "name": "Rajputana",
+  "owner": "rajput_states",
+  "tier": "periphery",
+  "capital": {
+   "name": "Jaipur",
+   "lon": 75.79,
+   "lat": 26.91
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Rajasthan"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Jaipur, Jodhpur, Udaipur, Bikaner; Maratha tribute and Pindari raids",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "asi_gujarat",
+  "name": "Gujarat and Baroda",
+  "owner": "maratha_peshwa",
+  "tier": "interest",
+  "capital": {
+   "name": "Baroda",
+   "lon": 73.18,
+   "lat": 22.31
+  },
+  "port": {
+   "name": "Surat",
+   "lon": 72.83,
+   "lat": 21.17
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Gujarat"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Full-only split: Gaekwad of Baroda (Company ally since 1802); Kathiawar princes; Surat under Company",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "asi_peshwa",
+  "religion": {
+   "rel_hindu": 0.85,
+   "rel_islamic": 0.15
+  }
+ },
+ {
+  "key": "asi_goa",
+  "name": "Portuguese India",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Goa (Panaji)",
+   "lon": 73.83,
+   "lat": 15.5
+  },
+  "port": {
+   "name": "Goa (Panaji)",
+   "lon": 73.83,
+   "lat": 15.5
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Goa",
+     "Dadra and Nagar Haveli and Daman and Diu"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Estado da India: Goa, Damao, Diu",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.6,
+   "rel_hindu": 0.4
+  }
+ },
+ {
+  "key": "asi_bombay",
+  "name": "Bombay Presidency",
+  "owner": "east_india_company",
+  "tier": "interest",
+  "capital": {
+   "name": "Bombay",
+   "lon": 72.83,
+   "lat": 18.96
+  },
+  "port": {
+   "name": "Bombay",
+   "lon": 72.83,
+   "lat": 18.96
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Maharashtra"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       72.4,
+       18.4,
+       73.4,
+       20.2
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Bombay island, Salsette and Bassein district (1802-03)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "asi_madras",
+  "religion": {
+   "rel_hindu": 0.65,
+   "rel_islamic": 0.15,
+   "rel_catholic": 0.2
+  }
+ },
+ {
+  "key": "asi_peshwa",
+  "name": "Maratha Peshwa Domains",
+  "owner": "maratha_peshwa",
+  "tier": "interest",
+  "capital": {
+   "name": "Poona",
+   "lon": 73.86,
+   "lat": 18.52
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Maharashtra"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Baji Rao II restored by Bassein 1802; the Deccan; the south Konkan coast is asi_konkan",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  },
+  "port": null
+ },
+ {
+  "key": "asi_konkan",
+  "name": "South Konkan",
+  "owner": "maratha_peshwa",
+  "tier": "interest",
+  "capital": {
+   "name": "Vijaydurg",
+   "lon": 73.37,
+   "lat": 16.56
+  },
+  "port": {
+   "name": "Vijaydurg",
+   "lon": 73.33,
+   "lat": 16.56
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Maharashtra"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       73.0,
+       15.6,
+       74.6,
+       17.6
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Vijaydurg (Gheria), the Maratha navy's base; Ratnagiri, Malvan and Kolhapur over the Ghats",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "asi_peshwa",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "asi_hyderabad",
+  "name": "Hyderabad (Nizam)",
+  "owner": "hyderabad",
+  "tier": "interest",
+  "capital": {
+   "name": "Hyderabad",
+   "lon": 78.47,
+   "lat": 17.38
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Telangana"
+    ]
+   },
+   {
+    "admin": "India",
+    "names": [
+     "Maharashtra"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       75.0,
+       17.5,
+       78.9,
+       21.0
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Nizam Sikandar Jah; Subsidiary Alliance 1800; Berar and Marathwada",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.85,
+   "rel_islamic": 0.15
+  }
+ },
+ {
+  "key": "asi_bhonsle",
+  "name": "Bhonsle of Nagpur",
+  "owner": "maratha_bhonsle",
+  "tier": "interest",
+  "capital": {
+   "name": "Nagpur",
+   "lon": 79.09,
+   "lat": 21.15
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Chhattisgarh"
+    ]
+   },
+   {
+    "admin": "India",
+    "names": [
+     "Madhya Pradesh"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       80.0,
+       21.0,
+       84.5,
+       24.5
+      ]
+     ]
+    }
+   },
+   {
+    "admin": "India",
+    "names": [
+     "Maharashtra"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       78.9,
+       19.5,
+       81.0,
+       22.0
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Raghuji II; Deogaon 1803 ceded Cuttack and the Berar west of Wardha",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "asi_scindia",
+  "name": "Scindia (Gwalior)",
+  "owner": "maratha_scindia",
+  "tier": "interest",
+  "capital": {
+   "name": "Gwalior",
+   "lon": 78.18,
+   "lat": 26.22
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Madhya Pradesh"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Daulat Rao Scindia; Malwa and Bundelkhand after losing Delhi (1803)",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "asi_holkar",
+  "name": "Holkar (Indore)",
+  "owner": "maratha_holkar",
+  "tier": "interest",
+  "capital": {
+   "name": "Indore",
+   "lon": 75.86,
+   "lat": 22.72
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Madhya Pradesh"
+    ],
+    "clip": {
+     "boxes": [
+      [
+       74.0,
+       21.5,
+       76.5,
+       22.9
+      ]
+     ]
+    }
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Yashwant Rao Holkar; Malwa west and Nimar",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "asi_madras",
+  "name": "Madras Presidency",
+  "owner": "east_india_company",
+  "tier": "interest",
+  "capital": {
+   "name": "Madras",
+   "lon": 80.27,
+   "lat": 13.08
+  },
+  "port": {
+   "name": "Madras",
+   "lon": 80.27,
+   "lat": 13.08
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Tamil Nadu",
+     "Kerala",
+     "Andhra Pradesh",
+     "Puducherry",
+     "Lakshadweep"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Fort St George; Carnatic, Northern Circars, Ceded Districts, Malabar, Travancore (allied)",
+  "confidence": "M",
+  "religion": {
+   "rel_hindu": 0.85,
+   "rel_catholic": 0.08,
+   "rel_islamic": 0.07
+  }
+ },
+ {
+  "key": "asi_mysore",
+  "name": "Kingdom of Mysore",
+  "owner": "mysore",
+  "tier": "interest",
+  "capital": {
+   "name": "Mysore (Seringapatam)",
+   "lon": 76.65,
+   "lat": 12.3
+  },
+  "port": {
+   "name": "Mangalore",
+   "lon": 74.86,
+   "lat": 12.87
+  },
+  "admin1": [
+   {
+    "admin": "India",
+    "names": [
+     "Karnataka"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Krishnaraja Wodeyar III under Dewan Purnaiya; Company subsidiary since 1799",
+  "confidence": "H",
+  "religion": {
+   "rel_hindu": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "asi_ceylon_coast",
+  "name": "Ceylon and Maldives",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Colombo",
+   "lon": 79.85,
+   "lat": 6.93
+  },
+  "port": {
+   "name": "Colombo",
+   "lon": 79.85,
+   "lat": 6.93
+  },
+  "admin1": [
+   {
+    "admin": "Sri Lanka"
+   },
+   {
+    "admin": "Maldives"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Crown colony 1802: Colombo, Trincomalee, Jaffna, Galle; the highland Kingdom of Kandy (falls 1815) inside it",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.65,
+   "rel_hindu": 0.2,
+   "rel_catholic": 0.08,
+   "rel_islamic": 0.07
+  }
+ },
+ {
+  "key": "eas_north_china",
+  "name": "North China",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Beijing",
+   "lon": 116.4,
+   "lat": 39.9
+  },
+  "port": {
+   "name": "Tianjin",
+   "lon": 117.2,
+   "lat": 39.1
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Beijing",
+     "Hebei",
+     "Tianjin",
+     "Shanxi",
+     "Henan"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Jiaqing Emperor's capital provinces; Grand Canal",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.97,
+   "rel_islamic": 0.03
+  }
+ },
+ {
+  "key": "eas_shandong",
+  "name": "Shandong",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Jinan",
+   "lon": 117.0,
+   "lat": 36.67
+  },
+  "port": {
+   "name": "Dengzhou",
+   "lon": 120.75,
+   "lat": 37.81
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Shandong"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Jinan, the provincial seat; Qufu (Confucius) and the Grand Canal ports",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_north_china",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_yangtze",
+  "name": "Yangtze and Southeast China",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Nanjing",
+   "lon": 118.8,
+   "lat": 32.06
+  },
+  "port": {
+   "name": "Shanghai",
+   "lon": 121.47,
+   "lat": 31.23
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Jiangsu",
+     "Shanghai",
+     "Zhejiang",
+     "Anhui",
+     "Jiangxi",
+     "Hubei",
+     "Hunan"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Lower and Middle Yangtze, Zhejiang coast",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_fujian",
+  "name": "Fujian",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Quanzhou",
+   "lon": 118.59,
+   "lat": 24.91
+  },
+  "port": {
+   "name": "Amoy (Xiamen)",
+   "lon": 118.08,
+   "lat": 24.48
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Fujian"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Quanzhou, Amoy and Fuzhou; junk trade to Southeast Asia; Cai Qian's pirate fleets 1804-09",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_yangtze",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_middle_yangtze",
+  "name": "Middle Yangtze",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Wuchang",
+   "lon": 114.3,
+   "lat": 30.55
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Hubei",
+     "Hunan",
+     "Jiangxi"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Full-only split: White Lotus rebellion zone (suppressed 1804)",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_yangtze",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_south_china",
+  "name": "Guangdong and Guangxi",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Canton",
+   "lon": 113.26,
+   "lat": 23.13
+  },
+  "port": {
+   "name": "Canton",
+   "lon": 113.26,
+   "lat": 23.13
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Guangdong",
+     "Guangxi",
+     "Hainan"
+    ]
+   },
+   {
+    "admin": "Hong Kong S.A.R."
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Canton System; Hoppo; pirate fleets of Zheng Yi Sao",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_macau",
+  "name": "Macau",
+  "owner": "portugal",
+  "tier": "interest",
+  "capital": {
+   "name": "Macau",
+   "lon": 113.55,
+   "lat": 22.19
+  },
+  "port": {
+   "name": "Macau",
+   "lon": 113.55,
+   "lat": 22.19
+  },
+  "admin1": [
+   {
+    "admin": "Macau S.A.R"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Portuguese enclave, British garrison episodes aside",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.3,
+   "rel_buddhist": 0.7
+  }
+ },
+ {
+  "key": "eas_southwest_china",
+  "name": "Southwest China",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Chengdu",
+   "lon": 104.07,
+   "lat": 30.66
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Sichuan",
+     "Chongqing",
+     "Guizhou",
+     "Yunnan"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Sichuan basin, Guizhou and Yunnan frontier",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.85,
+   "rel_animist": 0.1,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "eas_northwest_china",
+  "name": "Northwest China",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Xi'an",
+   "lon": 108.94,
+   "lat": 34.27
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Shaanxi",
+     "Gansu",
+     "Ningxia",
+     "Qinghai"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Shaanxi-Gansu Viceroyalty",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.8,
+   "rel_islamic": 0.2
+  }
+ },
+ {
+  "key": "eas_manchuria",
+  "name": "Manchuria and Outer Manchuria",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Shenyang (Mukden)",
+   "lon": 123.43,
+   "lat": 41.8
+  },
+  "port": {
+   "name": "Yingkou",
+   "lon": 122.24,
+   "lat": 40.67
+  },
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Liaoning",
+     "Jilin",
+     "Heilongjiang"
+    ]
+   },
+   {
+    "admin": "Russia",
+    "names": [
+     "Amur",
+     "Yevrey",
+     "Primor'ye",
+     "Khabarovsk"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Qing homeland; Amur basin and Primorye are Qing territory until 1858/1860",
+  "confidence": "M",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_mongolia",
+  "name": "Mongolia and Inner Mongolia",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Urga (Ulaanbaatar)",
+   "lon": 106.9,
+   "lat": 47.9
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Inner Mongol"
+    ]
+   },
+   {
+    "admin": "Mongolia"
+   },
+   {
+    "admin": "Russia",
+    "names": [
+     "Tuva"
+    ]
+   }
+  ],
+  "climate": "steppe",
+  "notes": "Khalkha banners under Qing ambans; Tannu Uriankhai",
+  "confidence": "M",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_xinjiang",
+  "name": "Xinjiang",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Huiyuan (Ili)",
+   "lon": 81.0,
+   "lat": 43.9
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Xinjiang"
+    ]
+   }
+  ],
+  "climate": "desert",
+  "notes": "Full-only split: Ili General; Tarim begs; Dzungaria",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_northwest_china",
+  "religion": {
+   "rel_islamic": 0.7,
+   "rel_buddhist": 0.3
+  }
+ },
+ {
+  "key": "eas_tibet",
+  "name": "Tibet",
+  "owner": "qing",
+  "tier": "periphery",
+  "capital": {
+   "name": "Lhasa",
+   "lon": 91.14,
+   "lat": 29.65
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "China",
+    "names": [
+     "Xizang"
+    ]
+   }
+  ],
+  "climate": "alpine",
+  "notes": "Dalai Lama under the Qing amban; tributary-protectorate",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_taiwan",
+  "name": "Taiwan",
+  "owner": "qing",
+  "tier": "interest",
+  "capital": {
+   "name": "Tainan (Taiwan Prefecture)",
+   "lon": 120.2,
+   "lat": 23.0
+  },
+  "port": {
+   "name": "Anping",
+   "lon": 120.16,
+   "lat": 23.0
+  },
+  "admin1": [
+   {
+    "admin": "Taiwan"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Fujian province's Taiwan prefecture; western plain settled, eastern hills aboriginal",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "eas_korea",
+  "name": "Joseon Korea",
+  "owner": "joseon",
+  "tier": "interest",
+  "capital": {
+   "name": "Hanyang (Seoul)",
+   "lon": 126.98,
+   "lat": 37.57
+  },
+  "port": {
+   "name": "Busan",
+   "lon": 129.04,
+   "lat": 35.1
+  },
+  "admin1": [
+   {
+    "admin": "South Korea"
+   },
+   {
+    "admin": "North Korea"
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "King Sunjo with Queen Dowager Jeongsun regency; Qing tributary",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_korea_north",
+  "name": "Pyongan and Hamgyong",
+  "owner": "joseon",
+  "tier": "periphery",
+  "capital": {
+   "name": "Pyongyang",
+   "lon": 125.75,
+   "lat": 39.02
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "North Korea"
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Full-only split: northern provinces, Qing border trade at Uiju",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_korea",
+  "minimap_parent": "eas_korea",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_japan_kanto",
+  "name": "Japan: Kanto and Chubu East",
+  "owner": "tokugawa_japan",
+  "tier": "interest",
+  "capital": {
+   "name": "Edo",
+   "lon": 139.69,
+   "lat": 35.69
+  },
+  "port": {
+   "name": "Edo",
+   "lon": 139.69,
+   "lat": 35.69
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Tokyo",
+     "Kanagawa",
+     "Chiba",
+     "Saitama",
+     "Ibaraki",
+     "Tochigi",
+     "Gunma",
+     "Yamanashi",
+     "Shizuoka",
+     "Nagano",
+     "Niigata"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Shogunate seat; Edo largest city on earth",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_japan_kansai",
+  "name": "Japan: Kinki, Chugoku and Shikoku",
+  "owner": "tokugawa_japan",
+  "tier": "interest",
+  "capital": {
+   "name": "Osaka",
+   "lon": 135.5,
+   "lat": 34.69
+  },
+  "port": {
+   "name": "Osaka",
+   "lon": 135.5,
+   "lat": 34.69
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Ōsaka",
+     "Kyōto",
+     "Hyōgo",
+     "Nara",
+     "Wakayama",
+     "Shiga",
+     "Mie",
+     "Aichi",
+     "Gifu",
+     "Fukui",
+     "Ishikawa",
+     "Toyama",
+     "Okayama",
+     "Hiroshima",
+     "Shimane",
+     "Tottori",
+     "Yamaguchi",
+     "Kagawa",
+     "Tokushima",
+     "Ehime",
+     "Kōchi"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Imperial Kyoto, commercial Osaka, Choshu, Tosa",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_japan_kyushu",
+  "name": "Japan: Kyushu",
+  "owner": "tokugawa_japan",
+  "tier": "interest",
+  "capital": {
+   "name": "Nagasaki",
+   "lon": 129.87,
+   "lat": 32.75
+  },
+  "port": {
+   "name": "Nagasaki",
+   "lon": 129.87,
+   "lat": 32.75
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Fukuoka",
+     "Saga",
+     "Nagasaki",
+     "Ōita",
+     "Kumamoto",
+     "Miyazaki",
+     "Kagoshima",
+     "Okinawa"
+    ]
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Dejima, Satsuma, Ryukyu vassal state",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_ryukyu",
+  "name": "Ryukyu",
+  "owner": "tokugawa_japan",
+  "tier": "interest",
+  "capital": {
+   "name": "Shuri (Naha)",
+   "lon": 127.68,
+   "lat": 26.21
+  },
+  "port": {
+   "name": "Naha",
+   "lon": 127.68,
+   "lat": 26.21
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Okinawa"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Satsuma vassal and Qing tributary",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_japan_kyushu",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_japan_tohoku_ezo",
+  "name": "Japan: Tohoku",
+  "owner": "tokugawa_japan",
+  "tier": "periphery",
+  "capital": {
+   "name": "Sendai",
+   "lon": 140.87,
+   "lat": 38.27
+  },
+  "port": {
+   "name": "Ishinomaki",
+   "lon": 141.3,
+   "lat": 38.43
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Fukushima",
+     "Miyagi",
+     "Iwate",
+     "Akita",
+     "Yamagata",
+     "Aomori"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Full-only split: Tohoku domains (Sendai, Morioka, Hirosaki)",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_japan_kanto",
+  "minimap_parent": "eas_japan_kanto",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_japan_ezo",
+  "name": "Ezo",
+  "owner": "tokugawa_japan",
+  "tier": "periphery",
+  "capital": {
+   "name": "Matsumae",
+   "lon": 140.11,
+   "lat": 41.43
+  },
+  "port": {
+   "name": "Hakodate",
+   "lon": 140.73,
+   "lat": 41.77
+  },
+  "admin1": [
+   {
+    "admin": "Japan",
+    "names": [
+     "Hokkaidō"
+    ]
+   },
+   {
+    "admin": "Russia",
+    "names": [
+     "Sakhalin"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Matsumae domain and Ainu Ezo, under direct shogunate rule since 1799; Rezanov's raids 1806-07",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_japan_kanto",
+  "minimap_parent": "eas_japan_kanto",
+  "religion": {
+   "rel_animist": 0.6,
+   "rel_buddhist": 0.4
+  }
+ },
+ {
+  "key": "eas_dai_viet_annam",
+  "name": "Dai Viet: Annam",
+  "owner": "dai_viet",
+  "tier": "interest",
+  "capital": {
+   "name": "Hue",
+   "lon": 107.59,
+   "lat": 16.46
+  },
+  "port": {
+   "name": "Da Nang",
+   "lon": 108.22,
+   "lat": 16.07
+  },
+  "admin1": [
+   {
+    "admin": "Vietnam",
+    "box": [
+     100,
+     12.0,
+     115,
+     19.5
+    ]
+   },
+   {
+    "admin": "China",
+    "names": [
+     "Paracel Islands"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Gia Long's capital; central coast",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.95,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "eas_tonkin",
+  "name": "Dai Viet: Tonkin",
+  "owner": "dai_viet",
+  "tier": "interest",
+  "capital": {
+   "name": "Thang Long (Hanoi)",
+   "lon": 105.85,
+   "lat": 21.03
+  },
+  "port": {
+   "name": "Haiphong",
+   "lon": 106.68,
+   "lat": 20.86
+  },
+  "admin1": [
+   {
+    "admin": "Vietnam",
+    "box": [
+     100,
+     19.5,
+     115,
+     25
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Bac Thanh northern citadel region (Thang Long)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_dai_viet_annam",
+  "religion": {
+   "rel_buddhist": 0.95,
+   "rel_catholic": 0.05
+  }
+ },
+ {
+  "key": "eas_cochinchina",
+  "name": "Dai Viet: Gia Dinh",
+  "owner": "dai_viet",
+  "tier": "interest",
+  "capital": {
+   "name": "Gia Dinh (Saigon)",
+   "lon": 106.7,
+   "lat": 10.78
+  },
+  "port": {
+   "name": "Saigon",
+   "lon": 106.7,
+   "lat": 10.78
+  },
+  "admin1": [
+   {
+    "admin": "Vietnam",
+    "box": [
+     100,
+     5,
+     115,
+     12.0
+    ]
+   },
+   {
+    "admin": "Spratly Is."
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Gia Dinh fortress district and Mekong delta",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_dai_viet_annam",
+  "religion": {
+   "rel_buddhist": 0.9,
+   "rel_catholic": 0.1
+  }
+ },
+ {
+  "key": "eas_siam",
+  "name": "Siam",
+  "owner": "siam",
+  "tier": "interest",
+  "capital": {
+   "name": "Bangkok",
+   "lon": 100.5,
+   "lat": 13.75
+  },
+  "port": {
+   "name": "Bangkok",
+   "lon": 100.5,
+   "lat": 13.75
+  },
+  "admin1": [
+   {
+    "admin": "Thailand"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Rama I; Chakri dynasty, Bangkok",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.95,
+   "rel_islamic": 0.05
+  }
+ },
+ {
+  "key": "eas_lan_na_laos",
+  "name": "Lan Na and Lao Principalities",
+  "owner": "siam",
+  "tier": "periphery",
+  "capital": {
+   "name": "Chiang Mai",
+   "lon": 98.99,
+   "lat": 18.79
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Laos"
+   },
+   {
+    "admin": "Thailand",
+    "box": [
+     95,
+     16.6,
+     101.5,
+     21
+    ]
+   },
+   {
+    "admin": "Thailand",
+    "box": [
+     101.5,
+     14.0,
+     106,
+     19.5
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Vassals of Bangkok: Chiang Mai, Vientiane, Luang Prabang, Champasak, Isan",
+  "confidence": "M",
+  "religion": {
+   "rel_buddhist": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_cambodia",
+  "name": "Cambodia",
+  "owner": "siam",
+  "tier": "periphery",
+  "capital": {
+   "name": "Oudong",
+   "lon": 104.73,
+   "lat": 11.8
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Cambodia"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Ang Eng/Ang Chan; Siamese and Vietnamese suzerainty",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_lan_na_laos",
+  "religion": {
+   "rel_buddhist": 1.0
+  }
+ },
+ {
+  "key": "eas_burma",
+  "name": "Konbaung Burma: Ava",
+  "owner": "konbaung_burma",
+  "tier": "interest",
+  "capital": {
+   "name": "Amarapura",
+   "lon": 96.05,
+   "lat": 21.9
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Myanmar",
+    "names": [
+     "Mandalay",
+     "Sagaing",
+     "Magway",
+     "Shan",
+     "Kachin",
+     "Chin",
+     "Kayah"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Bodawpaya's Upper Burma",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_pegu_arakan",
+  "name": "Pegu and Arakan",
+  "owner": "konbaung_burma",
+  "tier": "interest",
+  "capital": {
+   "name": "Rangoon",
+   "lon": 96.16,
+   "lat": 16.78
+  },
+  "port": {
+   "name": "Rangoon",
+   "lon": 96.16,
+   "lat": 16.78
+  },
+  "admin1": [
+   {
+    "admin": "Myanmar",
+    "names": [
+     "Yangon",
+     "Bago",
+     "Ayeyarwady",
+     "Mon",
+     "Kayin",
+     "Tanintharyi",
+     "Rakhine"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Lower Burma and Arakan (conquered 1784)",
+  "confidence": "H",
+  "religion": {
+   "rel_buddhist": 0.9,
+   "rel_islamic": 0.1
+  }
+ },
+ {
+  "key": "eas_malaya",
+  "name": "Malay Peninsula",
+  "owner": "malay_sultanates",
+  "tier": "interest",
+  "capital": {
+   "name": "Johor",
+   "lon": 103.75,
+   "lat": 1.5
+  },
+  "port": {
+   "name": "Singapore",
+   "lon": 103.85,
+   "lat": 1.29
+  },
+  "admin1": [
+   {
+    "admin": "Malaysia",
+    "names": [
+     "Johor",
+     "Pahang",
+     "Terengganu",
+     "Kelantan",
+     "Kedah",
+     "Perlis",
+     "Perak",
+     "Selangor",
+     "Negeri Sembilan",
+     "Kuala Lumpur",
+     "Putrajaya"
+    ]
+   },
+   {
+    "admin": "Singapore"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Johor-Riau sultanate, Kedah, Perak, Selangor, Pahang, Terengganu",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.95,
+   "rel_buddhist": 0.05
+  }
+ },
+ {
+  "key": "eas_penang_malacca",
+  "name": "Penang and Malacca",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "George Town",
+   "lon": 100.33,
+   "lat": 5.42
+  },
+  "port": {
+   "name": "George Town",
+   "lon": 100.33,
+   "lat": 5.42
+  },
+  "admin1": [
+   {
+    "admin": "Malaysia",
+    "names": [
+     "Pulau Pinang",
+     "Melaka"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Prince of Wales Island (1786); Malacca occupied from the Dutch 1795",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.4,
+   "rel_buddhist": 0.4,
+   "rel_hindu": 0.2
+  }
+ },
+ {
+  "key": "eas_sumatra",
+  "name": "Aceh and Sumatra",
+  "owner": "aceh",
+  "tier": "interest",
+  "capital": {
+   "name": "Kutaraja (Banda Aceh)",
+   "lon": 95.32,
+   "lat": 5.55
+  },
+  "port": {
+   "name": "Kutaraja (Banda Aceh)",
+   "lon": 95.32,
+   "lat": 5.55
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Aceh",
+     "Sumatera Utara",
+     "Sumatera Barat",
+     "Riau",
+     "Jambi",
+     "Kepulauan Riau"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Aceh sultanate, Minangkabau, Batak lands, Jambi, Riau-Lingga",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.85,
+   "rel_animist": 0.15
+  }
+ },
+ {
+  "key": "eas_bencoolen",
+  "name": "Bencoolen",
+  "owner": "east_india_company",
+  "tier": "periphery",
+  "capital": {
+   "name": "Fort Marlborough",
+   "lon": 102.272,
+   "lat": -3.788
+  },
+  "port": {
+   "name": "Fort Marlborough",
+   "lon": 102.26,
+   "lat": -3.79
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Bengkulu"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "EIC pepper outpost on Sumatra's west coast",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_java_west",
+  "name": "West Java and South Sumatra",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Batavia",
+   "lon": 106.83,
+   "lat": -6.18
+  },
+  "port": {
+   "name": "Batavia",
+   "lon": 106.83,
+   "lat": -6.18
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Jakarta Raya",
+     "Banten",
+     "Jawa Barat",
+     "Sumatera Selatan",
+     "Lampung",
+     "Bangka-Belitung"
+    ]
+   },
+   {
+    "admin": "Indian Ocean Territories"
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Batavian Republic's Dutch East Indies capital; Palembang, Lampung, Bangka",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.95,
+   "rel_buddhist": 0.05
+  }
+ },
+ {
+  "key": "eas_sumatra_south",
+  "name": "Palembang and Lampung",
+  "owner": "netherlands",
+  "tier": "periphery",
+  "capital": {
+   "name": "Palembang",
+   "lon": 104.76,
+   "lat": -2.99
+  },
+  "port": {
+   "name": "Palembang",
+   "lon": 104.76,
+   "lat": -2.99
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Sumatera Selatan",
+     "Lampung",
+     "Bangka-Belitung"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Full-only split: Palembang sultanate, tin of Bangka",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_java_west",
+  "religion": {
+   "rel_islamic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_java_east",
+  "name": "Central and East Java",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Surabaya",
+   "lon": 112.75,
+   "lat": -7.25
+  },
+  "port": {
+   "name": "Surabaya",
+   "lon": 112.75,
+   "lat": -7.25
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Jawa Tengah",
+     "Yogyakarta",
+     "Jawa Timur"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Semarang, Surakarta and Yogyakarta courts, Surabaya",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.95,
+   "rel_hindu": 0.05
+  }
+ },
+ {
+  "key": "eas_java_central",
+  "name": "Central Java",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Semarang",
+   "lon": 110.42,
+   "lat": -6.97
+  },
+  "port": {
+   "name": "Semarang",
+   "lon": 110.42,
+   "lat": -6.97
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Jawa Tengah",
+     "Yogyakarta"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Mataram successor courts",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_java_east",
+  "minimap_parent": "eas_java_east",
+  "religion": {
+   "rel_islamic": 1.0
+  }
+ },
+ {
+  "key": "eas_borneo",
+  "name": "North Borneo",
+  "owner": "bornean_sultanates",
+  "tier": "periphery",
+  "capital": {
+   "name": "Brunei",
+   "lon": 114.94,
+   "lat": 4.89
+  },
+  "port": {
+   "name": "Brunei",
+   "lon": 114.94,
+   "lat": 4.89
+  },
+  "admin1": [
+   {
+    "admin": "Brunei"
+   },
+   {
+    "admin": "Malaysia",
+    "names": [
+     "Sabah",
+     "Sarawak",
+     "Labuan"
+    ]
+   },
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Kalimantan Barat"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Brunei, Sarawak, Sabah and Pontianak; Dayak interior",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 0.6,
+   "rel_islamic": 0.4
+  }
+ },
+ {
+  "key": "eas_banjar",
+  "name": "South Borneo",
+  "owner": "banjar",
+  "tier": "periphery",
+  "capital": {
+   "name": "Banjarmasin",
+   "lon": 114.59,
+   "lat": -3.32
+  },
+  "port": {
+   "name": "Banjarmasin",
+   "lon": 114.59,
+   "lat": -3.32
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Kalimantan Selatan",
+     "Kalimantan Tengah",
+     "Kalimantan Timur"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Sultanate of Banjar (Sulaiman Saidullah II) and Kutai; Dutch post at Banjarmasin until 1809; pepper and diamonds",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_animist": 0.4
+  }
+ },
+ {
+  "key": "eas_celebes_moluccas",
+  "name": "Celebes and Moluccas",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Makassar",
+   "lon": 119.41,
+   "lat": -5.14
+  },
+  "port": {
+   "name": "Makassar",
+   "lon": 119.41,
+   "lat": -5.14
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Sulawesi Selatan",
+     "Sulawesi Barat",
+     "Sulawesi Tengah",
+     "Sulawesi Tenggara",
+     "Sulawesi Utara",
+     "Gorontalo",
+     "Maluku",
+     "Maluku Utara"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Fort Rotterdam, Bugis states, Ternate and Tidore spice sultanates, Ambon and Banda",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.7,
+   "rel_animist": 0.2,
+   "rel_protestant": 0.1
+  }
+ },
+ {
+  "key": "eas_maluku",
+  "name": "Maluku",
+  "owner": "netherlands",
+  "tier": "interest",
+  "capital": {
+   "name": "Ambon",
+   "lon": 128.19,
+   "lat": -3.7
+  },
+  "port": {
+   "name": "Ambon",
+   "lon": 128.19,
+   "lat": -3.7
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Maluku",
+     "Maluku Utara"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Full-only split: Spice Islands",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "eas_celebes_moluccas",
+  "minimap_parent": "eas_celebes_moluccas",
+  "religion": {
+   "rel_islamic": 0.5,
+   "rel_protestant": 0.4,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_nusa_tenggara",
+  "name": "Lesser Sundas",
+  "owner": "netherlands",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kupang",
+   "lon": 123.585,
+   "lat": -10.183
+  },
+  "port": {
+   "name": "Kupang",
+   "lon": 123.58,
+   "lat": -10.17
+  },
+  "admin1": [
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Bali",
+     "Nusa Tenggara Barat",
+     "Nusa Tenggara Timur"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Bali kingdoms, Lombok, Sumbawa, Flores; Dutch Kupang",
+  "confidence": "L",
+  "full_only": true,
+  "merge_into": "eas_celebes_moluccas",
+  "minimap_parent": "eas_celebes_moluccas",
+  "religion": {
+   "rel_animist": 0.5,
+   "rel_islamic": 0.3,
+   "rel_hindu": 0.2
+  }
+ },
+ {
+  "key": "eas_east_timor",
+  "name": "Portuguese Timor",
+  "owner": "portugal",
+  "tier": "periphery",
+  "capital": {
+   "name": "Dili",
+   "lon": 125.57,
+   "lat": -8.55
+  },
+  "port": {
+   "name": "Dili",
+   "lon": 125.57,
+   "lat": -8.55
+  },
+  "admin1": [
+   {
+    "admin": "East Timor"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Dili garrison and sandalwood",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 0.7,
+   "rel_catholic": 0.3
+  }
+ },
+ {
+  "key": "eas_luzon",
+  "name": "Luzon",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Manila",
+   "lon": 120.98,
+   "lat": 14.6
+  },
+  "port": {
+   "name": "Manila",
+   "lon": 120.98,
+   "lat": 14.6
+  },
+  "admin1": [
+   {
+    "admin": "Philippines",
+    "box": [
+     115,
+     12.3,
+     130,
+     22
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Captaincy General of the Philippines; Manila galleon",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_visayas",
+  "name": "Visayas and Palawan",
+  "owner": "spain",
+  "tier": "interest",
+  "capital": {
+   "name": "Cebu",
+   "lon": 123.89,
+   "lat": 10.31
+  },
+  "port": {
+   "name": "Cebu",
+   "lon": 123.89,
+   "lat": 10.31
+  },
+  "admin1": [
+   {
+    "admin": "Philippines",
+    "box": [
+     115,
+     9.0,
+     130,
+     12.3
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Cebu, Iloilo, Samar-Leyte",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_luzon",
+  "minimap_parent": "eas_luzon",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "eas_mindanao_sulu",
+  "name": "Mindanao and Sulu",
+  "owner": "bornean_sultanates",
+  "tier": "periphery",
+  "capital": {
+   "name": "Jolo",
+   "lon": 121.0,
+   "lat": 6.05
+  },
+  "port": {
+   "name": "Jolo",
+   "lon": 121.0,
+   "lat": 6.05
+  },
+  "admin1": [
+   {
+    "admin": "Philippines",
+    "box": [
+     115,
+     3,
+     135,
+     9.0
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Sulu and Maguindanao sultanates; Zamboanga is a Spanish presidio",
+  "confidence": "M",
+  "religion": {
+   "rel_islamic": 0.7,
+   "rel_animist": 0.2,
+   "rel_catholic": 0.1
+  }
+ },
+ {
+  "key": "oce_hawaii",
+  "name": "Kingdom of Hawaii",
+  "owner": "kingdom_of_hawaii",
+  "tier": "periphery",
+  "capital": {
+   "name": "Waikiki (Honolulu)",
+   "lon": -157.86,
+   "lat": 21.3
+  },
+  "port": {
+   "name": "Honolulu",
+   "lon": -157.86,
+   "lat": 21.3
+  },
+  "admin1": [
+   {
+    "admin": "United States of America",
+    "names": [
+     "Hawaii"
+    ]
+   },
+   {
+    "admin": "United States Minor Outlying Islands",
+    "names": [
+     "Johnston Atoll",
+     "Midway Islands",
+     "Palmyra Atoll",
+     "Jarvis Island",
+     "Baker Island",
+     "Howland Island"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Kamehameha I at Waikiki (1804-09); Kauai still independent",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_tahiti",
+  "name": "Tahiti and Society Islands",
+  "owner": "pomare_tahiti",
+  "tier": "periphery",
+  "capital": {
+   "name": "Matavai Bay (Pare)",
+   "lon": -149.5,
+   "lat": -17.52
+  },
+  "port": {
+   "name": "Matavai Bay (Pare)",
+   "lon": -149.5,
+   "lat": -17.52
+  },
+  "admin1": [
+   {
+    "admin": "French Polynesia",
+    "names": [
+     "Windward Islands",
+     "Leeward Islands"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Pomare II; LMS mission",
+  "confidence": "M",
+  "religion": {
+   "rel_animist": 0.95,
+   "rel_protestant": 0.05
+  }
+ },
+ {
+  "key": "oce_polynesia",
+  "name": "Polynesia",
+  "owner": "pacific_islanders",
+  "tier": "periphery",
+  "capital": {
+   "name": "Nuku'alofa",
+   "lon": -175.226,
+   "lat": -21.142
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Tonga"
+   },
+   {
+    "admin": "Samoa"
+   },
+   {
+    "admin": "American Samoa"
+   },
+   {
+    "admin": "Wallis and Futuna"
+   },
+   {
+    "admin": "Tuvalu"
+   },
+   {
+    "admin": "Cook Islands"
+   },
+   {
+    "admin": "Niue"
+   },
+   {
+    "iso_a2": "TK"
+   },
+   {
+    "admin": "Pitcairn Islands"
+   },
+   {
+    "admin": "French Polynesia",
+    "names": [
+     "Tuamotu-Gambier",
+     "Marquesas Islands",
+     "Austral Islands"
+    ]
+   },
+   {
+    "admin": "New Zealand",
+    "names": [
+     "Kermadec Islands"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Tongan, Samoan, Cook, Marquesan and Tuamotu chiefdoms; Bounty mutineers on Pitcairn",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_melanesia",
+  "name": "Melanesia",
+  "owner": "pacific_islanders",
+  "tier": "periphery",
+  "capital": {
+   "name": "Bau",
+   "lon": 178.61,
+   "lat": -17.97
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Fiji"
+   },
+   {
+    "admin": "Vanuatu"
+   },
+   {
+    "admin": "New Caledonia"
+   },
+   {
+    "admin": "Solomon Islands"
+   },
+   {
+    "admin": "Papua New Guinea",
+    "names": [
+     "North Solomons",
+     "West New Britain",
+     "East New Britain",
+     "New Ireland",
+     "Manus"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Fiji (Bau/Rewa), New Caledonia, Vanuatu, Solomons, Bismarcks",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_micronesia",
+  "name": "Micronesia",
+  "owner": "pacific_islanders",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kolonia (Pohnpei)",
+   "lon": 158.2,
+   "lat": 6.96
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Palau"
+   },
+   {
+    "admin": "Federated States of Micronesia"
+   },
+   {
+    "admin": "Marshall Islands"
+   },
+   {
+    "admin": "Kiribati"
+   },
+   {
+    "admin": "Nauru"
+   },
+   {
+    "admin": "United States Minor Outlying Islands",
+    "names": [
+     "Wake Atoll"
+    ]
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Carolines, Marshalls, Gilberts, Nauru, Palau",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_marianas",
+  "name": "Spanish Marianas",
+  "owner": "spain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Hagatna (Agana)",
+   "lon": 144.75,
+   "lat": 13.47
+  },
+  "port": {
+   "name": "Apra",
+   "lon": 144.65,
+   "lat": 13.44
+  },
+  "admin1": [
+   {
+    "admin": "Guam"
+   },
+   {
+    "admin": "Northern Mariana Islands"
+   }
+  ],
+  "climate": "tropical_monsoon",
+  "notes": "Full-only split: Galleon waypoint, governor at Agana",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "eas_luzon",
+  "religion": {
+   "rel_catholic": 0.9,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "oce_new_guinea",
+  "name": "New Guinea",
+  "owner": "papuan_peoples",
+  "tier": "periphery",
+  "capital": {
+   "name": "Hanuabada (Port Moresby site)",
+   "lon": 147.15,
+   "lat": -9.46
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Papua New Guinea",
+    "names": [
+     "Sandaun",
+     "Western",
+     "East Sepik",
+     "Madang",
+     "Morobe",
+     "Northern",
+     "Milne Bay",
+     "Central",
+     "National Capital District",
+     "Gulf",
+     "Chimbu",
+     "Enga",
+     "Western Highlands",
+     "Southern Highlands",
+     "Eastern Highlands"
+    ]
+   },
+   {
+    "admin": "Indonesia",
+    "names": [
+     "Papua",
+     "Papua Barat"
+    ]
+   }
+  ],
+  "climate": "tropical_rainforest",
+  "notes": "Highland and coastal peoples; Ternate/Tidore claims on Raja Ampat",
+  "confidence": "L",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_new_south_wales",
+  "name": "New South Wales",
+  "owner": "britain",
+  "tier": "interest",
+  "capital": {
+   "name": "Sydney",
+   "lon": 151.21,
+   "lat": -33.87
+  },
+  "port": {
+   "name": "Sydney",
+   "lon": 151.21,
+   "lat": -33.87
+  },
+  "admin1": [
+   {
+    "admin": "Australia",
+    "names": [
+     "New South Wales",
+     "Australian Capital Territory",
+     "Jervis Bay Territory",
+     "Lord Howe Island"
+    ]
+   },
+   {
+    "admin": "Norfolk Island"
+   }
+  ],
+  "climate": "humid_subtropical",
+  "notes": "Governor King (1800-06); Parramatta, Hawkesbury, Newcastle (1804)",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 0.6,
+   "rel_catholic": 0.3,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "oce_van_diemens_land",
+  "name": "Van Diemen's Land",
+  "owner": "britain",
+  "tier": "periphery",
+  "capital": {
+   "name": "Hobart",
+   "lon": 147.33,
+   "lat": -42.88
+  },
+  "port": {
+   "name": "Hobart",
+   "lon": 147.33,
+   "lat": -42.88
+  },
+  "admin1": [
+   {
+    "admin": "Australia",
+    "names": [
+     "Tasmania",
+     "Macquarie Island"
+    ]
+   },
+   {
+    "admin": "Heard Island and McDonald Islands"
+   }
+  ],
+  "climate": "temperate_oceanic",
+  "notes": "Full-only split: Risdon Cove/Hobart (1803-04), Port Dalrymple (1804)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "oce_new_south_wales",
+  "minimap_parent": "oce_new_south_wales",
+  "religion": {
+   "rel_protestant": 0.7,
+   "rel_catholic": 0.2,
+   "rel_animist": 0.1
+  }
+ },
+ {
+  "key": "oce_aboriginal_australia",
+  "name": "Aboriginal Australia",
+  "owner": "aboriginal_nations",
+  "tier": "periphery",
+  "capital": {
+   "name": "Sullivan Bay (Port Phillip)",
+   "lon": 144.725,
+   "lat": -38.341
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Australia",
+    "names": [
+     "Northern Territory",
+     "South Australia",
+     "Queensland",
+     "Victoria"
+    ]
+   },
+   {
+    "admin": "Ashmore and Cartier Islands"
+   },
+   {
+    "admin": "Coral Sea Islands"
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Whole continent outside Sydney, Hobart, Launceston; abandoned Port Phillip colony 1803-04",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_western_australia",
+  "name": "Western Australia",
+  "owner": "aboriginal_nations",
+  "tier": "periphery",
+  "capital": {
+   "name": "Boorloo (Swan River)",
+   "lon": 115.86,
+   "lat": -31.95
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Australia",
+    "names": [
+     "Western Australia"
+    ]
+   }
+  ],
+  "climate": "semi_arid",
+  "notes": "Noongar country at the Swan River and King George Sound (Flinders 1801); Baudin's survey 1801-03",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "oce_aboriginal_australia",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_new_zealand",
+  "name": "New Zealand",
+  "owner": "maori_iwi",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kororareka (Bay of Islands)",
+   "lon": 174.09,
+   "lat": -35.253
+  },
+  "port": {
+   "name": "Bay of Islands",
+   "lon": 174.12,
+   "lat": -35.27
+  },
+  "admin1": [
+   {
+    "iso_a2": "NZ"
+   }
+  ],
+  "climate": "temperate_oceanic",
+  "notes": "Ngapuhi, Ngati Toa, Ngai Tahu; sealers and whalers only",
+  "confidence": "H",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "oce_te_waipounamu",
+  "name": "South Island",
+  "owner": "maori_iwi",
+  "tier": "periphery",
+  "capital": {
+   "name": "Kaiapoi",
+   "lon": 172.66,
+   "lat": -43.38
+  },
+  "port": {
+   "name": "Otakou",
+   "lon": 170.72,
+   "lat": -45.77
+  },
+  "admin1": [
+   {
+    "admin": "New Zealand",
+    "names": [
+     "Marlborough District",
+     "Nelson City",
+     "Tasman District",
+     "West Coast",
+     "Canterbury",
+     "Otago",
+     "Southland",
+     "Auckland Islands",
+     "Campbell Islands",
+     "Antipodes Islands",
+     "The Snares",
+     "Chatham Islands Territory"
+    ]
+   }
+  ],
+  "climate": "temperate_oceanic",
+  "notes": "Full-only split: Ngai Tahu, sealing stations at Otago and Foveaux",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "oce_new_zealand",
+  "minimap_parent": "oce_new_zealand",
+  "religion": {
+   "rel_animist": 1.0
+  }
+ },
+ {
+  "key": "asi_olonets",
+  "name": "Olonets and Karelia",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Petrozavodsk",
+   "lon": 34.35,
+   "lat": 61.79
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Karelia"
+    ]
+   }
+  ],
+  "climate": "subarctic",
+  "notes": "Olonets Governorate (Petrozavodsk iron works) and Russian Karelia; the land link from the Kola uyezd (asi_russian_north) to the rest of Russia. Finnish Karelia stays filler (Swedish until 1809)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "asi_volga_urals",
+  "minimap_parent": "asi_russian_north",
+  "religion": {
+   "rel_orthodox": 1.0
+  }
+ },
+ {
+  "key": "asi_vologda",
+  "name": "Vologda and Kostroma",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Vologda",
+   "lon": 39.89,
+   "lat": 59.22
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Vologda",
+     "Kostroma",
+     "Yaroslavl'",
+     "Ivanovo"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Vologda and Kostroma Governorates, with the parts of Yaroslavl and Ivanovo east of the vanilla map (the rest is vanilla Moscow/Novgorod)",
+  "confidence": "H",
+  "full_only": true,
+  "merge_into": "asi_volga_urals",
+  "minimap_parent": "asi_volga_urals",
+  "religion": {
+   "rel_orthodox": 1.0
+  }
+ },
+ {
+  "key": "asi_voronezh",
+  "name": "Voronezh and Sloboda Ukraine",
+  "owner": "russia",
+  "tier": "periphery",
+  "capital": {
+   "name": "Voronezh",
+   "lon": 39.2,
+   "lat": 51.67
+  },
+  "port": null,
+  "admin1": [
+   {
+    "admin": "Russia",
+    "names": [
+     "Voronezh",
+     "Tambov",
+     "Belgorod",
+     "Lipetsk"
+    ]
+   },
+   {
+    "admin": "Ukraine",
+    "names": [
+     "Kharkiv",
+     "Luhans'k",
+     "Donets'k"
+    ]
+   }
+  ],
+  "climate": "humid_continental",
+  "notes": "Voronezh and Tambov Governorates, eastern Sloboda Ukraine (Kharkiv) and the northern Don Host lands, east of the vanilla map; Peter I's Voronezh shipyards",
+  "confidence": "M",
+  "full_only": true,
+  "merge_into": "asi_volga_urals",
+  "minimap_parent": "asi_volga_urals",
+  "religion": {
+   "rel_orthodox": 1.0
+  }
+ },
+ {
+  "key": "eur_gotland",
+  "name": "Gotland",
+  "owner": "sweden",
+  "tier": "core",
+  "capital": {
+   "name": "Visby",
+   "lon": 18.29,
+   "lat": 57.64
+  },
+  "port": {
+   "name": "Visby",
+   "lon": 18.29,
+   "lat": 57.64
+  },
+  "admin1": [],
+  "climate": "temperate_oceanic",
+  "notes": "Friend's list (Sweden: Gotland). Split of eur_sweden: its impassable area 5 (the island, off-map in vanilla's pathfinding) taken whole",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 1.0
+  },
+  "split_of": "eur_sweden",
+  "split_areas": [
+   5
+  ]
+ },
+ {
+  "key": "eur_crimea",
+  "name": "Crimea",
+  "owner": "russia",
+  "tier": "core",
+  "capital": {
+   "name": "Simferopol",
+   "lon": 34.1,
+   "lat": 44.95
+  },
+  "port": {
+   "name": "Sevastopol",
+   "lon": 33.52,
+   "lat": 44.62
+  },
+  "admin1": [],
+  "climate": "steppe",
+  "notes": "Split of eur_little_tatary (Taurida guberniya's peninsula; Crimean Tatar majority in 1805): the part of its area inside split_ring (lon/lat, cut at 45.92N south of the Perekop isthmus); vanilla's Sevastopol port slot moves with it (its key, trade index and CAI ids kept), so stage p places no new port",
+  "confidence": "H",
+  "religion": {
+   "rel_islamic": 0.6,
+   "rel_orthodox": 0.4
+  },
+  "split_of": "eur_little_tatary",
+  "split_ring": [
+   [
+    32.0,
+    45.92
+   ],
+   [
+    37.5,
+    45.92
+   ],
+   [
+    37.5,
+    43.5
+   ],
+   [
+    32.0,
+    43.5
+   ]
+  ]
+ },
+ {
+  "key": "eur_berry_auvergne",
+  "name": "Berry-Auvergne",
+  "owner": "france",
+  "tier": "core",
+  "capital": {
+   "name": "Bourges",
+   "lon": 2.4,
+   "lat": 47.08
+  },
+  "port": null,
+  "admin1": [],
+  "climate": "temperate_oceanic",
+  "notes": "Friend's list. Split of eur_france: the part of its land inside split_ring (lon/lat). France: centre (Berry, Bourbonnais, Auvergne, Limousin); landlocked",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  },
+  "split_of": "eur_france",
+  "split_ring": [
+   [
+    0.9,
+    47.55
+   ],
+   [
+    2.2,
+    47.55
+   ],
+   [
+    3.0,
+    47.45
+   ],
+   [
+    3.8,
+    47.3
+   ],
+   [
+    4.5,
+    47.0
+   ],
+   [
+    4.5,
+    44.8
+   ],
+   [
+    3.5,
+    43.6
+   ],
+   [
+    0.9,
+    43.6
+   ]
+  ]
+ },
+ {
+  "key": "eur_tuscany",
+  "name": "Tuscany",
+  "owner": "italy_kingdom",
+  "tier": "core",
+  "capital": {
+   "name": "Florence",
+   "lon": 11.26,
+   "lat": 43.77
+  },
+  "port": {
+   "name": "Livorno",
+   "lon": 10.31,
+   "lat": 43.55
+  },
+  "admin1": [],
+  "climate": "mediterranean",
+  "notes": "Friend's list. Split of eur_northern_italy: the part of its land inside split_ring (lon/lat). Italy: Florence (Kingdom of Etruria in 1805; the old region owner is kept)",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  },
+  "split_of": "eur_northern_italy",
+  "split_ring": [
+   [
+    9.9,
+    44.15
+   ],
+   [
+    10.4,
+    44.3
+   ],
+   [
+    11.1,
+    44.2
+   ],
+   [
+    11.7,
+    44.05
+   ],
+   [
+    12.1,
+    43.8
+   ],
+   [
+    12.3,
+    43.4
+   ],
+   [
+    12.1,
+    42.9
+   ],
+   [
+    11.9,
+    42.6
+   ],
+   [
+    11.5,
+    42.2
+   ],
+   [
+    9.0,
+    42.2
+   ],
+   [
+    9.0,
+    44.0
+   ]
+  ]
+ },
+ {
+  "key": "eur_macedonia",
+  "name": "Macedonia",
+  "owner": "ottomans",
+  "tier": "core",
+  "capital": {
+   "name": "Thessaloniki",
+   "lon": 22.94,
+   "lat": 40.64
+  },
+  "port": {
+   "name": "Thessaloniki",
+   "lon": 22.93,
+   "lat": 40.62
+  },
+  "admin1": [],
+  "climate": "mediterranean",
+  "notes": "Friend's list. Split of eur_greece: the part of its land inside split_ring (lon/lat). Greece: Macedonia; east edge 24.3E keeps Thasos whole",
+  "confidence": "H",
+  "religion": {
+   "rel_orthodox": 0.6,
+   "rel_islamic": 0.4
+  },
+  "split_of": "eur_greece",
+  "split_ring": [
+   [
+    20.4,
+    41.8
+   ],
+   [
+    20.4,
+    40.4
+   ],
+   [
+    21.5,
+    40.05
+   ],
+   [
+    22.3,
+    39.97
+   ],
+   [
+    22.9,
+    39.95
+   ],
+   [
+    23.2,
+    39.7
+   ],
+   [
+    24.3,
+    39.7
+   ],
+   [
+    24.3,
+    41.8
+   ]
+  ]
+ },
+ {
+  "key": "eur_porto",
+  "name": "Porto",
+  "owner": "portugal",
+  "tier": "core",
+  "capital": {
+   "name": "Porto",
+   "lon": -8.61,
+   "lat": 41.15
+  },
+  "port": {
+   "name": "Porto",
+   "lon": -8.61,
+   "lat": 41.15
+  },
+  "admin1": [],
+  "climate": "mediterranean",
+  "notes": "Friend's list. Split of eur_portugal: the part of its land inside split_ring (lon/lat). Portugal: Entre-Douro-e-Minho and Tras-os-Montes; vanilla Porto port slot moves with it",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  },
+  "split_of": "eur_portugal",
+  "split_ring": [
+   [
+    -9.5,
+    40.95
+   ],
+   [
+    -8.7,
+    40.95
+   ],
+   [
+    -8.0,
+    41.0
+   ],
+   [
+    -7.0,
+    41.0
+   ],
+   [
+    -6.2,
+    41.2
+   ],
+   [
+    -6.2,
+    42.5
+   ],
+   [
+    -9.5,
+    42.5
+   ]
+  ]
+ },
+ {
+  "key": "eur_andalusia",
+  "name": "Andalusia",
+  "owner": "spain",
+  "tier": "core",
+  "capital": {
+   "name": "Cordoba",
+   "lon": -4.78,
+   "lat": 37.89
+  },
+  "port": {
+   "name": "Cadiz",
+   "lon": -6.29,
+   "lat": 36.53
+  },
+  "admin1": [],
+  "climate": "mediterranean",
+  "notes": "Friend's list. Split of eur_spain: the part of its land inside split_ring (lon/lat). Spain: Cordoba (western Andalusia, Sevilla, Cadiz); south edge 35.97N leaves Ceuta; vanilla Cadiz port slot moves with it",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  },
+  "split_of": "eur_spain",
+  "split_ring": [
+   [
+    -7.6,
+    38.5
+   ],
+   [
+    -6.0,
+    38.55
+   ],
+   [
+    -4.9,
+    38.5
+   ],
+   [
+    -4.2,
+    38.4
+   ],
+   [
+    -4.1,
+    37.4
+   ],
+   [
+    -4.5,
+    36.9
+   ],
+   [
+    -5.0,
+    36.5
+   ],
+   [
+    -5.0,
+    35.97
+   ],
+   [
+    -7.6,
+    35.97
+   ]
+  ]
+ },
+ {
+  "key": "eur_galiza",
+  "name": "Galicia",
+  "owner": "spain",
+  "tier": "core",
+  "capital": {
+   "name": "Santiago de Compostela",
+   "lon": -8.54,
+   "lat": 42.88
+  },
+  "port": {
+   "name": "La Coruna",
+   "lon": -8.4,
+   "lat": 43.37
+  },
+  "admin1": [],
+  "climate": "temperate_oceanic",
+  "notes": "Friend's list. Split of eur_spain: the part of its land inside split_ring (lon/lat). Spain: Galicia (key eur_galiza: eur_galicia is Austria's vanilla region); vanilla La Coruna port slot moves with it",
+  "confidence": "H",
+  "religion": {
+   "rel_catholic": 1.0
+  },
+  "split_of": "eur_spain",
+  "split_ring": [
+   [
+    -9.8,
+    41.9
+   ],
+   [
+    -7.0,
+    41.9
+   ],
+   [
+    -6.7,
+    42.3
+   ],
+   [
+    -6.85,
+    43.0
+   ],
+   [
+    -7.05,
+    43.6
+   ],
+   [
+    -7.05,
+    44.2
+   ],
+   [
+    -9.8,
+    44.2
+   ]
+  ]
+ },
+ {
+  "key": "eur_thuringia",
+  "name": "Thuringia",
+  "owner": "saxony",
+  "tier": "core",
+  "capital": {
+   "name": "Erfurt",
+   "lon": 11.03,
+   "lat": 50.98
+  },
+  "port": null,
+  "admin1": [],
+  "climate": "humid_continental",
+  "notes": "Friend's list. Split of eur_saxony_thuringia: the part of its land inside split_ring (lon/lat). Germany: centre (Thuringia); landlocked",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 1.0
+  },
+  "split_of": "eur_saxony_thuringia",
+  "split_ring": [
+   [
+    9.0,
+    49.5
+   ],
+   [
+    12.1,
+    49.5
+   ],
+   [
+    12.1,
+    52.0
+   ],
+   [
+    9.0,
+    52.0
+   ]
+  ]
+ },
+ {
+  "key": "eur_schleswig",
+  "name": "Schleswig-Holstein",
+  "owner": "denmark",
+  "tier": "core",
+  "capital": {
+   "name": "Schleswig",
+   "lon": 9.57,
+   "lat": 54.52
+  },
+  "port": {
+   "name": "Kiel",
+   "lon": 10.14,
+   "lat": 54.32
+  },
+  "admin1": [],
+  "climate": "temperate_oceanic",
+  "notes": "Friend's list. Split of eur_denmark: the part of its land inside split_ring (lon/lat). Denmark: Schleswig and Holstein (Hamburg town slot moves with it); ring kept south of Lolland",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 1.0
+  },
+  "split_of": "eur_denmark",
+  "split_ring": [
+   [
+    7.5,
+    55.38
+   ],
+   [
+    9.0,
+    55.38
+   ],
+   [
+    9.95,
+    55.27
+   ],
+   [
+    10.05,
+    55.2
+   ],
+   [
+    10.1,
+    54.75
+   ],
+   [
+    10.9,
+    54.62
+   ],
+   [
+    11.5,
+    54.5
+   ],
+   [
+    11.5,
+    52.5
+   ],
+   [
+    7.5,
+    52.5
+   ]
+  ]
+ },
+ {
+  "key": "eur_yorkshire",
+  "name": "Yorkshire",
+  "owner": "britain",
+  "tier": "core",
+  "capital": {
+   "name": "York",
+   "lon": -1.08,
+   "lat": 53.96
+  },
+  "port": {
+   "name": "Hull",
+   "lon": -0.33,
+   "lat": 53.74
+  },
+  "admin1": [],
+  "climate": "temperate_oceanic",
+  "notes": "Friend's list. Split of eur_england: the part of its land inside split_ring (lon/lat). England: York (Yorkshire and the North East, east of the Pennines; Lancashire and Liverpool stay)",
+  "confidence": "H",
+  "religion": {
+   "rel_protestant": 1.0
+  },
+  "split_of": "eur_england",
+  "split_ring": [
+   [
+    -2.15,
+    53.15
+   ],
+   [
+    -1.2,
+    53.1
+   ],
+   [
+    -0.5,
+    53.2
+   ],
+   [
+    0.5,
+    53.4
+   ],
+   [
+    0.5,
+    56.5
+   ],
+   [
+    -2.15,
+    56.5
+   ]
+  ]
+ }
+]

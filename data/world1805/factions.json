@@ -1,0 +1,1682 @@
+[
+ {
+  "key": "britain",
+  "name": "Great Britain",
+  "culture_group": "european",
+  "religion": "protestant",
+  "government": "constitutional_monarchy",
+  "tier": "AI-M",
+  "capital_region": "eur_england",
+  "colour_primary": [
+   222,
+   0,
+   0
+  ],
+  "colour_secondary": [
+   18,
+   46,
+   86
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction; colonies in N America, Caribbean, Cape(1806), Ceylon, NSW",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "france",
+  "name": "France",
+  "culture_group": "european",
+  "religion": "catholic",
+  "government": "empire",
+  "tier": "AI-M",
+  "capital_region": "eur_france",
+  "colour_primary": [
+   9,
+   79,
+   150
+  ],
+  "colour_secondary": [
+   228,
+   180,
+   9
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction; Antilles, Guiana, Senegal, Mascarenes, Santo Domingo (Ferrand)",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "spain",
+  "name": "Spain",
+  "culture_group": "european",
+  "religion": "catholic",
+  "government": "absolute_monarchy",
+  "tier": "AI-M",
+  "capital_region": "eur_spain",
+  "colour_primary": [
+   253,
+   217,
+   1
+  ],
+  "colour_secondary": [
+   164,
+   0,
+   1
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction; all Latin America, Florida, Philippines, Marianas",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "portugal",
+  "name": "Portugal",
+  "culture_group": "european",
+  "religion": "catholic",
+  "government": "absolute_monarchy",
+  "tier": "AI-m",
+  "capital_region": "eur_portugal",
+  "colour_primary": [
+   238,
+   242,
+   248
+  ],
+  "colour_secondary": [
+   120,
+   179,
+   204
+  ],
+  "playable_candidate": false,
+  "notes": "vanilla faction; Brazil, Angola, Mozambique, Goa; court still in Lisbon until Nov 1807",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "netherlands",
+  "name": "Batavian Republic",
+  "culture_group": "european",
+  "religion": "protestant",
+  "government": "republic",
+  "tier": "AI-M",
+  "capital_region": "eur_holland",
+  "colour_primary": [
+   255,
+   131,
+   29
+  ],
+  "colour_secondary": [
+   255,
+   185,
+   74
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction (key netherlands); Cape, Java, Outer Islands, Curacao",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "denmark",
+  "name": "Denmark-Norway",
+  "culture_group": "european",
+  "religion": "protestant",
+  "government": "absolute_monarchy",
+  "tier": "AI-m",
+  "capital_region": "eur_denmark",
+  "colour_primary": [
+   214,
+   38,
+   38
+  ],
+  "colour_secondary": [
+   255,
+   255,
+   241
+  ],
+  "playable_candidate": false,
+  "notes": "vanilla faction; Greenland, Iceland, Danish West Indies",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "russia",
+  "name": "Russia",
+  "culture_group": "european",
+  "religion": "orthodox",
+  "government": "absolute_monarchy",
+  "tier": "AI-M",
+  "capital_region": "eur_ingria",
+  "colour_primary": [
+   34,
+   106,
+   34
+  ],
+  "colour_secondary": [
+   255,
+   255,
+   255
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction; Siberia, Caucasus line, Georgia, Russian America",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "ottomans",
+  "name": "Ottoman Empire",
+  "culture_group": "middle_eastern",
+  "religion": "sunni_islam",
+  "government": "absolute_monarchy",
+  "tier": "AI-M",
+  "capital_region": "eur_rumelia",
+  "colour_primary": [
+   134,
+   0,
+   0
+  ],
+  "colour_secondary": [
+   7,
+   134,
+   7
+  ],
+  "playable_candidate": true,
+  "notes": "vanilla faction (key ottomans); Anatolia, Levant, Iraq, Cyprus",
+  "confidence": "H",
+  "vanilla": true
+ },
+ {
+  "key": "united_states",
+  "name": "United States",
+  "culture_group": "anglo_american",
+  "religion": "protestant",
+  "government": "republic",
+  "tier": "AI-M",
+  "capital_region": "ame_us_northeast",
+  "colour_primary": [
+   240,
+   30,
+   240
+  ],
+  "colour_secondary": [
+   108,
+   13,
+   108
+  ],
+  "playable_candidate": true,
+  "notes": "Jefferson 2nd term from Mar 1805; Louisiana Purchase 1803; stretch playable",
+  "confidence": "H"
+ },
+ {
+  "key": "haiti",
+  "name": "Empire of Haiti",
+  "culture_group": "afro_caribbean",
+  "religion": "catholic_vodou",
+  "government": "empire",
+  "tier": "AI-m",
+  "capital_region": "ame_haiti",
+  "colour_primary": [
+   30,
+   240,
+   240
+  ],
+  "colour_secondary": [
+   13,
+   108,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Independence 1 Jan 1804; Dessalines emperor Oct 1804",
+  "confidence": "H"
+ },
+ {
+  "key": "native_plains",
+  "name": "Plains and Mountain Nations",
+  "culture_group": "native_american",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "ame_great_plains",
+  "colour_primary": [
+   30,
+   240,
+   90
+  ],
+  "colour_secondary": [
+   13,
+   108,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Lakota, Comanche, Apache, Shoshone, Crow etc; Lewis and Clark 1804-06",
+  "confidence": "M"
+ },
+ {
+  "key": "native_pacific_nw",
+  "name": "Pacific Northwest Nations",
+  "culture_group": "native_american",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "ame_pacific_northwest",
+  "colour_primary": [
+   135,
+   240,
+   45
+  ],
+  "colour_secondary": [
+   60,
+   108,
+   20
+  ],
+  "playable_candidate": false,
+  "notes": "Nootka, Chinook, Salish, interior plateau; maritime fur trade",
+  "confidence": "M"
+ },
+ {
+  "key": "mapuche",
+  "name": "Mapuche and Patagonian Peoples",
+  "culture_group": "native_american",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "ame_mapuche_patagonia",
+  "colour_primary": [
+   135,
+   30,
+   240
+  ],
+  "colour_secondary": [
+   213,
+   176,
+   249
+  ],
+  "playable_candidate": false,
+  "notes": "Never conquered by Spain (frontier at the Biobio); Tehuelche, Ranquel, Pampa peoples of Patagonia folded in; Carmen de Patagones is a Spanish outpost",
+  "confidence": "H"
+ },
+ {
+  "key": "amazonian_peoples",
+  "name": "Amazon and Orinoco Peoples",
+  "culture_group": "native_american",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "ame_amazonia",
+  "colour_primary": [
+   240,
+   30,
+   135
+  ],
+  "colour_secondary": [
+   249,
+   176,
+   213
+  ],
+  "playable_candidate": false,
+  "notes": "Uncontrolled hinterland; Portuguese/Spanish mission posts only",
+  "confidence": "M"
+ },
+ {
+  "key": "morocco",
+  "name": "Sultanate of Morocco",
+  "culture_group": "african_north",
+  "religion": "sunni_islam",
+  "government": "absolute_monarchy",
+  "tier": "AI-m",
+  "capital_region": "afr_morocco",
+  "colour_primary": [
+   135,
+   240,
+   135
+  ],
+  "colour_secondary": [
+   60,
+   108,
+   60
+  ],
+  "playable_candidate": false,
+  "notes": "Alawi sultan Sulayman (r.1792-1822)",
+  "confidence": "M"
+ },
+ {
+  "key": "algiers",
+  "name": "Regency of Algiers",
+  "culture_group": "african_north",
+  "religion": "sunni_islam",
+  "government": "military_regency",
+  "tier": "AI-m",
+  "capital_region": "afr_algiers",
+  "colour_primary": [
+   240,
+   120,
+   240
+  ],
+  "colour_secondary": [
+   108,
+   54,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Dey; Ottoman nominal, corsair state",
+  "confidence": "H"
+ },
+ {
+  "key": "tunis",
+  "name": "Beylik of Tunis",
+  "culture_group": "african_north",
+  "religion": "sunni_islam",
+  "government": "hereditary_bey",
+  "tier": "AI-m",
+  "capital_region": "afr_tunis",
+  "colour_primary": [
+   120,
+   30,
+   150
+  ],
+  "colour_secondary": [
+   207,
+   176,
+   218
+  ],
+  "playable_candidate": false,
+  "notes": "Husainid bey Hammuda Pasha",
+  "confidence": "M"
+ },
+ {
+  "key": "tripolitania",
+  "name": "Karamanli Tripolitania",
+  "culture_group": "african_north",
+  "religion": "sunni_islam",
+  "government": "hereditary_pasha",
+  "tier": "AI-m",
+  "capital_region": "afr_tripolitania",
+  "colour_primary": [
+   30,
+   210,
+   165
+  ],
+  "colour_secondary": [
+   13,
+   94,
+   74
+  ],
+  "playable_candidate": false,
+  "notes": "Yusuf Karamanli; war with USA 1801-05, Derna Apr 1805",
+  "confidence": "H"
+ },
+ {
+  "key": "egypt",
+  "name": "Ottoman Egypt (Wali)",
+  "culture_group": "middle_eastern",
+  "religion": "sunni_islam",
+  "government": "ottoman_province",
+  "tier": "AI-M",
+  "capital_region": "afr_lower_egypt",
+  "colour_primary": [
+   195,
+   75,
+   195
+  ],
+  "colour_secondary": [
+   87,
+   33,
+   87
+  ],
+  "playable_candidate": true,
+  "notes": "De facto autonomous eyalet; Muhammad Ali elected wali May 1805; playable candidate",
+  "confidence": "M"
+ },
+ {
+  "key": "mamluks",
+  "name": "Mamluk Beys of Upper Egypt",
+  "culture_group": "middle_eastern",
+  "religion": "sunni_islam",
+  "government": "military_oligarchy",
+  "tier": "AI-m",
+  "capital_region": "afr_upper_egypt",
+  "colour_primary": [
+   60,
+   30,
+   240
+  ],
+  "colour_secondary": [
+   186,
+   176,
+   249
+  ],
+  "playable_candidate": false,
+  "notes": "Elfi Bey, Bardisi; control Upper Egypt, rivals of the wali",
+  "confidence": "M"
+ },
+ {
+  "key": "saharan_confederations",
+  "name": "Saharan Confederations",
+  "culture_group": "african_north",
+  "religion": "sunni_islam",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "afr_sahara",
+  "colour_primary": [
+   90,
+   240,
+   195
+  ],
+  "colour_secondary": [
+   40,
+   108,
+   87
+  ],
+  "playable_candidate": false,
+  "notes": "Moorish emirates (Trarza, Brakna, Adrar), Tuareg confederations, Tubu",
+  "confidence": "M"
+ },
+ {
+  "key": "futa_jallon",
+  "name": "Imamate of Futa Jallon",
+  "culture_group": "african_west",
+  "religion": "sunni_islam",
+  "government": "theocratic_imamate",
+  "tier": "rebel",
+  "capital_region": "afr_futa_jallon",
+  "colour_primary": [
+   30,
+   105,
+   240
+  ],
+  "colour_secondary": [
+   176,
+   202,
+   249
+  ],
+  "playable_candidate": false,
+  "notes": "Almamy at Timbo; Portuguese Bissau/Cacheu enclaves on coast",
+  "confidence": "M"
+ },
+ {
+  "key": "asante",
+  "name": "Asante Empire",
+  "culture_group": "african_west",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "AI-m",
+  "capital_region": "afr_asante",
+  "colour_primary": [
+   165,
+   135,
+   240
+  ],
+  "colour_secondary": [
+   74,
+   60,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Asantehene Osei Bonsu (from 1804) at Kumasi; hegemon over Gyaman, Banda",
+  "confidence": "M"
+ },
+ {
+  "key": "oyo",
+  "name": "Oyo Empire and Dahomey",
+  "culture_group": "african_west",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "AI-m",
+  "capital_region": "afr_oyo",
+  "colour_primary": [
+   180,
+   180,
+   30
+  ],
+  "colour_secondary": [
+   81,
+   81,
+   13
+  ],
+  "playable_candidate": false,
+  "notes": "Oyo weakening (breakup c.1817); Dahomey (Adandozan) tributary, folded here in Lean",
+  "confidence": "M"
+ },
+ {
+  "key": "segu_bambara",
+  "name": "Segu Bambara and Mossi States",
+  "culture_group": "african_west",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "rebel",
+  "capital_region": "afr_niger_bend",
+  "colour_primary": [
+   30,
+   165,
+   90
+  ],
+  "colour_secondary": [
+   13,
+   74,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Bambara kingdom of Segu (Da Monzon); Mossi kingdoms; Masina jihad is 1818",
+  "confidence": "M"
+ },
+ {
+  "key": "sokoto_caliphate",
+  "name": "Sokoto Caliphate",
+  "culture_group": "african_west",
+  "religion": "sunni_islam",
+  "government": "theocratic_caliphate",
+  "tier": "AI-m",
+  "capital_region": "afr_sokoto",
+  "colour_primary": [
+   225,
+   75,
+   90
+  ],
+  "colour_secondary": [
+   101,
+   33,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Founded Feb 1804 by Usman dan Fodio; Hausa states still being conquered (Gobir falls 1808)",
+  "confidence": "H"
+ },
+ {
+  "key": "bornu",
+  "name": "Kanem-Bornu",
+  "culture_group": "african_west",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "afr_bornu",
+  "colour_primary": [
+   90,
+   210,
+   90
+  ],
+  "colour_secondary": [
+   40,
+   94,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Mai Ahmad; al-Kanemi rises c.1808",
+  "confidence": "M"
+ },
+ {
+  "key": "west_central_african_peoples",
+  "name": "Lower Guinea Peoples",
+  "culture_group": "african_central",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "afr_lower_guinea",
+  "colour_primary": [
+   60,
+   240,
+   30
+  ],
+  "colour_secondary": [
+   27,
+   108,
+   13
+  ],
+  "playable_candidate": false,
+  "notes": "Efik, Igbo, Kongo, Loango, Fang, Duala; Atlantic slave coast",
+  "confidence": "L"
+ },
+ {
+  "key": "lunda_luba_kingdoms",
+  "name": "Lunda and Luba Kingdoms",
+  "culture_group": "african_central",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "rebel",
+  "capital_region": "afr_lunda_luba",
+  "colour_primary": [
+   30,
+   150,
+   195
+  ],
+  "colour_secondary": [
+   13,
+   67,
+   87
+  ],
+  "playable_candidate": false,
+  "notes": "Mwata Yamvo, Luba, Kazembe, Bemba; interior Central Africa",
+  "confidence": "M"
+ },
+ {
+  "key": "sennar",
+  "name": "Funj Sultanate of Sennar",
+  "culture_group": "african_east",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "afr_sennar",
+  "colour_primary": [
+   165,
+   105,
+   30
+  ],
+  "colour_secondary": [
+   74,
+   47,
+   13
+  ],
+  "playable_candidate": false,
+  "notes": "Funj sultanate in decline; Hamaj regents",
+  "confidence": "M"
+ },
+ {
+  "key": "darfur",
+  "name": "Sultanate of Darfur",
+  "culture_group": "african_east",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "afr_darfur",
+  "colour_primary": [
+   75,
+   195,
+   240
+  ],
+  "colour_secondary": [
+   33,
+   87,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Sultan Muhammad Tayrab/Fadl at El Fasher; includes Kordofan; Wadai and Nilotic south folded in Lean",
+  "confidence": "M"
+ },
+ {
+  "key": "ethiopia",
+  "name": "Ethiopia (Zemene Mesafint)",
+  "culture_group": "african_east",
+  "religion": "oriental_orthodox",
+  "government": "fragmented_monarchy",
+  "tier": "AI-m",
+  "capital_region": "afr_ethiopia",
+  "colour_primary": [
+   120,
+   90,
+   240
+  ],
+  "colour_secondary": [
+   54,
+   40,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Era of the Princes; Ras Wolde Selassie in Tigray; Horn sultanates and Oromo kingdoms folded in Lean",
+  "confidence": "M"
+ },
+ {
+  "key": "oman",
+  "name": "Sultanate of Muscat and Oman",
+  "culture_group": "middle_eastern",
+  "religion": "ibadi_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "mea_oman",
+  "colour_primary": [
+   180,
+   45,
+   135
+  ],
+  "colour_secondary": [
+   228,
+   181,
+   213
+  ],
+  "playable_candidate": false,
+  "notes": "Sayyid Said sole ruler 1806; Zanzibar and Swahili coast are Omani dependencies",
+  "confidence": "M"
+ },
+ {
+  "key": "great_lakes_kingdoms",
+  "name": "Great Lakes Kingdoms",
+  "culture_group": "african_east",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "rebel",
+  "capital_region": "afr_great_lakes",
+  "colour_primary": [
+   210,
+   225,
+   60
+  ],
+  "colour_secondary": [
+   94,
+   101,
+   27
+  ],
+  "playable_candidate": false,
+  "notes": "Buganda, Bunyoro, Rwanda, Burundi, Nyamwezi, Maasai interior",
+  "confidence": "M"
+ },
+ {
+  "key": "merina",
+  "name": "Kingdom of Imerina",
+  "culture_group": "african_east",
+  "religion": "indigenous",
+  "government": "tribal_kingdom",
+  "tier": "AI-m",
+  "capital_region": "afr_madagascar",
+  "colour_primary": [
+   120,
+   180,
+   30
+  ],
+  "colour_secondary": [
+   54,
+   81,
+   13
+  ],
+  "playable_candidate": false,
+  "notes": "Andrianampoinimerina unifying highlands (d.1810); Comoros folded",
+  "confidence": "M"
+ },
+ {
+  "key": "south_african_chiefdoms",
+  "name": "Southern African Chiefdoms",
+  "culture_group": "african_south",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "afr_southern_interior",
+  "colour_primary": [
+   240,
+   105,
+   165
+  ],
+  "colour_secondary": [
+   108,
+   47,
+   74
+  ],
+  "playable_candidate": false,
+  "notes": "Xhosa, Mthethwa/Zulu, Sotho-Tswana, Ndebele, Herero, Nama; Shaka is 1816",
+  "confidence": "M"
+ },
+ {
+  "key": "guinea_coast_peoples",
+  "name": "Upper Guinea Coast Peoples",
+  "culture_group": "african_west",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "afr_upper_guinea_coast",
+  "colour_primary": [
+   75,
+   240,
+   135
+  ],
+  "colour_secondary": [
+   33,
+   108,
+   60
+  ],
+  "playable_candidate": false,
+  "notes": "Kru, Vai, Bassa, Mande, Baule and Akan-border peoples of Liberia and Ivory Coast; no unified state",
+  "confidence": "L"
+ },
+ {
+  "key": "diriyah",
+  "name": "Emirate of Diriyah (First Saudi State)",
+  "culture_group": "middle_eastern",
+  "religion": "wahhabi_islam",
+  "government": "emirate",
+  "tier": "AI-m",
+  "capital_region": "mea_arabia",
+  "colour_primary": [
+   135,
+   75,
+   180
+  ],
+  "colour_secondary": [
+   213,
+   192,
+   228
+  ],
+  "playable_candidate": false,
+  "notes": "Saud ibn Abd al-Aziz; took Mecca 1803, Medina Apr 1805; Sharif Ghalib tributary",
+  "confidence": "M"
+ },
+ {
+  "key": "yemen",
+  "name": "Zaydi Imamate of Sana'a",
+  "culture_group": "middle_eastern",
+  "religion": "zaydi_islam",
+  "government": "imamate",
+  "tier": "rebel",
+  "capital_region": "mea_yemen",
+  "colour_primary": [
+   150,
+   195,
+   105
+  ],
+  "colour_secondary": [
+   67,
+   87,
+   47
+  ],
+  "playable_candidate": false,
+  "notes": "Imam al-Mahdi Abdallah; Tihama, Asir, Najran local dynasties",
+  "confidence": "M"
+ },
+ {
+  "key": "persia",
+  "name": "Qajar Persia",
+  "culture_group": "middle_eastern",
+  "religion": "shia_islam",
+  "government": "absolute_monarchy",
+  "tier": "AI-M",
+  "capital_region": "mea_persia_irak_ajami",
+  "colour_primary": [
+   210,
+   120,
+   60
+  ],
+  "colour_secondary": [
+   94,
+   54,
+   27
+  ],
+  "playable_candidate": true,
+  "notes": "Fath-Ali Shah; Russo-Persian War 1804-13; Abbas Mirza at Tabriz",
+  "confidence": "H"
+ },
+ {
+  "key": "east_india_company",
+  "name": "British East India Company",
+  "culture_group": "european",
+  "religion": "protestant",
+  "government": "chartered_company",
+  "tier": "subsidiary",
+  "capital_region": "asi_bengal",
+  "colour_primary": [
+   90,
+   45,
+   195
+  ],
+  "colour_secondary": [
+   197,
+   181,
+   234
+  ],
+  "playable_candidate": false,
+  "notes": "Subsidiary of Britain; Bengal, Madras, Bombay Presidencies and Ceded Provinces; Cornwallis GG 1805",
+  "confidence": "H"
+ },
+ {
+  "key": "maratha_peshwa",
+  "name": "Maratha Peshwa (and Gaekwad)",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "confederacy_head",
+  "tier": "AI-M",
+  "capital_region": "asi_peshwa",
+  "colour_primary": [
+   90,
+   30,
+   105
+  ],
+  "colour_secondary": [
+   197,
+   176,
+   202
+  ],
+  "playable_candidate": false,
+  "notes": "Treaty of Bassein Dec 1802 made Baji Rao II a Company ally",
+  "confidence": "M"
+ },
+ {
+  "key": "maratha_scindia",
+  "name": "Scindia of Gwalior",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "maratha_chiefdom",
+  "tier": "AI-M",
+  "capital_region": "asi_scindia",
+  "colour_primary": [
+   120,
+   195,
+   195
+  ],
+  "colour_secondary": [
+   54,
+   87,
+   87
+  ],
+  "playable_candidate": true,
+  "notes": "Daulat Rao Scindia; lost Delhi/Doab at Surji-Anjangaon Dec 1803; Maratha playable candidate",
+  "confidence": "M"
+ },
+ {
+  "key": "maratha_holkar",
+  "name": "Holkar of Indore",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "maratha_chiefdom",
+  "tier": "AI-M",
+  "capital_region": "asi_holkar",
+  "colour_primary": [
+   165,
+   30,
+   195
+  ],
+  "colour_secondary": [
+   223,
+   176,
+   234
+  ],
+  "playable_candidate": false,
+  "notes": "Yashwant Rao Holkar fights on; Rajghat 24 Dec 1805",
+  "confidence": "M"
+ },
+ {
+  "key": "maratha_bhonsle",
+  "name": "Bhonsle of Nagpur",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "maratha_chiefdom",
+  "tier": "AI-m",
+  "capital_region": "asi_bhonsle",
+  "colour_primary": [
+   210,
+   165,
+   240
+  ],
+  "colour_secondary": [
+   94,
+   74,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Deogaon Dec 1803 ceded Cuttack and Balasore to the Company",
+  "confidence": "H"
+ },
+ {
+  "key": "hyderabad",
+  "name": "Nizam of Hyderabad",
+  "culture_group": "south_asian",
+  "religion": "sunni_islam",
+  "government": "subsidiary_state",
+  "tier": "subsidiary",
+  "capital_region": "asi_hyderabad",
+  "colour_primary": [
+   45,
+   135,
+   135
+  ],
+  "colour_secondary": [
+   181,
+   213,
+   213
+  ],
+  "playable_candidate": false,
+  "notes": "Subsidiary alliance 1798/1800; Berar gained 1803",
+  "confidence": "M"
+ },
+ {
+  "key": "mysore",
+  "name": "Kingdom of Mysore",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "subsidiary_state",
+  "tier": "subsidiary",
+  "capital_region": "asi_mysore",
+  "colour_primary": [
+   240,
+   195,
+   150
+  ],
+  "colour_secondary": [
+   108,
+   87,
+   67
+  ],
+  "playable_candidate": false,
+  "notes": "Restored Wodeyar after Tipu's fall 1799",
+  "confidence": "H"
+ },
+ {
+  "key": "awadh",
+  "name": "Nawabate of Awadh",
+  "culture_group": "south_asian",
+  "religion": "shia_islam",
+  "government": "subsidiary_state",
+  "tier": "subsidiary",
+  "capital_region": "asi_awadh",
+  "colour_primary": [
+   75,
+   180,
+   180
+  ],
+  "colour_secondary": [
+   33,
+   81,
+   81
+  ],
+  "playable_candidate": false,
+  "notes": "Ceded Rohilkhand/Doab/Gorakhpur 1801; Saadat Ali Khan",
+  "confidence": "H"
+ },
+ {
+  "key": "rajput_states",
+  "name": "Rajput States",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "princely_federation",
+  "tier": "AI-m",
+  "capital_region": "asi_rajputana",
+  "colour_primary": [
+   105,
+   75,
+   135
+  ],
+  "colour_secondary": [
+   202,
+   192,
+   213
+  ],
+  "playable_candidate": false,
+  "notes": "Jaipur, Jodhpur, Udaipur; Maratha tributaries",
+  "confidence": "M"
+ },
+ {
+  "key": "sikh_empire",
+  "name": "Sikh Empire",
+  "culture_group": "south_asian",
+  "religion": "sikh",
+  "government": "monarchy",
+  "tier": "AI-M",
+  "capital_region": "asi_sikh_punjab",
+  "colour_primary": [
+   165,
+   240,
+   90
+  ],
+  "colour_secondary": [
+   74,
+   108,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Ranjit Singh took Lahore 1799, Maharaja Apr 1801; cis-Sutlej states and hill states folded",
+  "confidence": "H"
+ },
+ {
+  "key": "sindh_baluchistan",
+  "name": "Talpur Amirs of Sindh",
+  "culture_group": "south_asian",
+  "religion": "sunni_islam",
+  "government": "amirate",
+  "tier": "AI-m",
+  "capital_region": "asi_sindh_baluchistan",
+  "colour_primary": [
+   180,
+   60,
+   240
+  ],
+  "colour_secondary": [
+   81,
+   27,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Talpur Mirs of Hyderabad, Khairpur and Mirpur",
+  "confidence": "M"
+ },
+ {
+  "key": "kalat",
+  "name": "Khanate of Kalat",
+  "culture_group": "south_asian",
+  "religion": "sunni_islam",
+  "government": "khanate",
+  "tier": "AI-m",
+  "capital_region": "asi_baluchistan",
+  "colour_primary": [
+   90,
+   50,
+   30
+  ],
+  "colour_secondary": [
+   235,
+   215,
+   160
+  ],
+  "playable_candidate": false,
+  "notes": "Brahui-Baloch khanate of Mahmud Khan I; Durrani vassal in name",
+  "confidence": "H"
+ },
+ {
+  "key": "nepal",
+  "name": "Gorkha Nepal",
+  "culture_group": "south_asian",
+  "religion": "hindu",
+  "government": "monarchy",
+  "tier": "AI-m",
+  "capital_region": "asi_nepal",
+  "colour_primary": [
+   180,
+   225,
+   150
+  ],
+  "colour_secondary": [
+   81,
+   101,
+   67
+  ],
+  "playable_candidate": false,
+  "notes": "Rana Bahadur Shah (regency); holds Kumaon/Garhwal; Anglo-Nepal War is 1814",
+  "confidence": "H"
+ },
+ {
+  "key": "assam_hill_peoples",
+  "name": "Assam, Manipur and Eastern Himalaya",
+  "culture_group": "south_asian",
+  "religion": "hindu_buddhist_animist",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "asi_northeast_himalaya",
+  "colour_primary": [
+   195,
+   30,
+   90
+  ],
+  "colour_secondary": [
+   234,
+   176,
+   197
+  ],
+  "playable_candidate": false,
+  "notes": "Ahom Assam (Jorhat), Manipur, Bhutan (Druk Desi), Sikkim, Tripura, Khasi/Naga/Mizo hills",
+  "confidence": "M"
+ },
+ {
+  "key": "durrani_empire",
+  "name": "Durrani Afghanistan",
+  "culture_group": "central_asian",
+  "religion": "sunni_islam",
+  "government": "monarchy",
+  "tier": "AI-M",
+  "capital_region": "asi_durrani",
+  "colour_primary": [
+   135,
+   180,
+   240
+  ],
+  "colour_secondary": [
+   60,
+   81,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Shah Mahmud/Shah Shuja civil wars; Kashmir under Durrani governor until 1819",
+  "confidence": "M"
+ },
+ {
+  "key": "bukhara",
+  "name": "Emirate of Bukhara",
+  "culture_group": "central_asian",
+  "religion": "sunni_islam",
+  "government": "emirate",
+  "tier": "AI-m",
+  "capital_region": "asi_bukhara",
+  "colour_primary": [
+   225,
+   165,
+   45
+  ],
+  "colour_secondary": [
+   101,
+   74,
+   20
+  ],
+  "playable_candidate": false,
+  "notes": "Manghit emir Haydar (from 1800)",
+  "confidence": "M"
+ },
+ {
+  "key": "khiva",
+  "name": "Khanate of Khiva",
+  "culture_group": "central_asian",
+  "religion": "sunni_islam",
+  "government": "khanate",
+  "tier": "AI-m",
+  "capital_region": "asi_khiva",
+  "colour_primary": [
+   120,
+   240,
+   240
+  ],
+  "colour_secondary": [
+   54,
+   108,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Inaq dynasty; Turkmen tribes folded in Lean",
+  "confidence": "M"
+ },
+ {
+  "key": "kokand",
+  "name": "Khanate of Kokand",
+  "culture_group": "central_asian",
+  "religion": "sunni_islam",
+  "government": "khanate",
+  "tier": "AI-m",
+  "capital_region": "asi_kokand",
+  "colour_primary": [
+   30,
+   165,
+   240
+  ],
+  "colour_secondary": [
+   13,
+   74,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Alim Khan (1798-1809); Tashkent independent until 1810",
+  "confidence": "M"
+ },
+ {
+  "key": "kazakh_hordes",
+  "name": "Kazakh Hordes",
+  "culture_group": "central_asian",
+  "religion": "sunni_islam",
+  "government": "nomadic_khanates",
+  "tier": "rebel",
+  "capital_region": "asi_kazakh_steppe",
+  "colour_primary": [
+   75,
+   75,
+   240
+  ],
+  "colour_secondary": [
+   192,
+   192,
+   249
+  ],
+  "playable_candidate": false,
+  "notes": "Three Zhuz; Little Horde under Russian protection (Bukey Horde 1801)",
+  "confidence": "M"
+ },
+ {
+  "key": "qing",
+  "name": "Qing Empire",
+  "culture_group": "east_asian",
+  "religion": "confucian_buddhist",
+  "government": "empire",
+  "tier": "AI-M",
+  "capital_region": "eas_north_china",
+  "colour_primary": [
+   135,
+   195,
+   150
+  ],
+  "colour_secondary": [
+   60,
+   87,
+   67
+  ],
+  "playable_candidate": false,
+  "notes": "Jiaqing Emperor (1796-1820); AI-only isolationist; Canton System",
+  "confidence": "H"
+ },
+ {
+  "key": "joseon",
+  "name": "Joseon Korea",
+  "culture_group": "east_asian",
+  "religion": "confucian",
+  "government": "kingdom",
+  "tier": "AI-m",
+  "capital_region": "eas_korea",
+  "colour_primary": [
+   210,
+   30,
+   180
+  ],
+  "colour_secondary": [
+   239,
+   176,
+   228
+  ],
+  "playable_candidate": false,
+  "notes": "King Sunjo (1800-34); Sinyu persecution 1801",
+  "confidence": "H"
+ },
+ {
+  "key": "tokugawa_japan",
+  "name": "Tokugawa Shogunate",
+  "culture_group": "east_asian",
+  "religion": "shinto_buddhist",
+  "government": "shogunate",
+  "tier": "AI-M",
+  "capital_region": "eas_japan_kanto",
+  "colour_primary": [
+   225,
+   75,
+   240
+  ],
+  "colour_secondary": [
+   101,
+   33,
+   108
+  ],
+  "playable_candidate": false,
+  "notes": "Shogun Ienari (1787-1837); sakoku; Rezanov at Nagasaki 1804-05; AI-only",
+  "confidence": "H"
+ },
+ {
+  "key": "dai_viet",
+  "name": "Dai Viet (Nguyen)",
+  "culture_group": "southeast_asian",
+  "religion": "confucian_buddhist",
+  "government": "empire",
+  "tier": "AI-M",
+  "capital_region": "eas_dai_viet_annam",
+  "colour_primary": [
+   180,
+   120,
+   195
+  ],
+  "colour_secondary": [
+   81,
+   54,
+   87
+  ],
+  "playable_candidate": false,
+  "notes": "Gia Long unified and enthroned 1802 (Hue); Thang Long as northern seat",
+  "confidence": "H"
+ },
+ {
+  "key": "siam",
+  "name": "Siam (Rattanakosin)",
+  "culture_group": "southeast_asian",
+  "religion": "theravada_buddhist",
+  "government": "monarchy",
+  "tier": "AI-M",
+  "capital_region": "eas_siam",
+  "colour_primary": [
+   165,
+   90,
+   75
+  ],
+  "colour_secondary": [
+   74,
+   40,
+   33
+  ],
+  "playable_candidate": false,
+  "notes": "Rama I (d.1809); Lan Na and Lao principalities and Cambodia folded in Lean",
+  "confidence": "H"
+ },
+ {
+  "key": "konbaung_burma",
+  "name": "Konbaung Burma",
+  "culture_group": "southeast_asian",
+  "religion": "theravada_buddhist",
+  "government": "monarchy",
+  "tier": "AI-M",
+  "capital_region": "eas_burma",
+  "colour_primary": [
+   240,
+   150,
+   135
+  ],
+  "colour_secondary": [
+   108,
+   67,
+   60
+  ],
+  "playable_candidate": false,
+  "notes": "Bodawpaya (1782-1819), capital Amarapura; Arakan conquered 1784",
+  "confidence": "H"
+ },
+ {
+  "key": "malay_sultanates",
+  "name": "Malay Sultanates",
+  "culture_group": "southeast_asian",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "eas_malaya",
+  "colour_primary": [
+   240,
+   150,
+   195
+  ],
+  "colour_secondary": [
+   108,
+   67,
+   87
+  ],
+  "playable_candidate": false,
+  "notes": "Johor-Riau-Lingga, Kedah, Perak, Pahang etc.",
+  "confidence": "M"
+ },
+ {
+  "key": "aceh",
+  "name": "Sultanate of Aceh and Sumatra",
+  "culture_group": "southeast_asian",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "eas_sumatra",
+  "colour_primary": [
+   240,
+   30,
+   75
+  ],
+  "colour_secondary": [
+   249,
+   176,
+   192
+  ],
+  "playable_candidate": false,
+  "notes": "Aceh plus Minangkabau, Palembang; Bencoolen is EIC",
+  "confidence": "M"
+ },
+ {
+  "key": "bornean_sultanates",
+  "name": "Bornean Sultanates",
+  "culture_group": "southeast_asian",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "rebel",
+  "capital_region": "eas_borneo",
+  "colour_primary": [
+   180,
+   90,
+   150
+  ],
+  "colour_secondary": [
+   81,
+   40,
+   67
+  ],
+  "playable_candidate": false,
+  "notes": "Brunei, Banjarmasin, Pontianak, Sulu raiders; Sarawak and Sabah",
+  "confidence": "M"
+ },
+ {
+  "key": "banjar",
+  "name": "Sultanate of Banjar",
+  "culture_group": "southeast_asian",
+  "religion": "sunni_islam",
+  "government": "sultanate",
+  "tier": "AI-m",
+  "capital_region": "eas_banjar",
+  "colour_primary": [
+   210,
+   135,
+   0
+  ],
+  "colour_secondary": [
+   30,
+   90,
+   50
+  ],
+  "playable_candidate": false,
+  "notes": "Banjarmasin and Martapura; Dutch protectorate treaties 1787, post abandoned 1809",
+  "confidence": "H"
+ },
+ {
+  "key": "kingdom_of_hawaii",
+  "name": "Kingdom of Hawaii",
+  "culture_group": "oceanian",
+  "religion": "polynesian_indigenous",
+  "government": "kingdom",
+  "tier": "AI-m",
+  "capital_region": "oce_hawaii",
+  "colour_primary": [
+   120,
+   150,
+   90
+  ],
+  "colour_secondary": [
+   54,
+   67,
+   40
+  ],
+  "playable_candidate": false,
+  "notes": "Kamehameha holds all but Kauai/Niihau; Oahu seat at Waikiki 1804-09",
+  "confidence": "H"
+ },
+ {
+  "key": "pomare_tahiti",
+  "name": "Pomare Tahiti",
+  "culture_group": "oceanian",
+  "religion": "polynesian_indigenous",
+  "government": "kingdom",
+  "tier": "AI-m",
+  "capital_region": "oce_tahiti",
+  "colour_primary": [
+   30,
+   60,
+   225
+  ],
+  "colour_secondary": [
+   176,
+   186,
+   244
+  ],
+  "playable_candidate": false,
+  "notes": "Pomare II; London Missionary Society since 1797",
+  "confidence": "M"
+ },
+ {
+  "key": "maori_iwi",
+  "name": "Maori Iwi",
+  "culture_group": "oceanian",
+  "religion": "polynesian_indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "oce_new_zealand",
+  "colour_primary": [
+   30,
+   105,
+   195
+  ],
+  "colour_secondary": [
+   176,
+   202,
+   234
+  ],
+  "playable_candidate": false,
+  "notes": "Ngapuhi (Bay of Islands) and other iwi; sealers and whalers only",
+  "confidence": "H"
+ },
+ {
+  "key": "aboriginal_nations",
+  "name": "Aboriginal Nations",
+  "culture_group": "oceanian",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "oce_aboriginal_australia",
+  "colour_primary": [
+   30,
+   150,
+   45
+  ],
+  "colour_secondary": [
+   176,
+   218,
+   181
+  ],
+  "playable_candidate": false,
+  "notes": "Whole continent outside Sydney and Hobart; Port Phillip attempt 1803",
+  "confidence": "H"
+ },
+ {
+  "key": "pacific_islanders",
+  "name": "Pacific Island Chiefdoms",
+  "culture_group": "oceanian",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "oce_melanesia",
+  "colour_primary": [
+   45,
+   180,
+   135
+  ],
+  "colour_secondary": [
+   20,
+   81,
+   60
+  ],
+  "playable_candidate": false,
+  "notes": "Melanesian, Micronesian and Polynesian chiefdoms: Tonga (Tupou), Fiji, Samoa, Vanuatu, New Caledonia, Solomons, Cooks, Marquesas, Carolines",
+  "confidence": "L"
+ },
+ {
+  "key": "papuan_peoples",
+  "name": "Papuan Peoples",
+  "culture_group": "oceanian",
+  "religion": "indigenous",
+  "government": "tribal_confederacy",
+  "tier": "rebel",
+  "capital_region": "oce_new_guinea",
+  "colour_primary": [
+   45,
+   210,
+   210
+  ],
+  "colour_secondary": [
+   20,
+   94,
+   94
+  ],
+  "playable_candidate": false,
+  "notes": "New Guinea; Tidore/Ternate claim western coast",
+  "confidence": "M"
+ },
+ {
+  "key": "russian_american_company",
+  "name": "Russian-American Company",
+  "culture_group": "european",
+  "religion": "orthodox",
+  "government": "chartered_company",
+  "tier": "subsidiary",
+  "capital_region": "ame_russian_america",
+  "colour_primary": [
+   60,
+   100,
+   160
+  ],
+  "colour_secondary": [
+   230,
+   230,
+   230
+  ],
+  "playable_candidate": false,
+  "notes": "Chartered 1799 under Imperial protection; Baranov at New Archangel (Sitka) from 1804; protectorate of Russia",
+  "confidence": "H"
+ }
+]

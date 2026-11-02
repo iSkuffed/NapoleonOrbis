@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Napoleon: Orbis — Roadmap</title>
+<style>
+  :root { --ink:#1d1b16; --muted:#6b6457; --paper:#f6f1e6; --card:#fffdf8; --line:#d9cfbb;
+          --done:#2f6b3a; --doing:#a8641a; --todo:#6b6457; --gate:#8a2a2a; --accent:#1f3b6b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.55 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif; }
+  main { max-width:1040px; margin:0 auto; padding:48px 24px 96px; }
+  h1 { font-size:2.3rem; margin:0 0 4px; letter-spacing:.01em; }
+  h2 { font-size:1.45rem; margin:48px 0 8px; padding-bottom:6px; border-bottom:2px solid var(--ink); }
+  h3 { font-size:1.08rem; margin:22px 0 6px; }
+  p, li { max-width:72ch; }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  code { font:13.5px/1.4 ui-monospace,"JetBrains Mono",Menlo,monospace; background:#efe7d6; padding:1px 4px; border-radius:3px; }
+  .legend span, .st { display:inline-block; font:600 11.5px/1 ui-monospace,Menlo,monospace; letter-spacing:.04em;
+         text-transform:uppercase; padding:4px 7px; border-radius:3px; color:#fff; vertical-align:2px; }
+  .done { background:var(--done); } .doing { background:var(--doing); } .todo { background:var(--todo); } .gate { background:var(--gate); }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); margin:8px 0 16px; }
+  th, td { text-align:left; vertical-align:top; padding:9px 11px; border-bottom:1px solid var(--line); font-size:14.5px; }
+  th { background:#ece3cf; font-weight:600; }
+  td:first-child { white-space:nowrap; font:600 13px/1.5 ui-monospace,Menlo,monospace; }
+  .card { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); padding:14px 18px; margin:14px 0; }
+  .card.warn { border-left-color:var(--gate); }
+  .phase-meta { color:var(--muted); font-size:14px; margin:0 0 6px; }
+  nav ol { columns:2; padding-left:20px; } nav a { color:var(--accent); }
+  footer { margin-top:64px; color:var(--muted); font-size:13.5px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Napoleon: Orbis</h1>
+<p class="sub">A Napoleon: Total War mod that extends the campaign to the whole world, with the nations of c.&nbsp;1805.
+Built independently from public knowledge and our own analysis of the shipped game files. Last updated 2026-10-18.</p>
+
+<p class="legend"><span class="done">done</span> <span class="doing">in progress</span> <span class="todo">to do</span> <span class="gate">gate</span>
+&nbsp;A <em>gate</em> is a test whose result decides how later phases are built.</p>
+
+<nav><ol>
+  <li><a href="#state">Where we stand</a></li>
+  <li><a href="#decisions">Key decisions</a></li>
+  <li><a href="#p0">Phase 0 — Foundations</a></li>
+  <li><a href="#p1">Phase 1 — Test harness and mod pipeline</a></li>
+  <li><a href="#p2">Phase 2 — Engine feasibility probes</a></li>
+  <li><a href="#p3">Phase 3 — Decode the generated map formats</a></li>
+  <li><a href="#p4">Phase 4 — World map bake pipeline</a></li>
+  <li><a href="#p5">Phase 5 — Start position and database</a></li>
+  <li><a href="#p6">Phase 6 — Nations content</a></li>
+  <li><a href="#p7">Phase 7 — Playtest, AI and performance</a></li>
+  <li><a href="#p8">Phase 8 — Packaging and release</a></li>
+  <li><a href="#risks">Risks</a></li>
+  <li><a href="#sources">Research sources</a></li>
+</ol></nav>
+
+<h2 id="state">1. Where we stand</h2>
+<ul>
+  <li><strong>It has been done, so it is possible.</strong> Two separate 2026 projects show an enlarged map running in Napoleon:
+      <em>Distant Seas</em> (one continuous global map, paywalled) and <em>OpenETW</em> (Empire's campaign map imported into Napoleon, on ModDB).
+      Neither has published how. We build our own route and do not use paywalled material.</li>
+  <li><strong>Engine plumbing survives.</strong> Napoleon's executable still contains Empire's whole theatre system (multiple map areas, transitions,
+      trade theatres), all 33 Empire climates (American, Indian, Asian, arctic seas) with battle-terrain mappings, and Empire-format startpos files parse
+      with our tools. Napoleon.exe is already Large-Address-Aware (4 GB).</li>
+  <li><strong>Every map file in the game can now be read and written exactly</strong> by our own tools (<code>tools/packtool.py</code>,
+      <code>tools/esf.py</code>): all 28 packs and all 34 campaign ESF files, byte for byte.</li>
+  <li><strong>The real obstacle is generated data.</strong> Regions, pathfinding and AI files were produced by CA's in-house tools, which were never released.
+      Pathfinding (<code>pathfinding.esf</code>, plus a copy inside <code>startpos.esf</code>) is where every past attempt to add regions stalled.
+      Phase 3 exists to beat it.</li>
+  <li>Vanilla Grand Campaign: 72 land regions, 41 factions in the startpos (49 counting rebels), and a map world of 1280×640 units with a 750×385 playable theatre.
+      Geographic scale is about 11.5 units per degree of longitude.</li>
+</ul>
+
+<h2 id="decisions">2. Key decisions</h2>
+<table>
+<tr><th>ID</th><th>Decision</th><th>Recommendation</th><th>Decided by</th></tr>
+<tr><td>D1</td><td>Map architecture: one continuous world map, or Empire-style separate theatres joined by transition zones</td>
+    <td><b>Decided: one continuous map in a single theatre.</b> G3 ran a 1910×945-cell theatre (25× vanilla) through AI turns, with fleets sailing into new cells. Separate theatres (G5) are not needed.</td><td>Gate G2/G3 ✔</td></tr>
+<tr><td>D2</td><td>Projection and scale</td>
+    <td><b>Decided: piecewise-linear plate carrée, identity on the vanilla Europe band.</b> All vanilla Europe data (regions, pathfinding cells, rasters) is reused unchanged,
+        and the rest of the world is compressed around it: about 9.6 units/° west, 10.7 east, 10.15 north/south (vanilla is 13). Box ±1920×±1280,
+        theatre (−1910,−1240)..(1910,365), latitude −58..80, seam at 169° W between the Diomedes (<code>tools/proj.py</code>).
+        Positions use int32 fixed point (2<sup>20</sup> per unit), so the hard ceiling is ±2048 units per axis.</td><td>Gate G2 ✔</td></tr>
+<tr><td>D3</td><td>Region budget</td>
+    <td>Lean profile: 228 land regions (vanilla Europe 72 + 156 new in <code>data/world1805/regions.json</code>). The full profile adds 57 more (285) if the lookup and region-count probes allow it
+        (the region lookup image is an 8-bit palette, which suggests a limit near 250).</td><td>Gate G4</td></tr>
+<tr><td>D4</td><td>How the campaign appears in the menu</td>
+    <td>Take over an existing campaign slot (Grand Campaign) from a mod pack first, as other mods have done. A new menu button needs UI layout edits and can come later.</td><td>Gate G1</td></tr>
+<tr><td>D5</td><td>Historical borders source</td>
+    <td>aourednik/historical-basemaps (world_1800 / world_1815) as a starting point only, then hand-curated region polygons owned by this project. Its GPL-3.0 status for data is unclear, so we do not ship its geometry as-is.</td><td>Phase 4</td></tr>
+<tr><td>D6</td><td>Terrain and geography sources</td>
+    <td>ETOPO 2022 / GEBCO (elevation and bathymetry), Natural Earth (coastlines, rivers, lakes), RESOLVE ecoregions and Köppen for climate assignment, Reba 2016 for 1800 cities.</td><td>Phase 4</td></tr>
+</table>
+
+<h2 id="p0">3. Phase 0 — Foundations</h2>
+<p class="phase-meta">Goal: read and write every file that defines a campaign, and know the ground truth.</p>
+<table>
+<tr><th>Task</th><th>What</th><th>Status</th></tr>
+<tr><td>0.1</td><td>Pack tool: list, extract and build PFH0 packs (<code>tools/packtool.py</code>). Validated on all 28 installed packs.</td><td><span class="st done">done</span></td></tr>
+<tr><td>0.2</td><td>ESF tool: load, dump and save ABCE ESF with byte-exact round-trip (<code>tools/esf.py</code>). Validated on 34 Napoleon and several Empire ESF files.</td><td><span class="st done">done</span></td></tr>
+<tr><td>0.3</td><td>Research: prior art, map formats, engine limits and database, world 1805 and geodata (<code>research/01–04</code>), plus local findings (<code>research/00</code>).</td><td><span class="st done">done</span></td></tr>
+<tr><td>0.4</td><td>Clean install: remove the mis-installed DarthMod Empire, Steam-verify back to vanilla, keep Empire startpos files as a format reference only.</td><td><span class="st done">done</span></td></tr>
+<tr><td>0.5</td><td>Database table codec for Napoleon's binary db tables (from the RPFM <code>schema_nap.ron</code> definitions) and localisation (<code>.loc</code>) codec, both round-trip tested. <code>tools/dbtable.py</code>, <code>tools/loc.py</code>: 281 of 310 vanilla tables byte-exact; 27 lack a schema, 2 have known defects.</td><td><span class="st done">done</span></td></tr>
+</table>
+
+<h2 id="p1">4. Phase 1 — Test harness and mod pipeline</h2>
+<p class="phase-meta">Goal: launch the game automatically, load our mod, and see the result (screenshot, log, crash or not) with no human at the keyboard.</p>
+<table>
+<tr><th>Task</th><th>What</th><th>Status</th></tr>
+<tr><td>1.1</td><td>Headless launch harness: run Napoleon through Proton inside a headless gamescope session, capture screenshots, detect crash or exit, enforce timeouts. Script: <code>tools/ntw.sh</code> (start, shot, key, hold, click, status, stop).</td><td><span class="st done">done</span></td></tr>
+<tr><td>1.2</td><td>Navigate the menus automatically (input injection) far enough to start a campaign. Alternatively, find a startup option or script that loads a campaign directly. <code>ntw.sh coalition</code> reaches the Coalition campaign map in about 60 s.</td><td><span class="st done">done</span></td></tr>
+<tr><td>1.3</td><td>Mod loading: write <code>user.script.txt</code> with <code>mod "x.pack";</code> in the Proton prefix, build a trivial mod (one changed text string), and confirm it shows in game. The file must be UTF-16LE with a BOM; ASCII is silently ignored.</td><td><span class="st done">done</span></td></tr>
+<tr><td>1.4</td><td>Override test: confirm a mod pack can replace <code>campaigns/eur_napoleon/startpos.esf</code> and files under <code>campaign_maps/nap_europe/</code>, which also exist as loose files on disk. Which one wins? <b>Result:</b> <code>startpos.esf</code> is read loose only (a pack copy is ignored, and a missing loose file crashes at boot). Map folders load from the pack. "Campaigns of the Coalition" uses <code>campaigns/mp_eur_napoleon</code>. Release must ship startpos as a loose file plus an installer step.</td><td><span class="st done">done</span></td></tr>
+</table>
+
+<h2 id="p2">5. Phase 2 — Engine feasibility probes</h2>
+<p class="phase-meta">Goal: learn the engine's real limits before investing in generators. Each probe is a small edit of vanilla data, tested in game.</p>
+<table>
+<tr><th>Gate</th><th>Probe</th><th>Decides</th><th>Status</th></tr>
+<tr><td>G1</td><td>Clone the Grand Campaign onto a new map folder (<code>campaign_maps/nap_world</code>, a copy of nap_europe) by rewriting the map path in startpos. Does it boot? <b>Passed:</b> loose mp_eur startpos repointed to <code>nap_world</code>, map from the pack, and a test mountain ring in the heightmap shows in game.</td><td>D4, and the whole packaging route</td><td><span class="st done">done</span></td></tr>
+<tr><td>G2</td><td>World-size probe: enlarge the world box (region_data bounds, heightmap, metadata grid) to 2×, 3× and the ±2048 maximum, with content unchanged. Does it load, render and pathfind?
+     <b>Passed</b> at ±1280×±640 and ±1920×±960 (<code>tools/probe_g2.py</code>). Terrain is centred on the origin, and the startpos visibility grids and pathfinding start cells must be regridded (research/00).</td><td>D1, D2</td><td><span class="st done">done</span></td></tr>
+<tr><td>G3</td><td>Theatre-size probe: enlarge the playable theatre (pathfinding grid, climate and wind maps, sea grids) into empty ocean. Can armies and fleets move there?
+     <b>Passed</b> (<code>tools/probe_g3.py</code>): theatre (−1910,−940)..(1910,950), 1910×945 cells, 5 turns with AI, diplomacy and a naval battle, and a fleet sails 600 units past the old edge.
+     Lessons: a fleet target needs a sea region; pathfinding cells must be <i>welded</i> (an unwelded build crashed the AI turn with a 1 GiB OOM), checked by <code>tools/pf_check.py</code>.</td><td>D1, D2</td><td><span class="st done">done</span></td></tr>
+<tr><td>G4</td><td>Region-count probe: split existing regions to reach about 250, then beyond, including the lookup palette limit. <b>Done 2026-10-19</b>: a 24-bit lookup crashes (the engine reads palette entries), but regions without a lookup colour are a handled case (palette index -1). 270 land / 266 settled / 333 total regions load and play 3 AI turns at about 2 GB. No 256 cap; the limits are turn time, memory and about 1022 pathfinding domains.</td><td>D3</td><td><span class="st done">done</span></td></tr>
+<tr><td>G5</td><td>Second-theatre probe (fallback for D1): add a second theatre with transition areas, using Empire's startpos as the format reference. <b>Not needed</b> after G3.</td><td>D1 fallback</td><td><span class="st done">dropped</span></td></tr>
+</table>
+
+<h2 id="p3">6. Phase 3 — Decode the generated map formats</h2>
+<p class="phase-meta">Goal: generators that rebuild vanilla <code>nap_europe</code> from source rasters and polygons, close enough that the game plays the same.
+Method: structural analysis across all five shipped maps, plus decompiling the matching loaders in Napoleon.exe with REA (Ghidra provider).</p>
+<table>
+<tr><th>Task</th><th>File(s)</th><th>Known so far</th><th>Status</th></tr>
+<tr><td>3.1</td><td><code>pathfinding.esf</code> + startpos <code>CAMPAIGN_PATHFINDER</code></td><td>Fixed-point vertices (93k), 2-unit grid of 375×193. Decoded and rebuildable (<code>tools/pathfinding_model.py</code>): traits, contact masks, polygon stream,
+     wind-driven costs and the <code>middle20</code> connectivity masks (S/W/same-cell/E/N rule, ~93% exact, sea 97–99%). Cells must be welded (<code>tools/pf_check.py</code>).
+     Startpos obstacle state can be emptied. Open: roads, bridges and slots in middle20, plus exact cost quantisation. The critical path.</td><td><span class="st doing">doing</span></td></tr>
+<tr><td>3.2</td><td><code>regions.esf</code></td><td>Structure fully walked: shared vertex pool, regions → areas → faces / outlines / connectivity, quadtree query_info, climate and wind maps, groundtypes, trade nodes, bridges.
+     <code>tools/regions_model.py</code> resizes the world, moves vertices with re-triangulation, and rebuilds bounds and query_info. Next: emit regions from new polygons.</td><td><span class="st doing">doing</span></td></tr>
+<tr><td>3.3</td><td><code>metadata.dat</code>, <code>*_lookup.tga</code></td><td>'MTGI' header + u8 grid (6 = sea). Lookup palette colours equal <code>regions_tables</code> r,g,b (verified 72/72).</td><td><span class="st todo">to do</span></td></tr>
+<tr><td>3.4</td><td><code>poi.esf</code>, <code>trade_routes.esf</code>, <code>sea_grids.esf</code></td><td>Layouts documented (taw's etwng); sea grid is a plain 75-unit grid. Sea grids read, written and resized (<code>tools/campaign_misc.py</code>); poi and trade routes not done yet.</td><td><span class="st doing">doing</span></td></tr>
+<tr><td>3.5</td><td>Display: <code>world.markers</code>, coastline <code>rigid_mesh</code>, <code>supertexture.stpd/stpi</code>, borders / roads / rivers <code>rigid_spline</code>, fog, snow, trees</td><td>Splines verified (world/40). Supertexture index decoded and rewritten (<code>tools/display.py</code>, used by probe_g2). New tile content, coastline meshes and the minimap are not done yet.</td><td><span class="st doing">doing</span></td></tr>
+<tr><td>3.6</td><td>Regeneration test: rebuild nap_europe entirely from our generators and play it.</td><td>Exit criterion for Phase 3.</td><td><span class="st todo">to do</span></td></tr>
+</table>
+
+<h2 id="p4">7. Phase 4 — World map bake pipeline</h2>
+<p class="phase-meta">Goal: one reproducible command turns open geodata plus our curated region list into a complete <code>campaign_maps/nap_world</code>.</p>
+<ol>
+  <li>Fetch and cache geodata (ETOPO 2022, Natural Earth 10m, ecoregions, Köppen, 1800 cities); record licences and attribution.</li>
+  <li>Projection module (D2): lon/lat ↔ world units, plus the inverse for debugging. Unit-tested. <span class="st done">done</span> <code>tools/proj.py</code>; world land geometry <code>tools/worldgeo.py</code> (Natural Earth, 97% agreement with vanilla cells).</li>
+  <li><b>Milestone M1 "world ocean"</b>: the whole world sailable, Europe unchanged, non-Europe land impassable (one filler land region), so the bake pipeline is proven in game before any new land region exists.
+      Lanes: terrain (heightmap + supertexture, <code>tools/bake_terrain.py</code>), regions.esf + world sea zones (<code>tools/regions_world.py</code>), pathfinding (<code>tools/pf_gen.py</code>), sea grids, minimap rasters, startpos regrid.
+      In game (2026-10-18): loads, 5 end-turns with AI turns, fleet orders route into the world ocean. Painted-mask terrain (no parchment frame) done. The 38 named world seas are in the startpos (<code>tools/world_zones.py</code>, stages abrndeg): loads, 3 AI turns. Parked: the 6 CAI boundaries between vanilla and new seas (crash at 0xD6D9E0, or a hang with full per-region beliefs), so the AI does not plan across that seam. <span class="st done">done</span></li>
+  <li>Land regions continent by continent after M1 (Phase 5 adds them to the startpos). Gate G4 (region count) runs then, since Lean 228 sits under the ~250 palette ceiling.</li>
+  <li>Region budget (agreed 2026-10-19): EU4/EU5-style density. Sparse areas stay a few large regions: Siberia 4, Canada 5, Kongo/central Africa 5, Amazon 1, Tibet/inner Asia 3, Australia 2, Sahara 1 + corridors (Lean profile). Lean everywhere is about 226 of the 252 lookup-palette colours, so about 26 are spare for denser Europe (German and Italian states, Balkans, Poland). Densely political areas (India, East Indies, Caribbean) are the real trade-off against Europe. The Americas were built Full (52); <code>--compact</code> returns about 12. G4 result: there is no 256 region cap, only the 252-colour minimap palette. Small extra regions (e.g. denser Europe) take a <code>minimap_parent</code> colour.</li>
+  <li>Deserts and other barriers (agreed 2026-10-19): the Sahara is impassable except for caravan corridors (<code>data/world1805/routes.json</code>: Adrar road, Tafilalt–Timbuktu, Tripoli–Ghadames–Kano, Tripoli–Fezzan–Bornu, the Forty Days Road; the Nile is passable). Corridors are passable strips inside existing regions, so they cost no regions. Built with the Africa wave; they must be several pathfinding cells wide and pass <code>pf_check.py</code>. The same mechanism covers Himalayan passes, the Gobi, the Andes and the Australian interior. Desert attrition is optional polish, once we know what triggers it.</li>
+  <li>Heightmap and land/sea mask, tuned to match vanilla's height style (vanilla range 0–226, exaggerated relief).</li>
+  <li>Region polygons: a curated GeoJSON (<code>data/regions_1805.geojson</code>) with keys, owners, capitals, ports and climate overrides. Lookup colours are assigned automatically.</li>
+  <li>Emit regions.esf, pathfinding.esf, sea_grids, poi, trade_routes and the metadata grid with the Phase 3 generators.</li>
+  <li>Display layers: borders, roads, rivers, coastline mesh, supertexture (terrain painting by climate and ground type), fog, snow and trees.</li>
+  <li>UI rasters: campaign map, strategic radar and lookup images.</li>
+  <li>Visual review: render the baked map next to vanilla Europe at the same zoom. Europe must still look like Napoleon.</li>
+</ol>
+
+<h2 id="p5">8. Phase 5 — Start position and database</h2>
+<ol>
+  <li>First probe (in progress): one new land region <code>nam_probe</code> (North America, owned by Britain, vanilla CAI) per <code>research/10-new-land-region.md</code>, built by <code>tools/land_probe.py</code>. <b>Passed</b>: loads, selectable, 3 AI turns with no CAI records.</li>
+  <li>Probe B (<code>tools/land_probe_b.py</code>): three adjacent eastern US regions with land borders (B1, Britain), then a new faction <code>usa</code> (B2). B1 (Boston, Sherbrooke, Moncton, Britain) <b>passes</b>: loads, 4 AI turns, recruiting, an army marches across the land border. The new-region recipe needs CAI_REGION + CAI_SETTLEMENT/owner links + an entry in the region-group map + 22 per-region beliefs (research/00). B2 (new faction <code>usa</code> on hannover's dormant CAI slot) <b>passes</b> on both trios: loads, 3 AI turns, "United States" owns the regions and appears in diplomacy. The CAI faction generator (<code>tools/cai_faction.py</code>, b3: usa + British North America, no dormant slot) <b>passes</b>: 4 AI turns, plus 3 turns of war between Britain and BNA. New regions also need trade routes between adjacent settlements. <span class="st done">done</span></li>
+  <li>W1 North America (<code>tools/world_regions.py</code>, data-driven from <code>data/world1805/regions.json</code>): 29 regions, land–sea AI boundaries, 4 generated factions (United States, Plains and Mountain Nations, Pacific Northwest nations, Haiti), vanilla↔world sea boundaries. <b>Passes</b>: loads and runs 3 AI turns at vanilla speed (about 105 s per turn, patched exe). <span class="st done">done</span></li>
+  <li>W2 South America (<code>--wave w2</code>): 23 regions (191 total), Amazonian peoples and Mapuche generated. <b>Passes</b>: 3 AI turns at about 100 s. <span class="st done">done</span></li>
+  <li>W3 Africa (<code>--wave w3</code>): 35 regions (226 total, 70 factions), 23 generated factions (Morocco, Sokoto, Ethiopia, Oyo, Asante, Merina and others). The Sahara is impassable except for the 5 caravan corridors. <b>Passes</b>: 4 AI turns at 66–107 s, peak 2.0 GB. Open: the Forty Days Road still crosses passable Egyptian land; 4 small African islands are deferred. <span class="st done">done</span></li>
+  <li>W4 Middle East (<code>--wave w4</code>): 27 regions (253 total, 73 factions; Persia, Diriyah, Yemen generated). Arabian and Persian desert masks, with the Syrian and Yemeni hajj roads, Darb Zubaydah and the Najd road. The Nile valley and the Forty Days Road are now real corridors. <b>Passes</b>: 4 AI turns at 81–135 s, peak 2.0 GB. Open: new land is not yet joined to vanilla land, so armies can't cross from Crimea to the Caucasus, and there's no Caspian sea region. <span class="st done">done</span></li>
+  <li>W5 Asia (<code>--wave w5</code>): 30 regions (283 total, 92 factions), with Turan, Thar and Hindu Kush masks and an impassable Arctic. <b>Passes</b>: 4 AI turns at 96–134 s, peak 2.0 GB. Found the real budget: the pathfinding polygon stream must stay below 2<sup>21</sup> words, because bit 21 marks a dynamic polygon and crossing it crashes at load. W5 leaves 12,952 words spare. Goa is deferred (too small for a settlement). <span class="st done">done</span></li>
+  <li>Pathfinding word budget: <code>pf_gen</code> simplifies the generated coastline by 0.25 u, cutting the base from 1.67M to 1.06M words. All 51,747 vanilla cells are unchanged. <span class="st done">done</span></li>
+  <li>W6 East Asia (<code>--wave w6</code>): 40 regions (323 total), with Qing, Joseon, Tokugawa, Dai Viet, Siam, Burma and the island sultanates. The inner_asia mask covers the Taklamakan, Tibet, Gobi and Qilian, with the Hexi corridor, the tea road and the Lhasa roads open. <b>Passes</b>: 4 AI turns at 120–147 s, peak 2.2 GB, 531K words spare. Deferred: Macau, Ryukyu, Penang/Malacca. <span class="st done">done</span></li>
+  <li>W7 Oceania (<code>--wave w7</code>): 7 regions. The whole world is now 330 regions and 106 factions, using 927 of the 1023 pathfinding domain ids and 1.59M of the 2.1M words. The Australian interior is impassable. <b>Passes</b>: 4 AI turns at 80–159 s, peak 2.3 GB, including an auto-resolved naval battle. Deferred: Hawaii, Tahiti, the Marianas, Polynesia, Micronesia. <span class="st done">done</span></li>
+  <li>Faction map colours: generated factions copied oldenburg's dark red in both the db <code>factions</code> colour columns and the startpos <code>FACTION_FLAG_AND_COLOURS</code>. Both now come from <code>factions.json</code>. <span class="st done">done</span></li>
+  <li>Port probe (<code>tools/port_probe.py</code>): New York port (slot, db, loc, kind-7 pathfinding, trade, CAI). It costs 67 words and no domains. <b>Passes</b>: 6 AI turns, and the US AI queues a 32-gun frigate there (read from the autosave). <span class="st done">done</span></li>
+  <li>All ports (world stage <code>p</code>): 126 of 129 coastal regions get a port. Toronto (a lake port) and Baku and Astrakhan (on the Caspian) are deferred. Cost: +9,486 words, no domains. <b>Passes</b>: 10 AI turns at 41–219 s, peak 2.46 GB. By turn 10 the frigates have launched: 42 factions have navies (vanilla has 8), 34 of them generated nations, and 27 more brigs and sloops are queued. <span class="st done">done</span></li>
+  <li>Exe patch <code>pfgrid</code>: the engine's position-to-pathfinding-cell maths (VA 0xB44740, plus a copy inlined in 0xB575A0) overflowed for x ≥ 138 u, so all of Asia, Oceania and East Africa mapped to cell column 0. With ports in, this crashed the AI turn (an inverted cell rect, crash at 0xAED830). An unsigned clamp at 5 sites fixes it. <span class="st done">done</span></li>
+  <li>W8 Russian filler (<code>--wave w8</code>), step 1 of joining new land to vanilla: Olonets/Karelia, Vologda/Kostroma and Voronezh/Sloboda Ukraine become Russian regions (333 total), so Kola links through Olonets to the rest of Russia. 939 of 1023 domains, 1.615M words with ports (482K spare). <b>Passes</b>: 6 AI turns at 125–236 s, peak 2.37 GB. <span class="st done">done</span></li>
+  <li>Weld step 2 (stage <code>j</code>): new land joins vanilla land at 7 borders: Moscow to Vologda, Voronezh and Volga-Urals; Belgorod and Little Tatary to Voronezh; Novgorod to Vologda; Little Tatary to the North Caucasus. Armies can now walk from Moscow to Kazan, and from Crimea into the Caucasus. The weld cells are edited and every vanilla cell side is reproduced (<code>pf_check</code>: 0 mismatches). regions.esf adjacency, pass groups, CAI boundaries, poi and land trade routes are all updated. 948 domains, 1.618M words. Olonets–Finland and Olonets–Novgorod are skipped because vanilla has no pathfinding land there. <b>Passes</b>: 8 AI turns at 28–198 s, peak 2.37 GB. <span class="st done">done</span></li>
+  <li>Friend's region list (2026-10-28, pt_w11, outside vanilla Europe): 16 new regions, Acre and Kandy removed, 230 in regions.json and 347 region indices.
+      New: New York and New Jersey, New England, Maine, Western Pennsylvania, Carolina and Georgia, Michigan, Kentucky, Alexandria, Baluchistan (new faction Kalat), Orissa, South Konkan (Vijaydurg), Shandong (Jinan), Fujian (Quanzhou), Ezo (Hokkaidō), South Borneo (new faction Banjar), Western Australia.
+      Every region now carries a religion mix (<code>tools/religion.py</code>, startpos stage). Before this, new factions were Protestant and new regions copied Ireland's Catholic/Protestant split.
+      989 of 1023 domains. Malta needs its own island in the base land (deferred). The Europe entries (France, Italy, Greece, Crimea, Porto, Córdoba, Galicia, Germany, Schleswig, Gotland, York) split vanilla regions and are a separate project. <span class="st done">done</span></li>
+  <li>Exe patch <code>astar</code> (research/19): AI turn 4 of pt_w11 hung. A fleet's route into the Med was cut at Gibraltar, so the cell A* tried to flood the world's ~1M sea cells, and its visited hash table went quadratic. Once fixed for speed, the same search ran out of memory. Now the table grows at half load, the hash is mixed, and a search gives up at 200k visited nodes. The hanging save then plays on: AI turns 261–292 s, peak 2.6 GB. <span class="st done">done</span></li>
+  <li>Release fixes (2026-10-30, build 2 on the friend's list): Karelia now borders Finland. Deep welds take the vanilla land region's own outline, so Finland to Olonets is an army walk of 93 steps.
+      The United States is a republic (<code>gov_republic</code>, <code>religion.government</code>). Puerto Rico's settlement fits on the island. North Caucasus gets a port at Taman.
+      The domain budget is freed for the Europe splits: a new three-region border point becomes a two-region composite (about 170 of 532 composite ids freed). <span class="st done">done</span></li>
+  <li>AI-turn time (research/20): measured per faction with a Lua timer. Vanilla on this machine takes 64–146 s per AI round, and the world map 100–110 s of real AI time per round, about 1.3–1.5× vanilla.
+      The extra comes from 76 more minor factions at 0.3–0.6 s each. The 60–85 s single-faction spikes were the test harness slowly answering diplomacy proposals.
+      Over a long campaign (pt_w13, turns 6–23) it does not grow: 160–270 s per round early, 44–173 s by turns 17–22, RSS 2.64 → 2.82 GB. <span class="st done">measured</span></li>
+  <li>Europe splits from the friend's list (wave <code>w9</code>, <code>split_of</code> + <code>split_ring</code> in regions.json; 359 regions):
+      Gotland (from Sweden, its island area whole), Crimea (Little Tatary, cut at Perekop; Sevastopol moves with it), Berry-Auvergne (France, Bourges), Tuscany (Florence, port Livorno),
+      Macedonia (Greece, Thessaloniki), Porto (Portugal), Andalusia (Spain, Córdoba; Cádiz moves), Galicia (Spain, Santiago; La Coruña moves), Thuringia (Saxony, Erfurt),
+      Schleswig-Holstein (Denmark, port Kiel; the Hamburg town slot moves) and Yorkshire (England, York and the North East, port Hull).
+      A split keeps the vanilla land: its pathfinding polygons are retagged with the new domain, and the slots, CAI slots, trade route and poi nodes inside the cut move to the new region.
+      In game (pt_w13): the map loads, 5 AI rounds of 120–159 s with no crash, peak 2.45 GB, and the turn-5 autosave reloads. <span class="st done">done</span></li>
+  <li>Region border lines: only vanilla's 77 <code>display/borders</code> splines existed, so no new region drew a border. <code>border_splines</code> (build stage pre) writes one spline per land border with a new region, under each side as vanilla does: 856 files.
+      Seen in game at Yorkshire–England. <span class="st done">done</span></li>
+  <li>Weld domains: the vanilla path_table permutes 11 single-region domain ids, so weld land took the wrong domain for those regions. pt_w12 shipped Little Tatary and Moscow welds with the neighbour's domain. The domain now comes from <code>path_domains()</code>. <span class="st done">done</span></li>
+  <li>Split neighbours in poi.esf: a third region the cut touches (Portugal for Andalusia, Bavaria for Thuringia) now lists the new region on its nodes, and its distance to the shrunk old region is measured afresh (pt_w14). <span class="st done">done</span></li>
+  <li>Not doing (user, 2026-11-01): the deferred islands that would need land enlarged (the Antilles, Trinidad, the Atlantic isles, the Canaries, the Mascarenes, Malta, Goa, Ryukyu, Penang/Malacca, Hawaii and the Pacific isles).
+      No ports for Upper Canada (Lake Ontario) or Transcaucasia (Baku, the Caspian): no open sea is reachable there, so a navy built there could go nowhere.</li>
+  <li>Startpos transplant: start from vanilla eur_napoleon and keep its Europe factions, characters and armies. Add new regions, settlements, factions and armies, rebuild the copies in the AI world (CAI_WORLD), the trade manager and the pathfinder.</li>
+  <li>Database tables: regions, factions, campaign_map_settlements, towns_and_ports, playable_areas, trade_nodes, climates, slots, empires/groupings, AI personalities.</li>
+  <li>Localisation for every new key; <code>scripting.lua</code> for the campaign; re-tune balance constants (for example <code>tax_efficiency_total_regions=136</code>).</li>
+  <li>Validator: a script that cross-checks every key across startpos, regions.esf, db tables and loc before each build.</li>
+</ol>
+
+<h2 id="p6">9. Phase 6 — Nations content</h2>
+<p>Major new powers are the USA, Qing, Mughal and Maratha states, Persia, Tokugawa Japan, Morocco, Sokoto, Kingdom of Hawaii and others (full list in <code>research/04</code>).
+Work: unit rosters reusing existing Empire-era unit models where they exist in Napoleon's packs, flags, faction colours, portraits, AI-only versus playable flags,
+diplomacy defaults, and rebels per culture. Napoleon's UI allows only 4 playable factions per startpos, so the playable set is chosen deliberately.</p>
+<p><b>Future idea (user, 2026-10-20): asset importer, Tale of Two Wastelands style.</b> An optional installer step that finds another Total War game
+the player owns (Empire first: its Warscape-era units, such as Indian, Native American and Ottoman ones, are closest to Napoleon's formats) and converts
+unit models and textures on the player's machine for the new nations. Nothing from CA is redistributed, which is the same rule the loc merge already follows.
+Needs a format-compatibility probe first. Later-engine titles (Shogun 2 and on) are likely much harder.</p>
+
+<p><b>Faction select (research/11):</b> the 4-faction cap is the frontend layout (4 flag slots in faction_selection.luac), not the startpos or the exe. A replacement Lua using Empire's leftover 9-flag carousel, shipped as plain text under the .luac name, loads in game. All 8 test factions are selectable, and a campaign as Denmark runs 2 turns. Next: world startpos with new nations playable, plus victory-condition entries for them. <span class="st done">probe passed</span></p>
+
+<h2 id="p7">10. Phase 7 — Playtest, AI and performance</h2>
+<ul>
+  <li><b>Open-alpha blockers (user, 2026-10-20):</b> the Aral Sea, Lake Balkhash and Lake Baikal are walkable land (make them impassable or water); Karelia
+      (asi_olonets) has no border with Finland. <b>Fixed 2026-10-30:</b> the weld now borders Finland.</li>
+  <li><b>Protectorates (approved 2026-10-21, pt_w11):</b> overseas holdings become protectorates, so parent AIs don't ship armies around the world to defend them.
+      A new faction <code>russian_american_company</code> holds ame_russian_america/Sitka as Russia's protectorate, and <code>east_india_company</code> is a British protectorate.
+      Both are set in the startpos (<code>tools/protectorates.py</code>, a copy of egy_napoleon's Ottoman/Mameluke encoding). In game: 8 AI turns ran as Russia (2026-10-28). Whether Russia still sends fleets to Alaska has not been watched yet. <span class="st done">done</span></li>
+  <li><b>Other researched candidates (2026-10-21), not yet approved:</b>
+      Pacific sea lanes across the seam (research/14, Empire's theatre transitions are still live in the exe);
+      world trees (research/15, a 41k-tree test file is installed in the playtest pack);
+      fog radius, extra farm/resource slots and the reservoir filter (research/16, in progress).</li>
+  <li>Automated soak test: end-turn loops run headless; track turn time, memory use (32-bit, 4 GB ceiling) and crashes.</li>
+  <li>AI behaviour across oceans: invasion targets, trade, naval movement. Distant Seas reports that AI awareness of new regions needed binary-level work, so expect the same.</li>
+  <li>Balance pass on economy, attrition and movement over the larger map.</li>
+</ul>
+
+<h2 id="p8">11. Phase 8 — Packaging and release</h2>
+<ul>
+  <li>Free and open, no paywall. Public release, with Windows and Linux (Proton) as equal targets.</li>
+  <li>One installer for both platforms, written in Go and cross-compiled from Linux to a Windows <code>.exe</code> and a Linux binary, with no runtime needed. It finds the Steam library (also the Proton prefix for <code>user.script.txt</code>), installs the mod pack, writes the UTF-16LE <code>user.script.txt</code> line, places the loose startpos, merges our names into the player's own <code>localisation.loc</code> (a type-2 pack, so no CA text is shipped) and applies the exe patch. Uninstall reverses every step.</li>
+  <li>Exe patch (<code>tools/exe_patch.py</code>, approved 2026-10-19): widens the building and tree display boxes from x,z ±1000 to ±2048. Groups added since: terrain, pfgrid, zoom and astar; the installer applies them all. It patches only the known Steam exe (sha256 check), keeps a backup, and has to be re-run after a Steam "verify files".</li>
+  <li>Release build: <code>installer/release.sh WORLD VERSION</code> makes the payload, runs the installer tests and writes <code>dist/NapoleonOrbis-VERSION-{windows,linux}.zip</code> (binary with the payload embedded, README_PLAYERS.txt, CREDITS.txt).
+      0.9.0 = pt_w14. Tested 2026-11-01: the Windows binary under Wine installed into the real game (exe byte-identical to exe_patch.py, startpos backed up), and a new Coalition campaign started from it.
+      Two fixes from that test: the payload's loc TSV lacked its header, and Windows could not replace startpos.esf while the backup step still held it open. <span class="st doing">in progress</span></li>
+  <li>Licence and attribution file for every dataset and tool used. No Creative Assembly content beyond what modding conventions allow (edited data shipped inside a mod pack).</li>
+</ul>
+
+<h2 id="risks">12. Risks</h2>
+<div class="card warn"><strong>Pathfinding cannot be generated.</strong> Mitigation: decompile the loader and consumer in Napoleon.exe; check whether the engine rebuilds missing pathfinding data at load. Last resort: hand-author only the coarse navigation layers the engine actually reads.</div>
+<div class="card warn"><strong>Hard-coded size or region limits.</strong> Mitigation: the Phase 2 probes run before generator work; fall back to separate theatres (G5) or a smaller scale. Found: building and tree display boxes of ±1000 (settlements beyond them crash). Handled by the exe patch (Phase 8).</div>
+<div class="card warn"><strong>The AI ignores new regions or cannot cross oceans.</strong> Mitigation: keep CAI data in sync with the Phase 5 validator; binary analysis with REA if data alone is not enough.</div>
+<div class="card"><strong>Supertexture and coastline art cost.</strong> Mitigation: generate procedurally from climate and ground type; vanilla Europe stays untouched where possible.</div>
+<div class="card"><strong>Automated testing under Proton.</strong> Mitigation: headless gamescope harness (task 1.1); fall back to scripted runs on the visible desktop.</div>
+
+<h2 id="sources">13. Research sources</h2>
+<ul>
+  <li><code>research/00-local-findings.md</code> — what the shipped files actually contain (coordinate system, extents, structures).</li>
+  <li><code>research/02-campaign-map-formats-and-tools.md</code> — every campaign map file, formats, open-source tools.</li>
+  <li><code>research/03-engine-limits-and-db.md</code> — engine limits, theatre system, db tables, campaign registration.</li>
+  <li><code>research/04-world-1805-and-geodata.md</code> — polities of 1805 by continent, region budgets, geodata sources, projection.</li>
+</ul>
+
+<footer>Napoleon: Orbis · independent, free mod project · roadmap kept in sync with work as it lands.</footer>
+</main>
+</body>
+</html>
